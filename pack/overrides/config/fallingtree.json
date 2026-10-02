@@ -31,7 +31,7 @@
     "ignoreTools": false,
     "damageMultiplicand": 1,
     "damageRounding": "ROUND_DOWN",
-    "speedMultiplicand": 0,
+    "speedMultiplicand": 1,
     "forceToolUsage": false
   },
   "player": {

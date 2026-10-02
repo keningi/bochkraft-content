@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-02T10:12:08.931Z",
+  "revision": "2026-10-02T10:30:16.906Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -69,19 +69,6 @@
       "size": 73916104
     },
     {
-      "name": "curios",
-      "title": "Curios API",
-      "description": "A flexible and expandable accessory/equipment API for users and developers.",
-      "page": "https://modrinth.com/mod/curios",
-      "version": "5.14.1+1.20.1",
-      "dir": "mods",
-      "file": "curios-forge-5.14.1+1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
-      "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
-      "size": 398066,
-      "requiredBy": "L_Ender's Cataclysm"
-    },
-    {
       "name": "lionfish-api",
       "title": "Lionfish-API",
       "description": "Very Light Animation Api",
@@ -92,6 +79,19 @@
       "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
       "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
       "size": 101931,
+      "requiredBy": "L_Ender's Cataclysm"
+    },
+    {
+      "name": "curios",
+      "title": "Curios API",
+      "description": "A flexible and expandable accessory/equipment API for users and developers.",
+      "page": "https://modrinth.com/mod/curios",
+      "version": "5.14.1+1.20.1",
+      "dir": "mods",
+      "file": "curios-forge-5.14.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
+      "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
+      "size": 398066,
       "requiredBy": "L_Ender's Cataclysm"
     },
     {
@@ -1555,7 +1555,7 @@
       "file": "fallingtree.json",
       "local": "overrides/config/fallingtree.json",
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/fallingtree.json",
-      "sha1": "c35d828e74e5b5e097456a3abfbe926544a66a6a",
+      "sha1": "d4cfb9dc26820ad3cb849959a2122af9a6f11bde",
       "size": 1271
     },
     {
@@ -1566,8 +1566,8 @@
       "file": "physics_client_config.json",
       "local": "overrides/config/physicsmod/physics_client_config.json",
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/physicsmod/physics_client_config.json",
-      "sha1": "238e6c74a35ff922f1fae7abeca9ed02b02d4001",
-      "size": 3809
+      "sha1": "eecc68b052fc9e15f7ade65f353feace68da939e",
+      "size": 3810
     },
     {
       "name": "config/physicsmod/physics_server_config.json",
@@ -1588,8 +1588,8 @@
       "file": "CustomSkinLoader.json",
       "local": "overrides/CustomSkinLoader/CustomSkinLoader.json",
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/CustomSkinLoader/CustomSkinLoader.json",
-      "sha1": "8be453de9abb278e8f3a391abeb7b4dd343baf9b",
-      "size": 1972
+      "sha1": "20392709ba7c2ebffa368c2f587e217e3b174668",
+      "size": 2394
     },
     {
       "name": "config/snowrealmagic-common.yaml",

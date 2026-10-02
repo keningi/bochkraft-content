@@ -62,8 +62,8 @@
   },
   "mobSettings": {
     "Physics Type": 0,
-    "Lifetime": 4,
-    "Lifetime Variance": 3,
+    "Lifetime": 20,
+    "Lifetime Variance": 5,
     "Animation": -1
   },
   "sprintingPhysicsParticles": false,
