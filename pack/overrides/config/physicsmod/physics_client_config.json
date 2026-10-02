@@ -61,7 +61,7 @@
     "Animation": -1
   },
   "mobSettings": {
-    "Physics Type": 0,
+    "Physics Type": 4,
     "Lifetime": 20,
     "Lifetime Variance": 5,
     "Animation": -1

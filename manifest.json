@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-02T16:15:45.434Z",
+  "revision": "2026-10-02T16:30:22.563Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -69,19 +69,6 @@
       "size": 73916104
     },
     {
-      "name": "curios",
-      "title": "Curios API",
-      "description": "A flexible and expandable accessory/equipment API for users and developers.",
-      "page": "https://modrinth.com/mod/curios",
-      "version": "5.14.1+1.20.1",
-      "dir": "mods",
-      "file": "curios-forge-5.14.1+1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
-      "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
-      "size": 398066,
-      "requiredBy": "L_Ender's Cataclysm"
-    },
-    {
       "name": "lionfish-api",
       "title": "Lionfish-API",
       "description": "Very Light Animation Api",
@@ -92,6 +79,19 @@
       "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
       "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
       "size": 101931,
+      "requiredBy": "L_Ender's Cataclysm"
+    },
+    {
+      "name": "curios",
+      "title": "Curios API",
+      "description": "A flexible and expandable accessory/equipment API for users and developers.",
+      "page": "https://modrinth.com/mod/curios",
+      "version": "5.14.1+1.20.1",
+      "dir": "mods",
+      "file": "curios-forge-5.14.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
+      "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
+      "size": 398066,
       "requiredBy": "L_Ender's Cataclysm"
     },
     {
@@ -1233,6 +1233,18 @@
       "size": 60624148
     },
     {
+      "name": "ragdollified",
+      "title": "Ragdollified",
+      "description": "A ragdoll mod for modern versions of Minecraft with more compatibility and features than normal",
+      "page": "https://modrinth.com/mod/ragdollified",
+      "version": "1.1.1-hotfix-RELEASE",
+      "dir": "mods",
+      "file": "ragdollified-1.20.1-1.1.1-hotfix-RELEASE.jar",
+      "url": "https://cdn.modrinth.com/data/PMOR9v1z/versions/DnMJI8yk/ragdollified-1.20.1-1.1.1-hotfix-RELEASE.jar",
+      "sha1": "9ffe111d6bd60fb36ec495eee6b55bf831a13daf",
+      "size": 9503593
+    },
+    {
       "name": "simple-hats",
       "title": "Simple Hats",
       "description": "Simple Hats is an expandable cosmetic hat mod that allows users to define their own hats with options such as variants, dyes, particle effects, and seasons.",
@@ -1566,7 +1578,7 @@
       "file": "physics_client_config.json",
       "local": "overrides/config/physicsmod/physics_client_config.json",
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/physicsmod/physics_client_config.json",
-      "sha1": "eecc68b052fc9e15f7ade65f353feace68da939e",
+      "sha1": "5fd0e30f70c154cbddc8691d22d76d801b6c935f",
       "size": 3810
     },
     {
