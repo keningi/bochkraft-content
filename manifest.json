@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-02T09:41:20.769Z",
+  "revision": "2026-10-02T09:55:06.139Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -69,19 +69,6 @@
       "size": 73916104
     },
     {
-      "name": "lionfish-api",
-      "title": "Lionfish-API",
-      "description": "Very Light Animation Api",
-      "page": "https://modrinth.com/mod/lionfish-api",
-      "version": "3.0",
-      "dir": "mods",
-      "file": "lionfishapi-3.0.jar",
-      "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
-      "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
-      "size": 101931,
-      "requiredBy": "L_Ender's Cataclysm"
-    },
-    {
       "name": "curios",
       "title": "Curios API",
       "description": "A flexible and expandable accessory/equipment API for users and developers.",
@@ -92,6 +79,19 @@
       "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
       "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
       "size": 398066,
+      "requiredBy": "L_Ender's Cataclysm"
+    },
+    {
+      "name": "lionfish-api",
+      "title": "Lionfish-API",
+      "description": "Very Light Animation Api",
+      "page": "https://modrinth.com/mod/lionfish-api",
+      "version": "3.0",
+      "dir": "mods",
+      "file": "lionfishapi-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
+      "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
+      "size": 101931,
       "requiredBy": "L_Ender's Cataclysm"
     },
     {
@@ -1547,6 +1547,17 @@
       "size": 3809
     },
     {
+      "name": "CustomSkinLoader/CustomSkinLoader.json",
+      "title": "CustomSkinLoader.json",
+      "version": "файл сборки",
+      "dir": "CustomSkinLoader",
+      "file": "CustomSkinLoader.json",
+      "local": "overrides/CustomSkinLoader/CustomSkinLoader.json",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/CustomSkinLoader/CustomSkinLoader.json",
+      "sha1": "8be453de9abb278e8f3a391abeb7b4dd343baf9b",
+      "size": 1972
+    },
+    {
       "name": "config/snowrealmagic-common.yaml",
       "title": "snowrealmagic-common.yaml",
       "version": "по умолчанию",
@@ -1571,7 +1582,7 @@
       "once": true
     }
   ],
-  "launcher": "0.2.1",
+  "launcher": "0.2.2",
   "keybinds": {
     "_comment": "Раскладка клавиш сборки BochKraft. Лаунчер при синхронизации записывает эти бинды в options.txt игрока, пока игрок сам их не поменял в игре (ключи с меткой в options.txt не трогаются повторно). Формат ключей — как в options.txt.",
     "_revision": 2,
