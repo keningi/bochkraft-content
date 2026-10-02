@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-02T21:06:38.349Z",
+  "revision": "2026-10-02T21:26:48.679Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -70,19 +70,6 @@
       "size": 73916104
     },
     {
-      "name": "lionfish-api",
-      "title": "Lionfish-API",
-      "description": "Very Light Animation Api",
-      "page": "https://modrinth.com/mod/lionfish-api",
-      "version": "3.0",
-      "dir": "mods",
-      "file": "lionfishapi-3.0.jar",
-      "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
-      "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
-      "size": 101931,
-      "requiredBy": "L_Ender's Cataclysm"
-    },
-    {
       "name": "curios",
       "title": "Curios API",
       "description": "A flexible and expandable accessory/equipment API for users and developers.",
@@ -93,6 +80,19 @@
       "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
       "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
       "size": 398066,
+      "requiredBy": "L_Ender's Cataclysm"
+    },
+    {
+      "name": "lionfish-api",
+      "title": "Lionfish-API",
+      "description": "Very Light Animation Api",
+      "page": "https://modrinth.com/mod/lionfish-api",
+      "version": "3.0",
+      "dir": "mods",
+      "file": "lionfishapi-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
+      "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
+      "size": 101931,
       "requiredBy": "L_Ender's Cataclysm"
     },
     {
@@ -968,6 +968,90 @@
       "size": 553397
     },
     {
+      "name": "complementary-unbound",
+      "title": "Complementary Shaders - Unbound",
+      "description": "Transforming the visuals of Minecraft with exceptional quality, detail, and performance.",
+      "page": "https://modrinth.com/shader/complementary-unbound",
+      "version": "r5.9.3",
+      "dir": "shaderpacks",
+      "file": "ComplementaryUnbound_r5.9.3.zip",
+      "url": "https://cdn.modrinth.com/data/R6NEzAwj/versions/B1kyfoUZ/ComplementaryUnbound_r5.9.3.zip",
+      "sha1": "2ee08300e1d6f039e63eae8484dddf57b3aaaf67",
+      "size": 553400
+    },
+    {
+      "name": "bliss-shader",
+      "title": "Bliss Shaders",
+      "description": "A well performing fantasy styled shaderpack with emphasis on scene variation and customization.",
+      "page": "https://modrinth.com/shader/bliss-shader",
+      "version": "2.1.2",
+      "dir": "shaderpacks",
+      "file": "Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip",
+      "url": "https://cdn.modrinth.com/data/ZvMtQlho/versions/kC2Y8q1P/Bliss_v2.1.2_%28Chocapic13_Shaders_edit%29.zip",
+      "sha1": "ded6c8a98305f8aff90ef781e7585b33b8452cfd",
+      "size": 1791406
+    },
+    {
+      "name": "kappa-shader",
+      "title": "Kappa Shader",
+      "description": "A high-quality realistic, yet also somewhat stylized shaderpack.",
+      "page": "https://modrinth.com/shader/kappa-shader",
+      "version": "5.3",
+      "dir": "shaderpacks",
+      "file": "Kappa_v5.3.zip",
+      "url": "https://cdn.modrinth.com/data/Y8161YLz/versions/8p4viq8V/Kappa_v5.3.zip",
+      "sha1": "620388c59df919fc29f8762268942f4871c2fb55",
+      "size": 3872527
+    },
+    {
+      "name": "bsl-shaders",
+      "title": "BSL Shaders",
+      "description": "Shaderpack for Minecraft: Java Edition. It's bright, colorful, and distinct.",
+      "page": "https://modrinth.com/shader/bsl-shaders",
+      "version": "10.1.8",
+      "dir": "shaderpacks",
+      "file": "BSL_v10.1.8.zip",
+      "url": "https://cdn.modrinth.com/data/Q1vvjJYV/versions/Y68yiql9/BSL_v10.1.8.zip",
+      "sha1": "e89818c8827d0131c102fb480c3c3446624db0df",
+      "size": 1134153
+    },
+    {
+      "name": "photon-shader",
+      "title": "Photon Shaders",
+      "description": "A gameplay-focused shader pack with a semi-realistic style",
+      "page": "https://modrinth.com/shader/photon-shader",
+      "version": "v1.3b",
+      "dir": "shaderpacks",
+      "file": "photon_v1.3b.zip",
+      "url": "https://cdn.modrinth.com/data/lLqFfGNs/versions/gUv7fBPN/photon_v1.3b.zip",
+      "sha1": "d975d25c9686de5f10e8b86c8518613cdf3f040a",
+      "size": 3800987
+    },
+    {
+      "name": "solas-shader",
+      "title": "Solas Shader",
+      "description": "A modern fantasy stylized shaderpack with colored lighting and stunning visuals",
+      "page": "https://modrinth.com/shader/solas-shader",
+      "version": "3.7b",
+      "dir": "shaderpacks",
+      "file": "Solas Shader V3.7b.zip",
+      "url": "https://cdn.modrinth.com/data/EpQFjzrQ/versions/KcfQaN5J/Solas%20Shader%20V3.7b.zip",
+      "sha1": "abf2e33feae040cc91894aea11e6d30750d50ee9",
+      "size": 1252311
+    },
+    {
+      "name": "makeup-ultra-fast-shaders",
+      "title": "MakeUp - Ultra Fast",
+      "description": "MakeUp aims to provide the best quality / performance ratio, building a shader that can be adapted to anyone's resources.",
+      "page": "https://modrinth.com/shader/makeup-ultra-fast-shaders",
+      "version": "9.5f",
+      "dir": "shaderpacks",
+      "file": "MakeUp-UltraFast-9.5f.zip",
+      "url": "https://cdn.modrinth.com/data/izsIPI7a/versions/IUFkxmHz/MakeUp-UltraFast-9.5f.zip",
+      "sha1": "b3873dcc6b39093a6c13c2ec9c5d5eee90c06827",
+      "size": 403666
+    },
+    {
       "name": "simple-voice-chat",
       "title": "Simple Voice Chat",
       "description": "A working voice chat in Minecraft!",
@@ -1476,6 +1560,80 @@
       "sha1": "b3dbaf1aac31601b9efb19e4c67646750041968a",
       "size": 107533,
       "requiredBy": "Regions Unexplored"
+    },
+    {
+      "name": "skills",
+      "title": "Pufferfish's Skills",
+      "description": "Adds a fully configurable skill system to the game.",
+      "page": "https://modrinth.com/mod/skills",
+      "version": "0.19.1",
+      "dir": "mods",
+      "file": "puffish_skills-0.19.1-1.20-forge.jar",
+      "url": "https://cdn.modrinth.com/data/hqQqvaa4/versions/Ikp1oR0C/puffish_skills-0.19.1-1.20-forge.jar",
+      "sha1": "3b1f562f272dfcb735d40c3d879fb21dcbb06588",
+      "size": 647254
+    },
+    {
+      "name": "default-skill-trees",
+      "title": "Default Skill Trees",
+      "description": "The default skill trees for Pufferfish's Skills mod.",
+      "page": "https://modrinth.com/mod/default-skill-trees",
+      "version": "1.1",
+      "dir": "mods",
+      "file": "default_skill_trees-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/4w7YR25f/versions/x7XL8Z3U/default_skill_trees-1.1.jar",
+      "sha1": "564a1320a4d26de1ad476687ce1920ccd12c142c",
+      "size": 11519
+    },
+    {
+      "name": "attributes",
+      "title": "Pufferfish's Attributes",
+      "description": "A Minecraft mod that adds more attributes to the game.",
+      "page": "https://modrinth.com/mod/attributes",
+      "version": "0.8.2",
+      "dir": "mods",
+      "file": "puffish_attributes-0.8.2-1.20-forge.jar",
+      "url": "https://cdn.modrinth.com/data/FCFcFw09/versions/IG5KY4Qf/puffish_attributes-0.8.2-1.20-forge.jar",
+      "sha1": "c6ff07c4ee3111b480fee577cb98c3671cf063b8",
+      "size": 237815,
+      "requiredBy": "Default Skill Trees"
+    },
+    {
+      "name": "mowzies-mobs",
+      "title": "Mowzie's Mobs",
+      "description": "Mowzie's Mobs adds a variety of fictional creatures to Minecraft, priding itself in unique AI, rich atmosphere, and fluid animations. Prove your might against new bosses and enemies and claim their magical abilities as your own.",
+      "page": "https://modrinth.com/mod/mowzies-mobs",
+      "version": "1.8.2",
+      "dir": "mods",
+      "file": "mowziesmobs-1.8.2.jar",
+      "url": "https://cdn.modrinth.com/data/BFbX9xcm/versions/acYEfsJa/mowziesmobs-1.8.2.jar",
+      "sha1": "25ffcd175cc03650e38e60d3cb7b3e038d9d3345",
+      "size": 36033850
+    },
+    {
+      "name": "improved-mobs",
+      "title": "Improved Mobs",
+      "description": "Harder mobs for increased difficulty",
+      "page": "https://modrinth.com/mod/improved-mobs",
+      "version": "1.20.1-1.13.7-forge",
+      "dir": "mods",
+      "file": "improvedmobs-1.20.1-1.13.7-forge.jar",
+      "url": "https://cdn.modrinth.com/data/23MovWyi/versions/hQPzm4z2/improvedmobs-1.20.1-1.13.7-forge.jar",
+      "sha1": "88f2f837b5b218b8a4e04b09656568b90416af34",
+      "size": 335652
+    },
+    {
+      "name": "tenshilib",
+      "title": "TenshiLib",
+      "description": "Core and Library mod for my other projects",
+      "page": "https://modrinth.com/mod/tenshilib",
+      "version": "1.20.1-1.7.6",
+      "dir": "mods",
+      "file": "tenshilib-1.20.1-1.7.6-forge.jar",
+      "url": "https://cdn.modrinth.com/data/P2rffivS/versions/5elJ9ZTS/tenshilib-1.20.1-1.7.6-forge.jar",
+      "sha1": "4a8f6ac745297430e64b50466f338c2b2aa8b101",
+      "size": 465737,
+      "requiredBy": "Improved Mobs"
     },
     {
       "name": "blockui",
