@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-02T09:55:06.139Z",
+  "revision": "2026-10-02T10:02:56.623Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -1534,6 +1534,17 @@
       "url": "https://mediafilez.forgecdn.net/files/9017/702/structurize-1.20.1-1.0.821-snapshot.jar",
       "sha1": "6b6b5754c49561d2f1423f3f868626e1cb5779c1",
       "size": 1128927
+    },
+    {
+      "name": "config/fallingtree.json",
+      "title": "fallingtree.json",
+      "version": "файл сборки",
+      "dir": "config",
+      "file": "fallingtree.json",
+      "local": "overrides/config/fallingtree.json",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/fallingtree.json",
+      "sha1": "c35d828e74e5b5e097456a3abfbe926544a66a6a",
+      "size": 1271
     },
     {
       "name": "config/physicsmod/physics_client_config.json",
