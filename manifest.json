@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-02T10:07:53.691Z",
+  "revision": "2026-10-02T10:12:08.931Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -1113,6 +1113,18 @@
       "requiredBy": "[EMF] Entity Model Features"
     },
     {
+      "name": "armor-3d",
+      "title": "3D Armor",
+      "description": "Renders the player and entity equipped armor in 3D and is compatible with most modded armor, dyes, and trims with support for 16x resource packs.",
+      "page": "https://modrinth.com/mod/armor-3d",
+      "version": "0.9.4.2",
+      "dir": "mods",
+      "file": "3d-armor-0.9.4.2-mod.jar",
+      "url": "https://cdn.modrinth.com/data/XhxKIfGG/versions/ap0X7Uod/3d-armor-0.9.4.2-mod.jar",
+      "sha1": "8253b99b9d44c6935a273d5bc1f7f282e8a9cad1",
+      "size": 306454
+    },
+    {
       "name": "fresh-animations",
       "title": "Fresh Animations",
       "description": "Make your game like the trailers! Dynamic animated entities to freshen your Minecraft experience.",
@@ -1601,6 +1613,18 @@
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/defaults/options.txt",
       "sha1": "8908013de0a17baea8e1f1b3303329ab88b89fe7",
       "size": 457,
+      "once": true
+    },
+    {
+      "name": "shaderpacks/ComplementaryReimagined_r5.9.3.zip.txt",
+      "title": "ComplementaryReimagined_r5.9.3.zip.txt",
+      "version": "по умолчанию",
+      "dir": "shaderpacks",
+      "file": "ComplementaryReimagined_r5.9.3.zip.txt",
+      "local": "defaults/shaderpacks/ComplementaryReimagined_r5.9.3.zip.txt",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/defaults/shaderpacks/ComplementaryReimagined_r5.9.3.zip.txt",
+      "sha1": "8e44d84ff7cd648a10c2c197ba99c896289dba74",
+      "size": 21,
       "once": true
     }
   ],
