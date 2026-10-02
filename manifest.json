@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-02T06:20:39.925Z",
+  "revision": "2026-10-02T09:16:08.012Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -1074,6 +1074,18 @@
       "url": "https://cdn.modrinth.com/data/joEfVgkn/versions/edGQD16r/carryon-forge-1.20.1-2.1.2.7.jar",
       "sha1": "9999714ca3dd2f2401f0396ca44f3b27c3784c4f",
       "size": 439457
+    },
+    {
+      "name": "fallingtree",
+      "title": "FallingTree",
+      "description": "Break down your trees by only cutting one piece of it",
+      "page": "https://modrinth.com/mod/fallingtree",
+      "version": "1.20.1-4.3.4",
+      "dir": "mods",
+      "file": "FallingTree-1.20.1-4.3.4.jar",
+      "url": "https://cdn.modrinth.com/data/Fb4jn8m6/versions/NrtzFkZE/FallingTree-1.20.1-4.3.4.jar",
+      "sha1": "617b79628fca3968979c1cc5f42edda882a55adb",
+      "size": 420181
     },
     {
       "name": "zume",
