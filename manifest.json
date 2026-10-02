@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-02T10:02:56.623Z",
+  "revision": "2026-10-02T10:07:53.691Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -1556,6 +1556,17 @@
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/physicsmod/physics_client_config.json",
       "sha1": "238e6c74a35ff922f1fae7abeca9ed02b02d4001",
       "size": 3809
+    },
+    {
+      "name": "config/physicsmod/physics_server_config.json",
+      "title": "physics_server_config.json",
+      "version": "файл сборки",
+      "dir": "config/physicsmod",
+      "file": "physics_server_config.json",
+      "local": "overrides/config/physicsmod/physics_server_config.json",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/physicsmod/physics_server_config.json",
+      "sha1": "486847708c3a3ee2ea5152b9e8f8426b0c9133b6",
+      "size": 99
     },
     {
       "name": "CustomSkinLoader/CustomSkinLoader.json",
