@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-02T09:20:11.062Z",
+  "revision": "2026-10-02T09:41:20.769Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -601,19 +601,6 @@
       "size": 11895585
     },
     {
-      "name": "supermartijn642s-core-lib",
-      "title": "SuperMartijn642's Core Lib",
-      "description": "SuperMartijn642's Core Lib adds lots of basic implementations that allow for similar code between different Minecraft versions!",
-      "page": "https://modrinth.com/mod/supermartijn642s-core-lib",
-      "version": "1.1.24b-forge-mc1.20.1",
-      "dir": "mods",
-      "file": "supermartijn642corelib-1.1.24b-forge-mc1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/rOUBggPv/versions/7fVdwsOt/supermartijn642corelib-1.1.24b-forge-mc1.20.1.jar",
-      "sha1": "07bfad3e704a3ab9fe11df42a3acb6315206713c",
-      "size": 559482,
-      "requiredBy": "Rechiseled"
-    },
-    {
       "name": "fusion-connected-textures",
       "title": "Fusion (Connected Textures)",
       "description": "Fusion allows resource packs to use additional texture and model types such as connected textures!",
@@ -624,6 +611,19 @@
       "url": "https://cdn.modrinth.com/data/p19vrgc2/versions/EQaOpkjt/fusion-1.3.15b-forge-mc1.20.1.jar",
       "sha1": "9770ee0fdd377a5cd16bfab53341f62f656ff51a",
       "size": 972917,
+      "requiredBy": "Rechiseled"
+    },
+    {
+      "name": "supermartijn642s-core-lib",
+      "title": "SuperMartijn642's Core Lib",
+      "description": "SuperMartijn642's Core Lib adds lots of basic implementations that allow for similar code between different Minecraft versions!",
+      "page": "https://modrinth.com/mod/supermartijn642s-core-lib",
+      "version": "1.1.24b-forge-mc1.20.1",
+      "dir": "mods",
+      "file": "supermartijn642corelib-1.1.24b-forge-mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/rOUBggPv/versions/7fVdwsOt/supermartijn642corelib-1.1.24b-forge-mc1.20.1.jar",
+      "sha1": "07bfad3e704a3ab9fe11df42a3acb6315206713c",
+      "size": 559482,
       "requiredBy": "Rechiseled"
     },
     {
@@ -1245,16 +1245,16 @@
       "size": 82557
     },
     {
-      "name": "better-third-person",
-      "title": "Better Third Person",
-      "description": "Improves third person camera view.",
-      "page": "https://modrinth.com/mod/better-third-person",
-      "version": "1.9.0",
+      "name": "shoulder-surfing-reloaded",
+      "title": "Shoulder Surfing Reloaded",
+      "description": "Highly configurable third person camera mod",
+      "page": "https://modrinth.com/mod/shoulder-surfing-reloaded",
+      "version": "1.20.1-5.2.0+forge",
       "dir": "mods",
-      "file": "BetterThirdPerson-Forge-1.20-1.9.0.jar",
-      "url": "https://cdn.modrinth.com/data/G1s2WpNo/versions/XkYduFuv/BetterThirdPerson-Forge-1.20-1.9.0.jar",
-      "sha1": "0b0a3ff3b244fa191b3f9580547071dee46f7276",
-      "size": 61525
+      "file": "ShoulderSurfing-Forge-1.20.1-5.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/kepjj2sy/versions/mswaiBSo/ShoulderSurfing-Forge-1.20.1-5.2.0.jar",
+      "sha1": "e53a03212e2d181b6d9c47928ba91c4866489c6e",
+      "size": 426606
     },
     {
       "name": "vics-point-blank",
@@ -1574,7 +1574,7 @@
   "launcher": "0.2.1",
   "keybinds": {
     "_comment": "Раскладка клавиш сборки BochKraft. Лаунчер при синхронизации записывает эти бинды в options.txt игрока, пока игрок сам их не поменял в игре (ключи с меткой в options.txt не трогаются повторно). Формат ключей — как в options.txt.",
-    "_revision": 1,
+    "_revision": 2,
     "binds": {
       "key_key.pointblack.reload": "key.keyboard.r",
       "key_key.pointblack.firemode": "key.keyboard.f6",
@@ -1613,7 +1613,15 @@
       "key_gui.xaero_waypoints_key": "key.keyboard.u",
       "key_key.corpse.death_history": "key.keyboard.unknown",
       "key_key.touhou_little_maid.dismount.desc": "key.keyboard.unknown",
-      "key_key.touhou_little_maid.stt_chat.desc": "key.keyboard.unknown"
+      "key_key.touhou_little_maid.stt_chat.desc": "key.keyboard.unknown",
+      "key_key.shouldersurfing.free_look": "key.keyboard.h",
+      "key_key.shouldersurfing.swap_shoulder": "key.keyboard.o",
+      "key_key.shouldersurfing.adjust_camera_left": "key.keyboard.unknown",
+      "key_key.shouldersurfing.adjust_camera_right": "key.keyboard.unknown",
+      "key_key.shouldersurfing.adjust_camera_in": "key.keyboard.unknown",
+      "key_key.shouldersurfing.adjust_camera_out": "key.keyboard.unknown",
+      "key_key.shouldersurfing.adjust_camera_up": "key.keyboard.unknown",
+      "key_key.shouldersurfing.adjust_camera_down": "key.keyboard.unknown"
     }
   },
   "options": {
