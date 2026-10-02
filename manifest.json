@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-02T09:16:08.012Z",
+  "revision": "2026-10-02T09:20:11.062Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -1088,6 +1088,43 @@
       "size": 420181
     },
     {
+      "name": "entity-model-features",
+      "title": "[EMF] Entity Model Features",
+      "description": "EMF is an, OptiFine format, Custom Entity Model replacement mod available for Fabric and Forge.",
+      "page": "https://modrinth.com/mod/entity-model-features",
+      "version": "3.3.9-forge-1.20.1",
+      "dir": "mods",
+      "file": "entity_model_features-3.3.9-1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/4I1XuqiY/versions/Eu3dOT1e/entity_model_features-3.3.9-1.20.1-forge.jar",
+      "sha1": "c616b349a291bd87fc0ce3070858caf5f2bc944c",
+      "size": 826048
+    },
+    {
+      "name": "entitytexturefeatures",
+      "title": "[ETF] Entity Texture Features",
+      "description": "Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric",
+      "page": "https://modrinth.com/mod/entitytexturefeatures",
+      "version": "7.2.4-forge-1.20.1",
+      "dir": "mods",
+      "file": "entity_texture_features-7.2.4-1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/BVzZfTc1/versions/zFo82203/entity_texture_features-7.2.4-1.20.1-forge.jar",
+      "sha1": "1ee3606828a796d1fdcd90c85c4fb12fc1a36fc4",
+      "size": 982567,
+      "requiredBy": "[EMF] Entity Model Features"
+    },
+    {
+      "name": "fresh-animations",
+      "title": "Fresh Animations",
+      "description": "Make your game like the trailers! Dynamic animated entities to freshen your Minecraft experience.",
+      "page": "https://modrinth.com/resourcepack/fresh-animations",
+      "version": "1.10.4",
+      "dir": "resourcepacks",
+      "file": "FreshAnimations_v1.10.4.zip",
+      "url": "https://cdn.modrinth.com/data/50dA9Sha/versions/xN57JJts/FreshAnimations_v1.10.4.zip",
+      "sha1": "73db740a6868e043c5e615c036fca2c912615b6e",
+      "size": 850941
+    },
+    {
       "name": "zume",
       "title": "Zume",
       "description": "An over-engineered Zoom mod by Nolij",
@@ -1534,7 +1571,7 @@
       "once": true
     }
   ],
-  "launcher": "0.2.0",
+  "launcher": "0.2.1",
   "keybinds": {
     "_comment": "Раскладка клавиш сборки BochKraft. Лаунчер при синхронизации записывает эти бинды в options.txt игрока, пока игрок сам их не поменял в игре (ключи с меткой в options.txt не трогаются повторно). Формат ключей — как в options.txt.",
     "_revision": 1,
@@ -1578,5 +1615,11 @@
       "key_key.touhou_little_maid.dismount.desc": "key.keyboard.unknown",
       "key_key.touhou_little_maid.stt_chat.desc": "key.keyboard.unknown"
     }
+  },
+  "options": {
+    "resourcePacks": [
+      "file/FreshAnimations_v1.10.4.zip"
+    ],
+    "_revision": "file/FreshAnimations_v1.10.4.zip"
   }
 }
