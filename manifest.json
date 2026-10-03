@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-03T11:53:56.059Z",
+  "revision": "2026-10-03T21:49:53.676Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -70,19 +70,6 @@
       "size": 73916104
     },
     {
-      "name": "lionfish-api",
-      "title": "Lionfish-API",
-      "description": "Very Light Animation Api",
-      "page": "https://modrinth.com/mod/lionfish-api",
-      "version": "3.0",
-      "dir": "mods",
-      "file": "lionfishapi-3.0.jar",
-      "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
-      "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
-      "size": 101931,
-      "requiredBy": "L_Ender's Cataclysm"
-    },
-    {
       "name": "curios",
       "title": "Curios API",
       "description": "A flexible and expandable accessory/equipment API for users and developers.",
@@ -93,6 +80,19 @@
       "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
       "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
       "size": 398066,
+      "requiredBy": "L_Ender's Cataclysm"
+    },
+    {
+      "name": "lionfish-api",
+      "title": "Lionfish-API",
+      "description": "Very Light Animation Api",
+      "page": "https://modrinth.com/mod/lionfish-api",
+      "version": "3.0",
+      "dir": "mods",
+      "file": "lionfishapi-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
+      "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
+      "size": 101931,
       "requiredBy": "L_Ender's Cataclysm"
     },
     {
@@ -368,6 +368,31 @@
       "size": 918012
     },
     {
+      "name": "waystones",
+      "title": "Waystones",
+      "description": "Teleport from waystone to waystone or craft magical scrolls to warp.",
+      "page": "https://modrinth.com/mod/waystones",
+      "version": "14.1.21+forge-1.20.1",
+      "dir": "mods",
+      "file": "waystones-forge-1.20.1-14.1.21.jar",
+      "url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/Y0IgdaoP/waystones-forge-1.20.1-14.1.21.jar",
+      "sha1": "61952fb248a9689fe46d5ffb223fcc41e31fef1a",
+      "size": 536782
+    },
+    {
+      "name": "balm",
+      "title": "Balm",
+      "description": "Abstraction Layer for Multi-Loader Mods",
+      "page": "https://modrinth.com/mod/balm",
+      "version": "7.3.44+forge-1.20.1",
+      "dir": "mods",
+      "file": "balm-forge-1.20.1-7.3.44.jar",
+      "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/dDN38ae7/balm-forge-1.20.1-7.3.44.jar",
+      "sha1": "dae7e647fc54609e66e4f910931be65776352b72",
+      "size": 561741,
+      "requiredBy": "Waystones"
+    },
+    {
       "name": "guard-villagers",
       "title": "Guard Villagers",
       "description": "Village Pest Control",
@@ -515,19 +540,6 @@
       "size": 569427
     },
     {
-      "name": "balm",
-      "title": "Balm",
-      "description": "Abstraction Layer for Multi-Loader Mods",
-      "page": "https://modrinth.com/mod/balm",
-      "version": "7.3.44+forge-1.20.1",
-      "dir": "mods",
-      "file": "balm-forge-1.20.1-7.3.44.jar",
-      "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/dDN38ae7/balm-forge-1.20.1-7.3.44.jar",
-      "sha1": "dae7e647fc54609e66e4f910931be65776352b72",
-      "size": 561741,
-      "requiredBy": "Farming for Blockheads"
-    },
-    {
       "name": "lets-do-meadow",
       "title": "[Let's Do] Meadow",
       "description": "A Mod offering a slight overhaul for the meadow biome by adding two new sub biomes and introducing the process of crafting cheese.",
@@ -614,6 +626,19 @@
       "size": 11895585
     },
     {
+      "name": "fusion-connected-textures",
+      "title": "Fusion (Connected Textures)",
+      "description": "Fusion allows resource packs to use additional texture and model types such as connected textures!",
+      "page": "https://modrinth.com/mod/fusion-connected-textures",
+      "version": "1.3.15b-forge-mc1.20.1",
+      "dir": "mods",
+      "file": "fusion-1.3.15b-forge-mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/p19vrgc2/versions/EQaOpkjt/fusion-1.3.15b-forge-mc1.20.1.jar",
+      "sha1": "9770ee0fdd377a5cd16bfab53341f62f656ff51a",
+      "size": 972917,
+      "requiredBy": "Rechiseled"
+    },
+    {
       "name": "supermartijn642s-core-lib",
       "title": "SuperMartijn642's Core Lib",
       "description": "SuperMartijn642's Core Lib adds lots of basic implementations that allow for similar code between different Minecraft versions!",
@@ -637,19 +662,6 @@
       "url": "https://cdn.modrinth.com/data/LN9BxssP/versions/ZKor79dR/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
       "sha1": "f80f9eed728966adcfbcc848633e789645057281",
       "size": 206584,
-      "requiredBy": "Rechiseled"
-    },
-    {
-      "name": "fusion-connected-textures",
-      "title": "Fusion (Connected Textures)",
-      "description": "Fusion allows resource packs to use additional texture and model types such as connected textures!",
-      "page": "https://modrinth.com/mod/fusion-connected-textures",
-      "version": "1.3.15b-forge-mc1.20.1",
-      "dir": "mods",
-      "file": "fusion-1.3.15b-forge-mc1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/p19vrgc2/versions/EQaOpkjt/fusion-1.3.15b-forge-mc1.20.1.jar",
-      "sha1": "9770ee0fdd377a5cd16bfab53341f62f656ff51a",
-      "size": 972917,
       "requiredBy": "Rechiseled"
     },
     {
@@ -908,6 +920,31 @@
       "size": 76237
     },
     {
+      "name": "inventory-profiles-next",
+      "title": "Inventory Profiles Next",
+      "description": "Take control over your inventory. Sort. Move matching Items. Throw all. Locked slots. Gear sets! And much more.",
+      "page": "https://modrinth.com/mod/inventory-profiles-next",
+      "version": "forge-1.20.1-1.10.20",
+      "dir": "mods",
+      "file": "InventoryProfilesNext-forge-1.20-1.10.20.jar",
+      "url": "https://cdn.modrinth.com/data/O7RBXm3n/versions/CrtAI3P9/InventoryProfilesNext-forge-1.20-1.10.20.jar",
+      "sha1": "979e74fa10b24a7d7c4d9aeb5824b80f4f9235cf",
+      "size": 1457354
+    },
+    {
+      "name": "libipn",
+      "title": "libIPN",
+      "description": "Inventory Profiles Next GUI/Config library",
+      "page": "https://modrinth.com/mod/libipn",
+      "version": "forge-1.20-4.0.2",
+      "dir": "mods",
+      "file": "libIPN-forge-1.20-4.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/onSQdWhM/versions/pdAXmKcS/libIPN-forge-1.20-4.0.2.jar",
+      "sha1": "3e7c7fcdc037a6ae3d9146e718d87fc83f88f6d5",
+      "size": 693301,
+      "requiredBy": "Inventory Profiles Next"
+    },
+    {
       "name": "embeddium",
       "title": "Embeddium",
       "description": "A powerful, mod-friendly, FOSS client performance mod for NeoForge",
@@ -930,6 +967,31 @@
       "url": "https://cdn.modrinth.com/data/GchcoXML/versions/iQ1SwGc3/oculus-mc1.20.1-1.8.0.jar",
       "sha1": "984f774e71790deaec674c7587bd24e0711871b2",
       "size": 2851119
+    },
+    {
+      "name": "sodium-dynamic-lights",
+      "title": "Sodium Dynamic Lights",
+      "description": "Multiloader port of LambDynLights that adds Sodium options integration",
+      "page": "https://modrinth.com/mod/sodium-dynamic-lights",
+      "version": "forge-1.20.1-1.0.10",
+      "dir": "mods",
+      "file": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/PxQSWIcD/versions/I156ee3A/sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+      "sha1": "d27524e85bed0f0af83c03be46f9ca3eb02a1be9",
+      "size": 511601
+    },
+    {
+      "name": "sodium-options-api",
+      "title": "Sodium Options API",
+      "description": "Config API for adding Sodium options with a better categories menu",
+      "page": "https://modrinth.com/mod/sodium-options-api",
+      "version": "forge-1.20.1-1.0.10",
+      "dir": "mods",
+      "file": "sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/Es5v4eyq/versions/d0EFLitO/sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+      "sha1": "7529fbf938787ed13a251cbf40936f8c29ec4b6c",
+      "size": 443978,
+      "requiredBy": "Sodium Dynamic Lights"
     },
     {
       "name": "ferrite-core",
