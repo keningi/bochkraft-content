@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-02T23:10:43.673Z",
+  "revision": "2026-10-03T11:22:31.113Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -120,19 +120,6 @@
       "size": 1054339
     },
     {
-      "name": "cloth-config",
-      "title": "Cloth Config API",
-      "description": "Configuration Library for Minecraft Mods",
-      "page": "https://modrinth.com/mod/cloth-config",
-      "version": "11.1.136+forge",
-      "dir": "mods",
-      "file": "cloth-config-11.1.136-forge.jar",
-      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
-      "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
-      "size": 1181413,
-      "requiredBy": "Better Combat"
-    },
-    {
       "name": "playeranimator",
       "title": "playerAnimator",
       "description": "animate the player",
@@ -143,6 +130,19 @@
       "url": "https://cdn.modrinth.com/data/gedNE4y2/versions/xe2EVE6q/player-animation-lib-forge-1.0.2-rc1%2B1.20.jar",
       "sha1": "16808f94a41d45d8e986b4e4ea6b02ba57fa058a",
       "size": 181437,
+      "requiredBy": "Better Combat"
+    },
+    {
+      "name": "cloth-config",
+      "title": "Cloth Config API",
+      "description": "Configuration Library for Minecraft Mods",
+      "page": "https://modrinth.com/mod/cloth-config",
+      "version": "11.1.136+forge",
+      "dir": "mods",
+      "file": "cloth-config-11.1.136-forge.jar",
+      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
+      "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
+      "size": 1181413,
       "requiredBy": "Better Combat"
     },
     {
@@ -170,6 +170,19 @@
       "size": 15765792
     },
     {
+      "name": "simply-tooltips",
+      "title": "Simply Tooltips",
+      "description": "Modern data driven tooltip rendering",
+      "page": "https://modrinth.com/mod/simply-tooltips",
+      "version": "0.1.5-1.20.1",
+      "dir": "mods",
+      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
+      "size": 5418741,
+      "requiredBy": "Simply Swords"
+    },
+    {
       "name": "fzzy-config",
       "title": "Fzzy Config",
       "description": "Config API with automatic GUIs, powerful validation options, server-client sync, and more!",
@@ -180,7 +193,7 @@
       "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/53kg5uoF/fzzy_config-0.7.7%2B1.20.1%2Bforge.jar",
       "sha1": "1a4f550dea4fb6316a96591dc46a463ee1f6602b",
       "size": 2397175,
-      "requiredBy": "Simply Swords"
+      "requiredBy": "Simply Tooltips"
     },
     {
       "name": "kotlin-for-forge",
@@ -194,19 +207,6 @@
       "sha1": "962fdb760409d6d71cbf079235f1ca94e3863a22",
       "size": 7442998,
       "requiredBy": "Fzzy Config"
-    },
-    {
-      "name": "simply-tooltips",
-      "title": "Simply Tooltips",
-      "description": "Modern data driven tooltip rendering",
-      "page": "https://modrinth.com/mod/simply-tooltips",
-      "version": "0.1.5-1.20.1",
-      "dir": "mods",
-      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
-      "size": 5418741,
-      "requiredBy": "Simply Swords"
     },
     {
       "name": "architectury-api",
@@ -614,16 +614,16 @@
       "size": 11895585
     },
     {
-      "name": "supermartijn642s-config-lib",
-      "title": "SuperMartijn642's Config Lib",
-      "description": "Config Lib makes dealing with config files just a bit easier.",
-      "page": "https://modrinth.com/mod/supermartijn642s-config-lib",
-      "version": "1.1.8-forge-mc1.20",
+      "name": "fusion-connected-textures",
+      "title": "Fusion (Connected Textures)",
+      "description": "Fusion allows resource packs to use additional texture and model types such as connected textures!",
+      "page": "https://modrinth.com/mod/fusion-connected-textures",
+      "version": "1.3.15b-forge-mc1.20.1",
       "dir": "mods",
-      "file": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
-      "url": "https://cdn.modrinth.com/data/LN9BxssP/versions/ZKor79dR/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
-      "sha1": "f80f9eed728966adcfbcc848633e789645057281",
-      "size": 206584,
+      "file": "fusion-1.3.15b-forge-mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/p19vrgc2/versions/EQaOpkjt/fusion-1.3.15b-forge-mc1.20.1.jar",
+      "sha1": "9770ee0fdd377a5cd16bfab53341f62f656ff51a",
+      "size": 972917,
       "requiredBy": "Rechiseled"
     },
     {
@@ -640,16 +640,16 @@
       "requiredBy": "Rechiseled"
     },
     {
-      "name": "fusion-connected-textures",
-      "title": "Fusion (Connected Textures)",
-      "description": "Fusion allows resource packs to use additional texture and model types such as connected textures!",
-      "page": "https://modrinth.com/mod/fusion-connected-textures",
-      "version": "1.3.15b-forge-mc1.20.1",
+      "name": "supermartijn642s-config-lib",
+      "title": "SuperMartijn642's Config Lib",
+      "description": "Config Lib makes dealing with config files just a bit easier.",
+      "page": "https://modrinth.com/mod/supermartijn642s-config-lib",
+      "version": "1.1.8-forge-mc1.20",
       "dir": "mods",
-      "file": "fusion-1.3.15b-forge-mc1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/p19vrgc2/versions/EQaOpkjt/fusion-1.3.15b-forge-mc1.20.1.jar",
-      "sha1": "9770ee0fdd377a5cd16bfab53341f62f656ff51a",
-      "size": 972917,
+      "file": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+      "url": "https://cdn.modrinth.com/data/LN9BxssP/versions/ZKor79dR/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+      "sha1": "f80f9eed728966adcfbcc848633e789645057281",
+      "size": 206584,
       "requiredBy": "Rechiseled"
     },
     {
@@ -1646,6 +1646,151 @@
       "url": "https://cdn.modrinth.com/data/t5W7Jfwy/versions/SQpqSgAE/Pehkui-3.8.2%2B1.20.1-forge.jar",
       "sha1": "4bc816efdd8e5e2a97423313674401351710e403",
       "size": 671605
+    },
+    {
+      "name": "create-new-age",
+      "title": "Create: New Age",
+      "description": "Create: New Age is an addon for the Create mod that adds integration with electricity.",
+      "page": "https://modrinth.com/mod/create-new-age",
+      "version": "1.2.0+mc1.20.1",
+      "dir": "mods",
+      "file": "create-new-age-1.2.0+forge-mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/FTeXqI9v/versions/7vnwbouk/create-new-age-1.2.0%2Bforge-mc1.20.1.jar",
+      "sha1": "d84322b22219888a55ad0520150ad3ef784d208a",
+      "size": 1206077
+    },
+    {
+      "name": "create-connected",
+      "title": "Create: Connected",
+      "description": "QoL blocks that you wish existed in Create - Highly configurable, disable what you don't need",
+      "page": "https://modrinth.com/mod/create-connected",
+      "version": "1.2.3-mc1.20.1",
+      "dir": "mods",
+      "file": "create_connected-1.2.3-mc1.20.1-all.jar",
+      "url": "https://cdn.modrinth.com/data/Vg5TIO6d/versions/6gnvaVkN/create_connected-1.2.3-mc1.20.1-all.jar",
+      "sha1": "98b4a41c452476496713df16ce4d52fc9f476508",
+      "size": 6791072
+    },
+    {
+      "name": "copycats",
+      "title": "Create: Copycats+",
+      "description": "All the copycats you've ever wanted, combined into a single mod!",
+      "page": "https://modrinth.com/mod/copycats",
+      "version": "3.0.10+mc.1.20.1-forge",
+      "dir": "mods",
+      "file": "copycats-3.0.10+mc.1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/UT2M39wf/versions/LlMxIysb/copycats-3.0.10%2Bmc.1.20.1-forge.jar",
+      "sha1": "939d4ca4ac42b93c05a5fb92e629fb8cff060dc9",
+      "size": 2003713
+    },
+    {
+      "name": "slice-and-dice",
+      "title": "Create Slice & Dice",
+      "description": "Making automation for Farmers Delight more sensible",
+      "page": "https://modrinth.com/mod/slice-and-dice",
+      "version": "3.6.0",
+      "dir": "mods",
+      "file": "sliceanddice-forge-3.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/GmjmRQ0A/versions/KWLI8Ng7/sliceanddice-forge-3.6.0.jar",
+      "sha1": "a4e47dbf4382ebe092b6c2cb71919e412b456d84",
+      "size": 588268
+    },
+    {
+      "name": "create-enchantment-industry",
+      "title": "Create: Enchantment Industry",
+      "description": "Automatic Enchanting, with Create",
+      "page": "https://modrinth.com/mod/create-enchantment-industry",
+      "version": "1.4.1",
+      "dir": "mods",
+      "file": "create_enchantment_industry-1.4.1-for-create-6.0.8.jar",
+      "url": "https://cdn.modrinth.com/data/JWGBpFUP/versions/caLmFTZ1/create_enchantment_industry-1.4.1-for-create-6.0.8.jar",
+      "sha1": "253b76be7c97bd658d709c0a7418b8bca43c1221",
+      "size": 503399
+    },
+    {
+      "name": "createaddition",
+      "title": "Create Crafts & Additions",
+      "description": "Create Crafts & Additions extends Create and acts as a bridge between electricity and kinetic energy",
+      "page": "https://modrinth.com/mod/createaddition",
+      "version": "forge-1.20.1-1.3.3",
+      "dir": "mods",
+      "file": "createaddition-1.20.1-1.3.3.jar",
+      "url": "https://cdn.modrinth.com/data/kU1G12Nn/versions/9LgyB6Yb/createaddition-1.20.1-1.3.3.jar",
+      "sha1": "c7d464c451fdc2979bc29a67d7eec2a30858af12",
+      "size": 1577313
+    },
+    {
+      "name": "create-diesel-generators",
+      "title": "Create: Diesel Generators",
+      "description": "A Create addon that adds compact diesel generators (engines), simple industrial features and crude oil refinery",
+      "page": "https://modrinth.com/mod/create-diesel-generators",
+      "version": "1.20.1-1.3.12",
+      "dir": "mods",
+      "file": "createdieselgenerators-1.20.1-1.3.12.jar",
+      "url": "https://cdn.modrinth.com/data/ZM3tt6p1/versions/DTQVvA5H/createdieselgenerators-1.20.1-1.3.12.jar",
+      "sha1": "416ea3d5c1190246369bbcfa32e5e86597402264",
+      "size": 3128610
+    },
+    {
+      "name": "create-tfmg",
+      "title": "Create: The Factory Must Grow",
+      "description": "Heavy Engineering & Oil For The Create Mod",
+      "page": "https://modrinth.com/mod/create-tfmg",
+      "version": "1.0.2f",
+      "dir": "mods",
+      "file": "tfmg-1.0.2f.jar",
+      "url": "https://cdn.modrinth.com/data/USgVjXsk/versions/ZNOx0jhg/tfmg-1.0.2f.jar",
+      "sha1": "48e6b058f0d515cbb0e673d823e6e4042f9b1d37",
+      "size": 5343749
+    },
+    {
+      "name": "create-big-cannons",
+      "title": "Create Big Cannons",
+      "description": "A Minecraft mod for building large cannons with the Create mod.",
+      "page": "https://modrinth.com/mod/create-big-cannons",
+      "version": "5.11.4",
+      "dir": "mods",
+      "file": "createbigcannons-5.11.4-mc.1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/GWp4jCJj/versions/ZRgu5o3x/createbigcannons-5.11.4-mc.1.20.1-forge.jar",
+      "sha1": "d9be0ace572fe54be904da1bb0b0cc8711db3b70",
+      "size": 4058306
+    },
+    {
+      "name": "rpl",
+      "title": "Ritchie's Projectile Library",
+      "description": "A Minecraft modding library for better projectiles.",
+      "page": "https://modrinth.com/mod/rpl",
+      "version": "2.1.1",
+      "dir": "mods",
+      "file": "ritchiesprojectilelib-2.1.1+mc.1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/B3pb093D/versions/PdGBsNte/ritchiesprojectilelib-2.1.1%2Bmc.1.20.1-forge.jar",
+      "sha1": "3e13ad86b2cc4107b8a18eec1d980ed19cdc37aa",
+      "size": 78625,
+      "requiredBy": "Create Big Cannons"
+    },
+    {
+      "name": "storagedrawers",
+      "title": "Storage Drawers",
+      "description": "Interactive bulk storage solution",
+      "page": "https://modrinth.com/mod/storagedrawers",
+      "version": "1.20.1-12.15.1",
+      "dir": "mods",
+      "file": "StorageDrawers-forge-1.20.1-12.15.1.jar",
+      "url": "https://cdn.modrinth.com/data/guitPqEi/versions/53npfO5m/StorageDrawers-forge-1.20.1-12.15.1.jar",
+      "sha1": "9e6f098c376a96b699a1a883719976b0bbea9e20",
+      "size": 1205433
+    },
+    {
+      "name": "littletiles",
+      "title": "LittleTiles",
+      "description": "This mod allows you to build anything with smaller details. Build amazing looking functional structures like chair, bed, doors, storage.",
+      "page": "https://modrinth.com/mod/littletiles",
+      "version": "1.6.0-pre161",
+      "dir": "mods",
+      "file": "LittleTiles_BETA_v1.6.0-pre161_mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/RCRxC1tD/versions/sBbUjEhq/LittleTiles_BETA_v1.6.0-pre161_mc1.20.1.jar",
+      "sha1": "858d2de167f660c491632ed9727292b418ca804a",
+      "size": 2623590
     },
     {
       "name": "blockui",
