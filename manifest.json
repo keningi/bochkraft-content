@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-03T21:49:53.676Z",
+  "revision": "2026-10-03T22:22:37.469Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -170,6 +170,19 @@
       "size": 15765792
     },
     {
+      "name": "simply-tooltips",
+      "title": "Simply Tooltips",
+      "description": "Modern data driven tooltip rendering",
+      "page": "https://modrinth.com/mod/simply-tooltips",
+      "version": "0.1.5-1.20.1",
+      "dir": "mods",
+      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
+      "size": 5418741,
+      "requiredBy": "Simply Swords"
+    },
+    {
       "name": "fzzy-config",
       "title": "Fzzy Config",
       "description": "Config API with automatic GUIs, powerful validation options, server-client sync, and more!",
@@ -180,7 +193,7 @@
       "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/53kg5uoF/fzzy_config-0.7.7%2B1.20.1%2Bforge.jar",
       "sha1": "1a4f550dea4fb6316a96591dc46a463ee1f6602b",
       "size": 2397175,
-      "requiredBy": "Simply Swords"
+      "requiredBy": "Simply Tooltips"
     },
     {
       "name": "kotlin-for-forge",
@@ -206,20 +219,7 @@
       "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
       "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
       "size": 580602,
-      "requiredBy": "Simply Swords"
-    },
-    {
-      "name": "simply-tooltips",
-      "title": "Simply Tooltips",
-      "description": "Modern data driven tooltip rendering",
-      "page": "https://modrinth.com/mod/simply-tooltips",
-      "version": "0.1.5-1.20.1",
-      "dir": "mods",
-      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
-      "size": 5418741,
-      "requiredBy": "Simply Swords"
+      "requiredBy": "Simply Tooltips"
     },
     {
       "name": "artifacts",
@@ -232,6 +232,68 @@
       "url": "https://cdn.modrinth.com/data/P0Mu4wcQ/versions/lrLPBSzq/artifacts-forge-9.5.19.jar",
       "sha1": "91ab6fc2cc208550f7fc37c43e42eba81eff318e",
       "size": 850974
+    },
+    {
+      "name": "irons-lib",
+      "title": "Iron's Lib",
+      "description": "Provides common functionality and content for Iron's mods",
+      "page": "https://modrinth.com/mod/irons-lib",
+      "version": "1.20.1-2.2.0",
+      "dir": "mods",
+      "file": "irons_lib-1.20.1-2.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/9nfaJPtX/versions/6HqXQkgC/irons_lib-1.20.1-2.2.0.jar",
+      "sha1": "8cad65f57a4bdcbbf3ea8a5eda9240810e3a55aa",
+      "size": 490088
+    },
+    {
+      "name": "geckolib",
+      "title": "Geckolib",
+      "description": "A 3D animation library for entities, blocks, items, armor, and more!",
+      "page": "https://modrinth.com/mod/geckolib",
+      "version": "4.8.4",
+      "dir": "mods",
+      "file": "geckolib-forge-1.20.1-4.8.4.jar",
+      "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/aC5KMoNg/geckolib-forge-1.20.1-4.8.4.jar",
+      "sha1": "50e1407869ef0e909e3bdda9328b8bd7db03fdc0",
+      "size": 1038209,
+      "requiredBy": "Iron's Lib"
+    },
+    {
+      "name": "irons-spells-n-spellbooks",
+      "title": "Iron's Spells 'n Spellbooks",
+      "description": "A magic mod bringing back the classic RPG spellcasting fantasy. (irons spells and spellbooks)",
+      "page": "https://modrinth.com/mod/irons-spells-n-spellbooks",
+      "version": "1.20.1-3.16.3",
+      "dir": "mods",
+      "file": "irons_spellbooks-1.20.1-3.16.3.jar",
+      "url": "https://cdn.modrinth.com/data/s4OWxYQQ/versions/hZaEegS9/irons_spellbooks-1.20.1-3.16.3.jar",
+      "sha1": "726345aa215756bd30b7cf8c338c9ae6bbc59799",
+      "size": 15570397
+    },
+    {
+      "name": "enchantment-descriptions",
+      "title": "Enchantment Descriptions",
+      "description": "Provides a way to get enchantment descriptions from enchanted books.",
+      "page": "https://modrinth.com/mod/enchantment-descriptions",
+      "version": "17.1.21",
+      "dir": "mods",
+      "file": "EnchantmentDescriptions-Forge-1.20.1-17.1.21.jar",
+      "url": "https://cdn.modrinth.com/data/UVtY3ZAC/versions/OPgBRfTQ/EnchantmentDescriptions-Forge-1.20.1-17.1.21.jar",
+      "sha1": "0328a8350cf0a6d1c44265367a077649088b354b",
+      "size": 66883
+    },
+    {
+      "name": "bookshelf-lib",
+      "title": "Bookshelf",
+      "description": "An open source library for other mods!",
+      "page": "https://modrinth.com/mod/bookshelf-lib",
+      "version": "20.2.15",
+      "dir": "mods",
+      "file": "Bookshelf-Forge-1.20.1-20.2.15.jar",
+      "url": "https://cdn.modrinth.com/data/uy4Cnpcm/versions/7eS5OIHj/Bookshelf-Forge-1.20.1-20.2.15.jar",
+      "sha1": "9df4908f606c6dc62a358b3e04e3fdedba59a12c",
+      "size": 343925,
+      "requiredBy": "Enchantment Descriptions"
     },
     {
       "name": "terralith",
@@ -268,6 +330,30 @@
       "url": "https://cdn.modrinth.com/data/rGWEHQrP/versions/58DKgNnY/smallships-forge-1.20.1-2.0.0-b1.4.jar",
       "sha1": "9998ddc8a278e0b87ab642d289ae2a1e3dbebef6",
       "size": 1816687
+    },
+    {
+      "name": "valkyrien-skies",
+      "title": "Valkyrien Skies",
+      "description": "Physics in Minecraft",
+      "page": "https://modrinth.com/mod/valkyrien-skies",
+      "version": "1.20.1-forge-2.4.11",
+      "dir": "mods",
+      "file": "valkyrienskies-120-2.4.11.jar",
+      "url": "https://cdn.modrinth.com/data/V5ujR2yw/versions/pOkdwuUh/valkyrienskies-120-2.4.11.jar",
+      "sha1": "bd3478fcd43d4168950dfa7e77188d7bb12fd43e",
+      "size": 27752937
+    },
+    {
+      "name": "eureka",
+      "title": "Eureka! Ships! for Valkyrien Skies (Forge/Fabric)",
+      "description": "Eureka! Build ships in Minecraft out of ordinary blocks, with physics.",
+      "page": "https://modrinth.com/mod/eureka",
+      "version": "1.20.1-forge-1.6.3",
+      "dir": "mods",
+      "file": "eureka-1201-1.6.3.jar",
+      "url": "https://cdn.modrinth.com/data/EO8aSHxh/versions/w2tkVjFR/eureka-1201-1.6.3.jar",
+      "sha1": "676bd10482e286ca74882629c38cf16ae25971b8",
+      "size": 462827
     },
     {
       "name": "towns-and-towers",
@@ -368,6 +454,132 @@
       "size": 918012
     },
     {
+      "name": "alexs-caves",
+      "title": "Alex's Caves",
+      "description": "Explore six new rare cave biomes hidden under the surface of the Overworld...",
+      "page": "https://modrinth.com/mod/alexs-caves",
+      "version": "2.0.2",
+      "dir": "mods",
+      "file": "alexscaves-2.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/U6GY0xp0/versions/lC8HHXOF/alexscaves-2.0.2.jar",
+      "sha1": "a1e5c7b7c7eadda4c8e954acbcbaf75a7b500d53",
+      "size": 74871657
+    },
+    {
+      "name": "ct-overhaul-village",
+      "title": "ChoiceTheorem's Overhauled Village",
+      "description": "Enhances and creates new villages and pillager outposts, that perfectly fit into your Minecraft world.",
+      "page": "https://modrinth.com/mod/ct-overhaul-village",
+      "version": "3.4.14",
+      "dir": "mods",
+      "file": "[forge]ctov-3.4.14.jar",
+      "url": "https://cdn.modrinth.com/data/fgmhI8kH/versions/o7mg6MeV/%5Bforge%5Dctov-3.4.14.jar",
+      "sha1": "8fa73fd4c5ae58636e159e54321651adf555ac44",
+      "size": 6772753
+    },
+    {
+      "name": "lithostitched",
+      "title": "Lithostitched",
+      "description": "Library mod with new configurability and compatibility enhancements for worldgen",
+      "page": "https://modrinth.com/mod/lithostitched",
+      "version": "1.4.11-forge-1.20",
+      "dir": "mods",
+      "file": "lithostitched-forge-1.20.1-1.4.11.jar",
+      "url": "https://cdn.modrinth.com/data/XaDC71GB/versions/srPoHKt8/lithostitched-forge-1.20.1-1.4.11.jar",
+      "sha1": "d1a755de84ee5d8910ff1e65e815473056e93ece",
+      "size": 476347,
+      "requiredBy": "ChoiceTheorem's Overhauled Village"
+    },
+    {
+      "name": "idas",
+      "title": " Integrated Dungeons and Structures",
+      "description": "Integrated Dungeons and Structures (aka IDAS) is a mod that adds heavily detailed structures using blocks and mobs from Quark, Biomes O’ Plenty, Alex’s Mobs, and Create.",
+      "page": "https://modrinth.com/mod/idas",
+      "version": "1.13.0+1.20.1",
+      "dir": "mods",
+      "file": "idas_forge-1.13.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/Z8OZShAU/versions/mgwwWo3b/idas_forge-1.13.0%2B1.20.1.jar",
+      "sha1": "84386b55c1729e8fb62f91211d046fb6d7ef23d2",
+      "size": 14420114
+    },
+    {
+      "name": "supplementaries",
+      "title": "Supplementaries",
+      "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
+      "page": "https://modrinth.com/mod/supplementaries",
+      "version": "1.20-3.1.43-forge",
+      "dir": "mods",
+      "file": "supplementaries-1.20-3.1.43-forge.jar",
+      "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/S0TIJ1hU/supplementaries-1.20-3.1.43-forge.jar",
+      "sha1": "326d65a29981de28016e3828370d68a8f63e1798",
+      "size": 13667742,
+      "requiredBy": " Integrated Dungeons and Structures"
+    },
+    {
+      "name": "moonlight",
+      "title": "Moonlight Lib",
+      "description": "dynamic data pack and registration, villager activities, custom map marker and a lot more",
+      "page": "https://modrinth.com/mod/moonlight",
+      "version": "1.20-2.16.35-forge",
+      "dir": "mods",
+      "file": "moonlight-1.20-2.16.35-forge.jar",
+      "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/W0ZWjZib/moonlight-1.20-2.16.35-forge.jar",
+      "sha1": "a7885d318f5a6810b0ef543cd1cce7d4308f10e6",
+      "size": 1425229,
+      "requiredBy": "Supplementaries"
+    },
+    {
+      "name": "integrated-api",
+      "title": "Integrated API",
+      "description": "Library mod for the Integrated Structures series",
+      "page": "https://modrinth.com/mod/integrated-api",
+      "version": "1.8.2",
+      "dir": "mods",
+      "file": "integrated_api-forge-1.20.1-1.8.2.jar",
+      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
+      "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
+      "size": 712428,
+      "requiredBy": " Integrated Dungeons and Structures"
+    },
+    {
+      "name": "quark",
+      "title": "Quark",
+      "description": "A Quark is a very small thing. This mod is a collection of small things...",
+      "page": "https://modrinth.com/mod/quark",
+      "version": "1.20.1-4.0-462",
+      "dir": "mods",
+      "file": "Quark-4.0-462.jar",
+      "url": "https://cdn.modrinth.com/data/qnQsVE2z/versions/DijQLauD/Quark-4.0-462.jar",
+      "sha1": "9b0fb82995622a0070c00827c698c43b49d9d14b",
+      "size": 14935230,
+      "requiredBy": " Integrated Dungeons and Structures"
+    },
+    {
+      "name": "zeta",
+      "title": "Zeta",
+      "description": "Comprehensive Load-Bearing Library for Modular Mods",
+      "page": "https://modrinth.com/mod/zeta",
+      "version": "1.20.1-1.0-31",
+      "dir": "mods",
+      "file": "Zeta-1.0-31.jar",
+      "url": "https://cdn.modrinth.com/data/MVARlG2f/versions/mSER3jBI/Zeta-1.0-31.jar",
+      "sha1": "8c4a8ef0444b53ff408d5b89126285031081d92f",
+      "size": 1006518,
+      "requiredBy": "Quark"
+    },
+    {
+      "name": "the-lost-cities",
+      "title": "The Lost Cities",
+      "description": "Allows the player to play in an old abandoned city instead of the normal overworld",
+      "page": "https://modrinth.com/mod/the-lost-cities",
+      "version": "1.20-7.5.6",
+      "dir": "mods",
+      "file": "lostcities-1.20-7.5.6.jar",
+      "url": "https://cdn.modrinth.com/data/8VDCUS3b/versions/YOr2hSvX/lostcities-1.20-7.5.6.jar",
+      "sha1": "254e3e5cacb1794c5b1cd2be3236a30e55259074",
+      "size": 1442102
+    },
+    {
       "name": "waystones",
       "title": "Waystones",
       "description": "Teleport from waystone to waystone or craft magical scrolls to warp.",
@@ -415,19 +627,6 @@
       "url": "https://cdn.modrinth.com/data/8YcE8y4T/versions/RCsQFeua/Ribbits-1.20.1-Forge-3.0.5.jar",
       "sha1": "5cc73d3399248300a188164406cd801cc4ae00b3",
       "size": 2223589
-    },
-    {
-      "name": "geckolib",
-      "title": "Geckolib",
-      "description": "A 3D animation library for entities, blocks, items, armor, and more!",
-      "page": "https://modrinth.com/mod/geckolib",
-      "version": "4.8.4",
-      "dir": "mods",
-      "file": "geckolib-forge-1.20.1-4.8.4.jar",
-      "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/aC5KMoNg/geckolib-forge-1.20.1-4.8.4.jar",
-      "sha1": "50e1407869ef0e909e3bdda9328b8bd7db03fdc0",
-      "size": 1038209,
-      "requiredBy": "Ribbits"
     },
     {
       "name": "friends-and-foes-forge",
@@ -626,16 +825,16 @@
       "size": 11895585
     },
     {
-      "name": "fusion-connected-textures",
-      "title": "Fusion (Connected Textures)",
-      "description": "Fusion allows resource packs to use additional texture and model types such as connected textures!",
-      "page": "https://modrinth.com/mod/fusion-connected-textures",
-      "version": "1.3.15b-forge-mc1.20.1",
+      "name": "supermartijn642s-config-lib",
+      "title": "SuperMartijn642's Config Lib",
+      "description": "Config Lib makes dealing with config files just a bit easier.",
+      "page": "https://modrinth.com/mod/supermartijn642s-config-lib",
+      "version": "1.1.8-forge-mc1.20",
       "dir": "mods",
-      "file": "fusion-1.3.15b-forge-mc1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/p19vrgc2/versions/EQaOpkjt/fusion-1.3.15b-forge-mc1.20.1.jar",
-      "sha1": "9770ee0fdd377a5cd16bfab53341f62f656ff51a",
-      "size": 972917,
+      "file": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+      "url": "https://cdn.modrinth.com/data/LN9BxssP/versions/ZKor79dR/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+      "sha1": "f80f9eed728966adcfbcc848633e789645057281",
+      "size": 206584,
       "requiredBy": "Rechiseled"
     },
     {
@@ -652,16 +851,16 @@
       "requiredBy": "Rechiseled"
     },
     {
-      "name": "supermartijn642s-config-lib",
-      "title": "SuperMartijn642's Config Lib",
-      "description": "Config Lib makes dealing with config files just a bit easier.",
-      "page": "https://modrinth.com/mod/supermartijn642s-config-lib",
-      "version": "1.1.8-forge-mc1.20",
+      "name": "fusion-connected-textures",
+      "title": "Fusion (Connected Textures)",
+      "description": "Fusion allows resource packs to use additional texture and model types such as connected textures!",
+      "page": "https://modrinth.com/mod/fusion-connected-textures",
+      "version": "1.3.15b-forge-mc1.20.1",
       "dir": "mods",
-      "file": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
-      "url": "https://cdn.modrinth.com/data/LN9BxssP/versions/ZKor79dR/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
-      "sha1": "f80f9eed728966adcfbcc848633e789645057281",
-      "size": 206584,
+      "file": "fusion-1.3.15b-forge-mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/p19vrgc2/versions/EQaOpkjt/fusion-1.3.15b-forge-mc1.20.1.jar",
+      "sha1": "9770ee0fdd377a5cd16bfab53341f62f656ff51a",
+      "size": 972917,
       "requiredBy": "Rechiseled"
     },
     {
@@ -700,31 +899,6 @@
       "url": "https://cdn.modrinth.com/data/B8jaH3P1/versions/31e80GhE/mcw-roofs-2.3.2-mc1.20.1forge.jar",
       "sha1": "2b02beb2bd177aa695dc6fc030fc3bb230ca96b1",
       "size": 1864023
-    },
-    {
-      "name": "supplementaries",
-      "title": "Supplementaries",
-      "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
-      "page": "https://modrinth.com/mod/supplementaries",
-      "version": "1.20-3.1.43-forge",
-      "dir": "mods",
-      "file": "supplementaries-1.20-3.1.43-forge.jar",
-      "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/S0TIJ1hU/supplementaries-1.20-3.1.43-forge.jar",
-      "sha1": "326d65a29981de28016e3828370d68a8f63e1798",
-      "size": 13667742
-    },
-    {
-      "name": "moonlight",
-      "title": "Moonlight Lib",
-      "description": "dynamic data pack and registration, villager activities, custom map marker and a lot more",
-      "page": "https://modrinth.com/mod/moonlight",
-      "version": "1.20-2.16.35-forge",
-      "dir": "mods",
-      "file": "moonlight-1.20-2.16.35-forge.jar",
-      "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/W0ZWjZib/moonlight-1.20-2.16.35-forge.jar",
-      "sha1": "a7885d318f5a6810b0ef543cd1cce7d4308f10e6",
-      "size": 1425229,
-      "requiredBy": "Supplementaries"
     },
     {
       "name": "amendments",
@@ -894,6 +1068,18 @@
       "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/rlPmwaQX/xaeroworldmap-forge-1.20.1-1.46.0.jar",
       "sha1": "4906476a6a0a7e64772db17b3e707fdd4bbbc0fb",
       "size": 1425022
+    },
+    {
+      "name": "icon-xaeros",
+      "title": "Icon Xaero's",
+      "description": "Icon mod for xaero's map and minimap \nMany icon mod",
+      "page": "https://modrinth.com/resourcepack/icon-xaeros",
+      "version": "1.22",
+      "dir": "resourcepacks",
+      "file": "Icon Xaero's 1.22.zip",
+      "url": "https://cdn.modrinth.com/data/LWGq2eg6/versions/OC90EEmJ/Icon%20Xaero%27s%201.22.zip",
+      "sha1": "a14777ad5dac4fd37c4429c29165c87f6270102e",
+      "size": 18866675
     },
     {
       "name": "appleskin",
@@ -1624,41 +1810,16 @@
       "requiredBy": "Regions Unexplored"
     },
     {
-      "name": "skills",
-      "title": "Pufferfish's Skills",
-      "description": "Adds a fully configurable skill system to the game.",
-      "page": "https://modrinth.com/mod/skills",
-      "version": "0.19.1",
+      "name": "attributefix",
+      "title": "AttributeFix",
+      "description": "Removes arbitrary limits on Minecraft's attribute system. Fixes MANY mods!",
+      "page": "https://modrinth.com/mod/attributefix",
+      "version": "21.0.5",
       "dir": "mods",
-      "file": "puffish_skills-0.19.1-1.20-forge.jar",
-      "url": "https://cdn.modrinth.com/data/hqQqvaa4/versions/Ikp1oR0C/puffish_skills-0.19.1-1.20-forge.jar",
-      "sha1": "3b1f562f272dfcb735d40c3d879fb21dcbb06588",
-      "size": 647254
-    },
-    {
-      "name": "default-skill-trees",
-      "title": "Default Skill Trees",
-      "description": "The default skill trees for Pufferfish's Skills mod.",
-      "page": "https://modrinth.com/mod/default-skill-trees",
-      "version": "1.1",
-      "dir": "mods",
-      "file": "default_skill_trees-1.1.jar",
-      "url": "https://cdn.modrinth.com/data/4w7YR25f/versions/x7XL8Z3U/default_skill_trees-1.1.jar",
-      "sha1": "564a1320a4d26de1ad476687ce1920ccd12c142c",
-      "size": 11519
-    },
-    {
-      "name": "attributes",
-      "title": "Pufferfish's Attributes",
-      "description": "A Minecraft mod that adds more attributes to the game.",
-      "page": "https://modrinth.com/mod/attributes",
-      "version": "0.8.2",
-      "dir": "mods",
-      "file": "puffish_attributes-0.8.2-1.20-forge.jar",
-      "url": "https://cdn.modrinth.com/data/FCFcFw09/versions/IG5KY4Qf/puffish_attributes-0.8.2-1.20-forge.jar",
-      "sha1": "c6ff07c4ee3111b480fee577cb98c3671cf063b8",
-      "size": 237815,
-      "requiredBy": "Default Skill Trees"
+      "file": "AttributeFix-Forge-1.20.1-21.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/lOOpEntO/versions/ihWybkI9/AttributeFix-Forge-1.20.1-21.0.5.jar",
+      "sha1": "76d6b2d0f2a3c9842587ad20666ba419cd8c1efa",
+      "size": 19499
     },
     {
       "name": "mowzies-mobs",
@@ -1938,6 +2099,16 @@
       "size": 78186873
     },
     {
+      "name": "modkniga",
+      "title": "New Enchants!",
+      "version": "3.0.0",
+      "dir": "mods",
+      "file": "modkniga-3.0.0.jar",
+      "url": "https://mediafilez.forgecdn.net/files/9051/980/modkniga-3.0.0.jar",
+      "sha1": "18a0368f81365de1f58f0f1086368ae69120369d",
+      "size": 87880
+    },
+    {
       "name": "multipiston",
       "title": "Multi-Piston",
       "version": "1.20-0.0.47-snapshot",
@@ -1946,6 +2117,16 @@
       "url": "https://mediafilez.forgecdn.net/files/7097/889/multipiston-1.20-0.0.47-snapshot.jar",
       "sha1": "11b4ee209c6fba7991f25c50c0cd6376c1362dbf",
       "size": 39567
+    },
+    {
+      "name": "skilltree",
+      "title": "Passive Skill Tree",
+      "version": "0.7.6e",
+      "dir": "mods",
+      "file": "PassiveSkillTree-1.20.1-BETA-0.7.6e-all.jar",
+      "url": "https://mediafilez.forgecdn.net/files/8483/796/PassiveSkillTree-1.20.1-BETA-0.7.6e-all.jar",
+      "sha1": "5ff95e985c51b6916ce726178d58c4e812a6c294",
+      "size": 2154602
     },
     {
       "name": "structurize",
@@ -1970,6 +2151,17 @@
       "size": 1271
     },
     {
+      "name": "config/lostcities/common.toml",
+      "title": "common.toml",
+      "version": "файл сборки",
+      "dir": "config/lostcities",
+      "file": "common.toml",
+      "local": "overrides/config/lostcities/common.toml",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/lostcities/common.toml",
+      "sha1": "351131c00d40fb40c640fe69b235b1bee6a36b82",
+      "size": 683
+    },
+    {
       "name": "config/physicsmod/physics_client_config.json",
       "title": "physics_client_config.json",
       "version": "файл сборки",
@@ -1990,6 +2182,17 @@
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/physicsmod/physics_server_config.json",
       "sha1": "486847708c3a3ee2ea5152b9e8f8426b0c9133b6",
       "size": 99
+    },
+    {
+      "name": "config/quark-common.toml",
+      "title": "quark-common.toml",
+      "version": "файл сборки",
+      "dir": "config",
+      "file": "quark-common.toml",
+      "local": "overrides/config/quark-common.toml",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/quark-common.toml",
+      "sha1": "1cdcb3d221ceca47f2392251c3f14f3d1707fef9",
+      "size": 80324
     },
     {
       "name": "CustomSkinLoader/CustomSkinLoader.json",
@@ -2042,7 +2245,7 @@
   "launcher": "0.2.4",
   "keybinds": {
     "_comment": "Раскладка клавиш сборки BochKraft. Лаунчер при синхронизации записывает эти бинды в options.txt игрока, пока игрок сам их не поменял в игре (ключи с меткой в options.txt не трогаются повторно). Формат ключей — как в options.txt.",
-    "_revision": 3,
+    "_revision": 4,
     "binds": {
       "key_key.pointblack.reload": "key.keyboard.r",
       "key_key.pointblack.firemode": "key.keyboard.f6",
@@ -2092,13 +2295,35 @@
       "key_key.shouldersurfing.adjust_camera_down": "key.keyboard.unknown",
       "key_key.little.config.item": "key.keyboard.y",
       "key_key.little.mark": "key.keyboard.period",
-      "key_key.little.mirror": "key.keyboard.comma"
+      "key_key.little.mirror": "key.keyboard.comma",
+      "key_key.irons_spellbooks.spell_wheel": "key.keyboard.z",
+      "key_key.irons_spellbooks.spellbook_cast": "key.keyboard.x",
+      "key_quark.keybind.variant_selector": "key.keyboard.unknown",
+      "key_quark.keybind.change_hotbar": "key.keyboard.unknown",
+      "key_quark.keybind.lock_rotation": "key.keyboard.unknown",
+      "key_quark.keybind.camera_mode": "key.keyboard.unknown",
+      "key_key.display_skill_tree": "key.keyboard.k",
+      "key_key.special_ability": "key.keyboard.keypad.5",
+      "key_key.valkyrienskies.ship_down": "key.keyboard.left.control",
+      "key_physicsmod.keybinding.guiphysics": "key.keyboard.unknown",
+      "key_physicsmod.keybinding.physicsmenu": "key.keyboard.unknown",
+      "key_key.presencefootsteps.settings": "key.keyboard.unknown",
+      "key_tfmg.keyinfo.transmission_shift_up": "key.keyboard.page.up",
+      "key_tfmg.keyinfo.transmission_shift_down": "key.keyboard.page.down",
+      "key_tfmg.keyinfo.engine_start": "key.keyboard.home",
+      "key_tfmg.keyinfo.custom_button": "key.keyboard.end",
+      "key_key.dragonsofberk.keyGrab": "key.mouse.middle",
+      "key_key.dragonsofberk.keyDismountTerror": "key.keyboard.keypad.multiply",
+      "key_key.jei.showRecipe": "key.keyboard.y",
+      "key_key.socialInteractions": "key.keyboard.unknown",
+      "key_key.jade.narrate": "key.keyboard.unknown"
     }
   },
   "options": {
     "resourcePacks": [
+      "file/Icon Xaero's 1.22.zip",
       "file/FreshAnimations_v1.10.4.zip"
     ],
-    "_revision": "file/FreshAnimations_v1.10.4.zip"
+    "_revision": "file/Icon Xaero's 1.22.zip|file/FreshAnimations_v1.10.4.zip"
   }
 }
