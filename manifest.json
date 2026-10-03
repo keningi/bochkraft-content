@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-03T11:22:31.113Z",
+  "revision": "2026-10-03T11:34:15.128Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -614,19 +614,6 @@
       "size": 11895585
     },
     {
-      "name": "fusion-connected-textures",
-      "title": "Fusion (Connected Textures)",
-      "description": "Fusion allows resource packs to use additional texture and model types such as connected textures!",
-      "page": "https://modrinth.com/mod/fusion-connected-textures",
-      "version": "1.3.15b-forge-mc1.20.1",
-      "dir": "mods",
-      "file": "fusion-1.3.15b-forge-mc1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/p19vrgc2/versions/EQaOpkjt/fusion-1.3.15b-forge-mc1.20.1.jar",
-      "sha1": "9770ee0fdd377a5cd16bfab53341f62f656ff51a",
-      "size": 972917,
-      "requiredBy": "Rechiseled"
-    },
-    {
       "name": "supermartijn642s-core-lib",
       "title": "SuperMartijn642's Core Lib",
       "description": "SuperMartijn642's Core Lib adds lots of basic implementations that allow for similar code between different Minecraft versions!",
@@ -650,6 +637,19 @@
       "url": "https://cdn.modrinth.com/data/LN9BxssP/versions/ZKor79dR/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
       "sha1": "f80f9eed728966adcfbcc848633e789645057281",
       "size": 206584,
+      "requiredBy": "Rechiseled"
+    },
+    {
+      "name": "fusion-connected-textures",
+      "title": "Fusion (Connected Textures)",
+      "description": "Fusion allows resource packs to use additional texture and model types such as connected textures!",
+      "page": "https://modrinth.com/mod/fusion-connected-textures",
+      "version": "1.3.15b-forge-mc1.20.1",
+      "dir": "mods",
+      "file": "fusion-1.3.15b-forge-mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/p19vrgc2/versions/EQaOpkjt/fusion-1.3.15b-forge-mc1.20.1.jar",
+      "sha1": "9770ee0fdd377a5cd16bfab53341f62f656ff51a",
+      "size": 972917,
       "requiredBy": "Rechiseled"
     },
     {
@@ -1804,6 +1804,16 @@
       "size": 391051
     },
     {
+      "name": "configured",
+      "title": "Configured",
+      "version": "2.2.3",
+      "dir": "mods",
+      "file": "configured-forge-1.20.1-2.2.3.jar",
+      "url": "https://mediafilez.forgecdn.net/files/5180/900/configured-forge-1.20.1-2.2.3.jar",
+      "sha1": "065c2d287a52f52fc8d33d780192325ee6f4b6ae",
+      "size": 418929
+    },
+    {
       "name": "domum_ornamentum",
       "title": "Domum Ornamentum",
       "version": "1.20.1-1.0.304-snapshot",
@@ -1838,7 +1848,7 @@
       "name": "framework",
       "title": "Framework",
       "version": "0.8.0",
-      "requiredBy": "Goblin Traders",
+      "requiredBy": "Configured",
       "dir": "mods",
       "file": "framework-forge-1.20.1-0.8.0.jar",
       "url": "https://mediafilez.forgecdn.net/files/7573/740/framework-forge-1.20.1-0.8.0.jar",
