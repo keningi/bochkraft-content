@@ -1,6 +1,6 @@
 {
   "_comment": "Контент лаунчера BochKraft. Меняешь здесь → npm run publish:content → у всех обновится при следующем запуске лаунчера.",
-  "revision": "2026-10-03T11:35:44.417Z",
+  "revision": "2026-10-03T11:39:22.447Z",
   "news": [
     {
       "title": "Сборка BochKraft",
@@ -56,7 +56,7 @@
     "enabled": true,
     "title": "ХАЙЛАЙТ ДНЯ",
     "subtitle": "момент от игроков BochKraft",
-    "video": "media/highlight.mp4",
+    "video": "media/highlight-2026-10-03.mp4",
     "volume": 0.05
   },
   "server": null,
