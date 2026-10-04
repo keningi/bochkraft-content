@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-04T16:42:31.681Z",
+  "revision": "2026-10-04T17:56:25.022Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -120,19 +120,6 @@
       "size": 1054339
     },
     {
-      "name": "playeranimator",
-      "title": "playerAnimator",
-      "description": "animate the player",
-      "page": "https://modrinth.com/mod/playeranimator",
-      "version": "1.0.2-rc1+1.20-forge",
-      "dir": "mods",
-      "file": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
-      "url": "https://cdn.modrinth.com/data/gedNE4y2/versions/xe2EVE6q/player-animation-lib-forge-1.0.2-rc1%2B1.20.jar",
-      "sha1": "16808f94a41d45d8e986b4e4ea6b02ba57fa058a",
-      "size": 181437,
-      "requiredBy": "Better Combat"
-    },
-    {
       "name": "cloth-config",
       "title": "Cloth Config API",
       "description": "Configuration Library for Minecraft Mods",
@@ -143,6 +130,19 @@
       "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
       "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
       "size": 1181413,
+      "requiredBy": "Better Combat"
+    },
+    {
+      "name": "playeranimator",
+      "title": "playerAnimator",
+      "description": "animate the player",
+      "page": "https://modrinth.com/mod/playeranimator",
+      "version": "1.0.2-rc1+1.20-forge",
+      "dir": "mods",
+      "file": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/gedNE4y2/versions/xe2EVE6q/player-animation-lib-forge-1.0.2-rc1%2B1.20.jar",
+      "sha1": "16808f94a41d45d8e986b4e4ea6b02ba57fa058a",
+      "size": 181437,
       "requiredBy": "Better Combat"
     },
     {
@@ -503,19 +503,6 @@
       "size": 14420114
     },
     {
-      "name": "integrated-api",
-      "title": "Integrated API",
-      "description": "Library mod for the Integrated Structures series",
-      "page": "https://modrinth.com/mod/integrated-api",
-      "version": "1.8.2",
-      "dir": "mods",
-      "file": "integrated_api-forge-1.20.1-1.8.2.jar",
-      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
-      "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
-      "size": 712428,
-      "requiredBy": " Integrated Dungeons and Structures"
-    },
-    {
       "name": "supplementaries",
       "title": "Supplementaries",
       "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
@@ -566,6 +553,19 @@
       "sha1": "8c4a8ef0444b53ff408d5b89126285031081d92f",
       "size": 1006518,
       "requiredBy": "Quark"
+    },
+    {
+      "name": "integrated-api",
+      "title": "Integrated API",
+      "description": "Library mod for the Integrated Structures series",
+      "page": "https://modrinth.com/mod/integrated-api",
+      "version": "1.8.2",
+      "dir": "mods",
+      "file": "integrated_api-forge-1.20.1-1.8.2.jar",
+      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
+      "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
+      "size": 712428,
+      "requiredBy": " Integrated Dungeons and Structures"
     },
     {
       "name": "the-lost-cities",
@@ -2199,8 +2199,8 @@
       "file": "quark-common.toml",
       "local": "overrides/config/quark-common.toml",
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/quark-common.toml",
-      "sha1": "1cdcb3d221ceca47f2392251c3f14f3d1707fef9",
-      "size": 80324
+      "sha1": "0e005862652209c90040c82337b9ade3a3167f11",
+      "size": 80325
     },
     {
       "name": "CustomSkinLoader/CustomSkinLoader.json",
