@@ -6,8 +6,8 @@
       "name": "BochKraft",
       "type": "Legacy",
       "checkPNG": false,
-      "model": "auto",
       "skin": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/skins/{USERNAME}.png",
+      "model": "auto",
       "cape": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/capes/{USERNAME}.png",
       "elytra": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/capes/{USERNAME}.png"
     },
@@ -44,7 +44,7 @@
     {
       "name": "GlitchlessGames",
       "type": "ElyByAPI",
-      "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname="
+      "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname\u003d"
     },
     {
       "name": "LocalSkin",

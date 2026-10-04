@@ -29,9 +29,9 @@
     "denied": [],
     "preserve": false,
     "ignoreTools": false,
-    "damageMultiplicand": 1,
+    "damageMultiplicand": 1.0,
     "damageRounding": "ROUND_DOWN",
-    "speedMultiplicand": 1,
+    "speedMultiplicand": 1.0,
     "forceToolUsage": false
   },
   "player": {

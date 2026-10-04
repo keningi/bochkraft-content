@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-04T19:03:07.319Z",
+  "revision": "2026-10-04T23:31:23.137Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -170,6 +170,19 @@
       "size": 15765792
     },
     {
+      "name": "simply-tooltips",
+      "title": "Simply Tooltips",
+      "description": "Modern data driven tooltip rendering",
+      "page": "https://modrinth.com/mod/simply-tooltips",
+      "version": "0.1.5-1.20.1",
+      "dir": "mods",
+      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
+      "size": 5418741,
+      "requiredBy": "Simply Swords"
+    },
+    {
       "name": "fzzy-config",
       "title": "Fzzy Config",
       "description": "Config API with automatic GUIs, powerful validation options, server-client sync, and more!",
@@ -180,7 +193,7 @@
       "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/53kg5uoF/fzzy_config-0.7.7%2B1.20.1%2Bforge.jar",
       "sha1": "1a4f550dea4fb6316a96591dc46a463ee1f6602b",
       "size": 2397175,
-      "requiredBy": "Simply Swords"
+      "requiredBy": "Simply Tooltips"
     },
     {
       "name": "kotlin-for-forge",
@@ -194,19 +207,6 @@
       "sha1": "962fdb760409d6d71cbf079235f1ca94e3863a22",
       "size": 7442998,
       "requiredBy": "Fzzy Config"
-    },
-    {
-      "name": "simply-tooltips",
-      "title": "Simply Tooltips",
-      "description": "Modern data driven tooltip rendering",
-      "page": "https://modrinth.com/mod/simply-tooltips",
-      "version": "0.1.5-1.20.1",
-      "dir": "mods",
-      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
-      "size": 5418741,
-      "requiredBy": "Simply Swords"
     },
     {
       "name": "architectury-api",
@@ -825,6 +825,19 @@
       "size": 11895585
     },
     {
+      "name": "supermartijn642s-config-lib",
+      "title": "SuperMartijn642's Config Lib",
+      "description": "Config Lib makes dealing with config files just a bit easier.",
+      "page": "https://modrinth.com/mod/supermartijn642s-config-lib",
+      "version": "1.1.8-forge-mc1.20",
+      "dir": "mods",
+      "file": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+      "url": "https://cdn.modrinth.com/data/LN9BxssP/versions/ZKor79dR/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+      "sha1": "f80f9eed728966adcfbcc848633e789645057281",
+      "size": 206584,
+      "requiredBy": "Rechiseled"
+    },
+    {
       "name": "fusion-connected-textures",
       "title": "Fusion (Connected Textures)",
       "description": "Fusion allows resource packs to use additional texture and model types such as connected textures!",
@@ -848,19 +861,6 @@
       "url": "https://cdn.modrinth.com/data/rOUBggPv/versions/7fVdwsOt/supermartijn642corelib-1.1.24b-forge-mc1.20.1.jar",
       "sha1": "07bfad3e704a3ab9fe11df42a3acb6315206713c",
       "size": 559482,
-      "requiredBy": "Rechiseled"
-    },
-    {
-      "name": "supermartijn642s-config-lib",
-      "title": "SuperMartijn642's Config Lib",
-      "description": "Config Lib makes dealing with config files just a bit easier.",
-      "page": "https://modrinth.com/mod/supermartijn642s-config-lib",
-      "version": "1.1.8-forge-mc1.20",
-      "dir": "mods",
-      "file": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
-      "url": "https://cdn.modrinth.com/data/LN9BxssP/versions/ZKor79dR/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
-      "sha1": "f80f9eed728966adcfbcc848633e789645057281",
-      "size": 206584,
       "requiredBy": "Rechiseled"
     },
     {
@@ -1796,6 +1796,18 @@
       "size": 5726781
     },
     {
+      "name": "oh-the-trees-youll-grow",
+      "title": "Oh The Trees You'll Grow",
+      "description": "Tree library used by popular mods such as Oh The Biomes You'll Go.",
+      "page": "https://modrinth.com/mod/oh-the-trees-youll-grow",
+      "version": "1.20.1-1.7.1-Forge",
+      "dir": "mods",
+      "file": "Oh-The-Trees-Youll-Grow-forge-1.20.1-1.7.1.jar",
+      "url": "https://cdn.modrinth.com/data/g8NOG5OR/versions/NqxtaCFS/Oh-The-Trees-Youll-Grow-forge-1.20.1-1.7.1.jar",
+      "sha1": "9a003810b343c2243828816d29de237ed802df29",
+      "size": 171965
+    },
+    {
       "name": "oh-the-biomes-weve-gone",
       "title": "Oh The Biomes We've Gone",
       "description": "An astounding sequel to the original BYG mod for 1.20.1+ with over 50+ biomes ranging from the magical to the realistic and all breathtaking!",
@@ -1818,19 +1830,6 @@
       "url": "https://cdn.modrinth.com/data/ziOp6EO8/versions/HXTB2EAy/Corgilib-Forge-1.20.1-4.0.3.5.jar",
       "sha1": "ef71df3c9a3d22432d63957a8db00645353bfe36",
       "size": 318765,
-      "requiredBy": "Oh The Biomes We've Gone"
-    },
-    {
-      "name": "oh-the-trees-youll-grow",
-      "title": "Oh The Trees You'll Grow",
-      "description": "Tree library used by popular mods such as Oh The Biomes You'll Go.",
-      "page": "https://modrinth.com/mod/oh-the-trees-youll-grow",
-      "version": "1.20.1-1.7.1-Forge",
-      "dir": "mods",
-      "file": "Oh-The-Trees-Youll-Grow-forge-1.20.1-1.7.1.jar",
-      "url": "https://cdn.modrinth.com/data/g8NOG5OR/versions/NqxtaCFS/Oh-The-Trees-Youll-Grow-forge-1.20.1-1.7.1.jar",
-      "sha1": "9a003810b343c2243828816d29de237ed802df29",
-      "size": 171965,
       "requiredBy": "Oh The Biomes We've Gone"
     },
     {
@@ -2182,8 +2181,8 @@
       "file": "fallingtree.json",
       "local": "overrides/config/fallingtree.json",
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/fallingtree.json",
-      "sha1": "d4cfb9dc26820ad3cb849959a2122af9a6f11bde",
-      "size": 1271
+      "sha1": "3581e2797d405ff25a4c8fa1b8229adb285d2bd5",
+      "size": 1274
     },
     {
       "name": "config/fml.toml",
@@ -2193,8 +2192,8 @@
       "file": "fml.toml",
       "local": "overrides/config/fml.toml",
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/fml.toml",
-      "sha1": "5d73a977085e1c65a07e12bf3cbf4869871e7be8",
-      "size": 1117
+      "sha1": "811e2831ced8121fb2087e35811a19d8e408040c",
+      "size": 1146
     },
     {
       "name": "config/lostcities/common.toml",
@@ -2204,8 +2203,8 @@
       "file": "common.toml",
       "local": "overrides/config/lostcities/common.toml",
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/lostcities/common.toml",
-      "sha1": "351131c00d40fb40c640fe69b235b1bee6a36b82",
-      "size": 683
+      "sha1": "60224568086a2d401ed94bc0cea3614302e7c25f",
+      "size": 694
     },
     {
       "name": "config/physicsmod/physics_client_config.json",
@@ -2215,8 +2214,8 @@
       "file": "physics_client_config.json",
       "local": "overrides/config/physicsmod/physics_client_config.json",
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/physicsmod/physics_client_config.json",
-      "sha1": "5fd0e30f70c154cbddc8691d22d76d801b6c935f",
-      "size": 3810
+      "sha1": "235fde973a180f5b697afe971f9ec79a36b1c851",
+      "size": 4175
     },
     {
       "name": "config/physicsmod/physics_server_config.json",
@@ -2237,8 +2236,8 @@
       "file": "quark-common.toml",
       "local": "overrides/config/quark-common.toml",
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/quark-common.toml",
-      "sha1": "0e005862652209c90040c82337b9ade3a3167f11",
-      "size": 80325
+      "sha1": "db8e076c744d8d2ead7a1735452386a4d8b672a3",
+      "size": 82279
     },
     {
       "name": "CustomSkinLoader/CustomSkinLoader.json",
@@ -2248,8 +2247,8 @@
       "file": "CustomSkinLoader.json",
       "local": "overrides/CustomSkinLoader/CustomSkinLoader.json",
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/CustomSkinLoader/CustomSkinLoader.json",
-      "sha1": "20392709ba7c2ebffa368c2f587e217e3b174668",
-      "size": 2394
+      "sha1": "fd9cc843252b46aee0f965eb9ec1d2b1c6b78d9e",
+      "size": 2398
     },
     {
       "name": "config/snowrealmagic-common.yaml",
