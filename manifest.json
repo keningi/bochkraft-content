@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-03T22:22:37.469Z",
+  "revision": "2026-10-04T15:28:54.885Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -70,19 +70,6 @@
       "size": 73916104
     },
     {
-      "name": "curios",
-      "title": "Curios API",
-      "description": "A flexible and expandable accessory/equipment API for users and developers.",
-      "page": "https://modrinth.com/mod/curios",
-      "version": "5.14.1+1.20.1",
-      "dir": "mods",
-      "file": "curios-forge-5.14.1+1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
-      "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
-      "size": 398066,
-      "requiredBy": "L_Ender's Cataclysm"
-    },
-    {
       "name": "lionfish-api",
       "title": "Lionfish-API",
       "description": "Very Light Animation Api",
@@ -93,6 +80,19 @@
       "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
       "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
       "size": 101931,
+      "requiredBy": "L_Ender's Cataclysm"
+    },
+    {
+      "name": "curios",
+      "title": "Curios API",
+      "description": "A flexible and expandable accessory/equipment API for users and developers.",
+      "page": "https://modrinth.com/mod/curios",
+      "version": "5.14.1+1.20.1",
+      "dir": "mods",
+      "file": "curios-forge-5.14.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
+      "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
+      "size": 398066,
       "requiredBy": "L_Ender's Cataclysm"
     },
     {
@@ -120,19 +120,6 @@
       "size": 1054339
     },
     {
-      "name": "playeranimator",
-      "title": "playerAnimator",
-      "description": "animate the player",
-      "page": "https://modrinth.com/mod/playeranimator",
-      "version": "1.0.2-rc1+1.20-forge",
-      "dir": "mods",
-      "file": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
-      "url": "https://cdn.modrinth.com/data/gedNE4y2/versions/xe2EVE6q/player-animation-lib-forge-1.0.2-rc1%2B1.20.jar",
-      "sha1": "16808f94a41d45d8e986b4e4ea6b02ba57fa058a",
-      "size": 181437,
-      "requiredBy": "Better Combat"
-    },
-    {
       "name": "cloth-config",
       "title": "Cloth Config API",
       "description": "Configuration Library for Minecraft Mods",
@@ -143,6 +130,19 @@
       "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
       "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
       "size": 1181413,
+      "requiredBy": "Better Combat"
+    },
+    {
+      "name": "playeranimator",
+      "title": "playerAnimator",
+      "description": "animate the player",
+      "page": "https://modrinth.com/mod/playeranimator",
+      "version": "1.0.2-rc1+1.20-forge",
+      "dir": "mods",
+      "file": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/gedNE4y2/versions/xe2EVE6q/player-animation-lib-forge-1.0.2-rc1%2B1.20.jar",
+      "sha1": "16808f94a41d45d8e986b4e4ea6b02ba57fa058a",
+      "size": 181437,
       "requiredBy": "Better Combat"
     },
     {
@@ -503,6 +503,19 @@
       "size": 14420114
     },
     {
+      "name": "integrated-api",
+      "title": "Integrated API",
+      "description": "Library mod for the Integrated Structures series",
+      "page": "https://modrinth.com/mod/integrated-api",
+      "version": "1.8.2",
+      "dir": "mods",
+      "file": "integrated_api-forge-1.20.1-1.8.2.jar",
+      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
+      "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
+      "size": 712428,
+      "requiredBy": " Integrated Dungeons and Structures"
+    },
+    {
       "name": "supplementaries",
       "title": "Supplementaries",
       "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
@@ -527,19 +540,6 @@
       "sha1": "a7885d318f5a6810b0ef543cd1cce7d4308f10e6",
       "size": 1425229,
       "requiredBy": "Supplementaries"
-    },
-    {
-      "name": "integrated-api",
-      "title": "Integrated API",
-      "description": "Library mod for the Integrated Structures series",
-      "page": "https://modrinth.com/mod/integrated-api",
-      "version": "1.8.2",
-      "dir": "mods",
-      "file": "integrated_api-forge-1.20.1-1.8.2.jar",
-      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
-      "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
-      "size": 712428,
-      "requiredBy": " Integrated Dungeons and Structures"
     },
     {
       "name": "quark",
@@ -825,19 +825,6 @@
       "size": 11895585
     },
     {
-      "name": "supermartijn642s-config-lib",
-      "title": "SuperMartijn642's Config Lib",
-      "description": "Config Lib makes dealing with config files just a bit easier.",
-      "page": "https://modrinth.com/mod/supermartijn642s-config-lib",
-      "version": "1.1.8-forge-mc1.20",
-      "dir": "mods",
-      "file": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
-      "url": "https://cdn.modrinth.com/data/LN9BxssP/versions/ZKor79dR/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
-      "sha1": "f80f9eed728966adcfbcc848633e789645057281",
-      "size": 206584,
-      "requiredBy": "Rechiseled"
-    },
-    {
       "name": "supermartijn642s-core-lib",
       "title": "SuperMartijn642's Core Lib",
       "description": "SuperMartijn642's Core Lib adds lots of basic implementations that allow for similar code between different Minecraft versions!",
@@ -861,6 +848,19 @@
       "url": "https://cdn.modrinth.com/data/p19vrgc2/versions/EQaOpkjt/fusion-1.3.15b-forge-mc1.20.1.jar",
       "sha1": "9770ee0fdd377a5cd16bfab53341f62f656ff51a",
       "size": 972917,
+      "requiredBy": "Rechiseled"
+    },
+    {
+      "name": "supermartijn642s-config-lib",
+      "title": "SuperMartijn642's Config Lib",
+      "description": "Config Lib makes dealing with config files just a bit easier.",
+      "page": "https://modrinth.com/mod/supermartijn642s-config-lib",
+      "version": "1.1.8-forge-mc1.20",
+      "dir": "mods",
+      "file": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+      "url": "https://cdn.modrinth.com/data/LN9BxssP/versions/ZKor79dR/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+      "sha1": "f80f9eed728966adcfbcc848633e789645057281",
+      "size": 206584,
       "requiredBy": "Rechiseled"
     },
     {
@@ -1432,6 +1432,18 @@
       "size": 420181
     },
     {
+      "name": "entitytexturefeatures",
+      "title": "[ETF] Entity Texture Features",
+      "description": "Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric",
+      "page": "https://modrinth.com/mod/entitytexturefeatures",
+      "version": "7.2.4-forge-1.20.1",
+      "dir": "mods",
+      "file": "entity_texture_features-7.2.4-1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/BVzZfTc1/versions/zFo82203/entity_texture_features-7.2.4-1.20.1-forge.jar",
+      "sha1": "1ee3606828a796d1fdcd90c85c4fb12fc1a36fc4",
+      "size": 982567
+    },
+    {
       "name": "entity-model-features",
       "title": "[EMF] Entity Model Features",
       "description": "EMF is an, OptiFine format, Custom Entity Model replacement mod available for Fabric and Forge.",
@@ -1442,19 +1454,6 @@
       "url": "https://cdn.modrinth.com/data/4I1XuqiY/versions/Eu3dOT1e/entity_model_features-3.3.9-1.20.1-forge.jar",
       "sha1": "c616b349a291bd87fc0ce3070858caf5f2bc944c",
       "size": 826048
-    },
-    {
-      "name": "entitytexturefeatures",
-      "title": "[ETF] Entity Texture Features",
-      "description": "Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric",
-      "page": "https://modrinth.com/mod/entitytexturefeatures",
-      "version": "7.2.4-forge-1.20.1",
-      "dir": "mods",
-      "file": "entity_texture_features-7.2.4-1.20.1-forge.jar",
-      "url": "https://cdn.modrinth.com/data/BVzZfTc1/versions/zFo82203/entity_texture_features-7.2.4-1.20.1-forge.jar",
-      "sha1": "1ee3606828a796d1fdcd90c85c4fb12fc1a36fc4",
-      "size": 982567,
-      "requiredBy": "[EMF] Entity Model Features"
     },
     {
       "name": "armor-3d",
@@ -1599,18 +1598,6 @@
       "url": "https://cdn.modrinth.com/data/iSkQCp6b/versions/PH3QFp5w/simplehats-forge-1.20.1-0.3.2.jar",
       "sha1": "569e96c692cc9536d2cfd68a37aeb097dc92c166",
       "size": 1413531
-    },
-    {
-      "name": "visual-workbench",
-      "title": "Visual Workbench",
-      "description": "Items stay inside of crafting tables and are also rendered on top. It's really fancy!",
-      "page": "https://modrinth.com/mod/visual-workbench",
-      "version": "v8.0.1-1.20.1-Forge",
-      "dir": "mods",
-      "file": "VisualWorkbench-v8.0.1-1.20.1-Forge.jar",
-      "url": "https://cdn.modrinth.com/data/kfqD1JRw/versions/qaWEHDC3/VisualWorkbench-v8.0.1-1.20.1-Forge.jar",
-      "sha1": "563804910a7ebb1082c1eedca363b16e2c572459",
-      "size": 82557
     },
     {
       "name": "shoulder-surfing-reloaded",
@@ -1785,6 +1772,18 @@
       "size": 5567573
     },
     {
+      "name": "terrablender",
+      "title": "TerraBlender",
+      "description": "A library mod for adding biomes in a simple and compatible manner!",
+      "page": "https://modrinth.com/mod/terrablender",
+      "version": "3.0.1.10",
+      "dir": "mods",
+      "file": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
+      "url": "https://cdn.modrinth.com/data/kkmrDlKT/versions/zGconCHG/TerraBlender-forge-1.20.1-3.0.1.10.jar",
+      "sha1": "b3dbaf1aac31601b9efb19e4c67646750041968a",
+      "size": 107533
+    },
+    {
       "name": "regions-unexplored",
       "title": "Regions Unexplored",
       "description": "A stack of new biomes spread across the Overworld and Nether!",
@@ -1795,19 +1794,6 @@
       "url": "https://cdn.modrinth.com/data/Tkikq67H/versions/XTrgsfIB/RegionsUnexploredForge-0.5.6%2B1.20.1.jar",
       "sha1": "990b4b9492a8fd7cd150598e3e02a466efa913fb",
       "size": 5726781
-    },
-    {
-      "name": "terrablender",
-      "title": "TerraBlender",
-      "description": "A library mod for adding biomes in a simple and compatible manner!",
-      "page": "https://modrinth.com/mod/terrablender",
-      "version": "3.0.1.10",
-      "dir": "mods",
-      "file": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
-      "url": "https://cdn.modrinth.com/data/kkmrDlKT/versions/zGconCHG/TerraBlender-forge-1.20.1-3.0.1.10.jar",
-      "sha1": "b3dbaf1aac31601b9efb19e4c67646750041968a",
-      "size": 107533,
-      "requiredBy": "Regions Unexplored"
     },
     {
       "name": "attributefix",
@@ -2089,6 +2075,17 @@
       "size": 328727
     },
     {
+      "name": "itemproductionlib",
+      "title": "Item Production Lib",
+      "version": "1.0.2b",
+      "requiredBy": "Passive Skill Tree",
+      "dir": "mods",
+      "file": "ItemProductionLib-1.20.1-1.0.2b-all.jar",
+      "url": "https://mediafilez.forgecdn.net/files/8465/345/ItemProductionLib-1.20.1-1.0.2b-all.jar",
+      "sha1": "d45d6d5ee2f065f62c825de6aacb5e2e00597c26",
+      "size": 170932
+    },
+    {
       "name": "minecolonies",
       "title": "MineColonies",
       "version": "1.20.1-1.1.1301-snapshot",
@@ -2121,12 +2118,12 @@
     {
       "name": "skilltree",
       "title": "Passive Skill Tree",
-      "version": "0.7.6e",
+      "version": "0.6.14a",
       "dir": "mods",
-      "file": "PassiveSkillTree-1.20.1-BETA-0.7.6e-all.jar",
-      "url": "https://mediafilez.forgecdn.net/files/8483/796/PassiveSkillTree-1.20.1-BETA-0.7.6e-all.jar",
-      "sha1": "5ff95e985c51b6916ce726178d58c4e812a6c294",
-      "size": 2154602
+      "file": "PassiveSkillTree-1.20.1-BETA-0.6.14a-all.jar",
+      "url": "https://mediafilez.forgecdn.net/files/5715/659/PassiveSkillTree-1.20.1-BETA-0.6.14a-all.jar",
+      "sha1": "2f9355f975bb783b96de80f8a4d303a849c6cd29",
+      "size": 2365949
     },
     {
       "name": "structurize",
