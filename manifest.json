@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-05T03:40:27.282Z",
+  "revision": "2026-10-05T18:56:14.806Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -170,6 +170,19 @@
       "size": 15765792
     },
     {
+      "name": "simply-tooltips",
+      "title": "Simply Tooltips",
+      "description": "Modern data driven tooltip rendering",
+      "page": "https://modrinth.com/mod/simply-tooltips",
+      "version": "0.1.5-1.20.1",
+      "dir": "mods",
+      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
+      "size": 5418741,
+      "requiredBy": "Simply Swords"
+    },
+    {
       "name": "fzzy-config",
       "title": "Fzzy Config",
       "description": "Config API with automatic GUIs, powerful validation options, server-client sync, and more!",
@@ -180,7 +193,7 @@
       "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/53kg5uoF/fzzy_config-0.7.7%2B1.20.1%2Bforge.jar",
       "sha1": "1a4f550dea4fb6316a96591dc46a463ee1f6602b",
       "size": 2397175,
-      "requiredBy": "Simply Swords"
+      "requiredBy": "Simply Tooltips"
     },
     {
       "name": "kotlin-for-forge",
@@ -206,20 +219,7 @@
       "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
       "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
       "size": 580602,
-      "requiredBy": "Simply Swords"
-    },
-    {
-      "name": "simply-tooltips",
-      "title": "Simply Tooltips",
-      "description": "Modern data driven tooltip rendering",
-      "page": "https://modrinth.com/mod/simply-tooltips",
-      "version": "0.1.5-1.20.1",
-      "dir": "mods",
-      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
-      "size": 5418741,
-      "requiredBy": "Simply Swords"
+      "requiredBy": "Simply Tooltips"
     },
     {
       "name": "artifacts",
@@ -813,6 +813,18 @@
       "requiredBy": "Diagonal Fences"
     },
     {
+      "name": "fusion-connected-textures",
+      "title": "Fusion (Connected Textures)",
+      "description": "Fusion allows resource packs to use additional texture and model types such as connected textures!",
+      "page": "https://modrinth.com/mod/fusion-connected-textures",
+      "version": "1.3.15b-forge-mc1.20.1",
+      "dir": "mods",
+      "file": "fusion-1.3.15b-forge-mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/p19vrgc2/versions/EQaOpkjt/fusion-1.3.15b-forge-mc1.20.1.jar",
+      "sha1": "9770ee0fdd377a5cd16bfab53341f62f656ff51a",
+      "size": 972917
+    },
+    {
       "name": "rechiseled",
       "title": "Rechiseled",
       "description": "Rechiseled allows you to chisel blocks into various decorative blocks with connected textures!",
@@ -848,19 +860,6 @@
       "url": "https://cdn.modrinth.com/data/LN9BxssP/versions/ZKor79dR/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
       "sha1": "f80f9eed728966adcfbcc848633e789645057281",
       "size": 206584,
-      "requiredBy": "Rechiseled"
-    },
-    {
-      "name": "fusion-connected-textures",
-      "title": "Fusion (Connected Textures)",
-      "description": "Fusion allows resource packs to use additional texture and model types such as connected textures!",
-      "page": "https://modrinth.com/mod/fusion-connected-textures",
-      "version": "1.3.15b-forge-mc1.20.1",
-      "dir": "mods",
-      "file": "fusion-1.3.15b-forge-mc1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/p19vrgc2/versions/EQaOpkjt/fusion-1.3.15b-forge-mc1.20.1.jar",
-      "sha1": "9770ee0fdd377a5cd16bfab53341f62f656ff51a",
-      "size": 972917,
       "requiredBy": "Rechiseled"
     },
     {
@@ -2102,12 +2101,12 @@
     {
       "name": "bochkraft",
       "title": "BochKraft",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "dir": "mods",
-      "file": "bochkraft-1.0.1.jar",
-      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.1/bochkraft-1.0.1.jar",
-      "sha1": "4533e773036285a4b36fcd4b68c34c0674f61c02",
-      "size": 54238
+      "file": "bochkraft-1.0.2.jar",
+      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.2/bochkraft-1.0.2.jar",
+      "sha1": "43f89eb8a03a54308cd453cf20f6128f718d4e38",
+      "size": 56163
     },
     {
       "name": "configured",
@@ -2482,7 +2481,7 @@
       "once": true
     }
   ],
-  "launcher": "0.2.15",
+  "launcher": "0.2.17",
   "keybinds": {
     "_comment": "Раскладка клавиш сборки BochKraft. Лаунчер при синхронизации записывает эти бинды в options.txt игрока, пока игрок сам их не поменял в игре (ключи с меткой в options.txt не трогаются повторно). Формат ключей — как в options.txt.",
     "_revision": 4,
