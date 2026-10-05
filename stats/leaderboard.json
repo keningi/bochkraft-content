@@ -1,0 +1,213 @@
+{
+  "updated": "2026-10-05T00:10:57.992Z",
+  "categories": [
+    {
+      "id": "time",
+      "title": "Наиграно",
+      "icon": "⏱",
+      "rows": [
+        {
+          "name": "kensund",
+          "value": 397491,
+          "display": "5 ч 31 мин"
+        },
+        {
+          "name": "Mark_ovv",
+          "value": 393670,
+          "display": "5 ч 28 мин"
+        },
+        {
+          "name": "ADAM",
+          "value": 321647,
+          "display": "4 ч 28 мин"
+        },
+        {
+          "name": "askar9_9",
+          "value": 309298,
+          "display": "4 ч 17 мин"
+        }
+      ]
+    },
+    {
+      "id": "distance",
+      "title": "Путешественник",
+      "icon": "🧭",
+      "rows": [
+        {
+          "name": "kensund",
+          "value": 9653084,
+          "display": "96.5 км"
+        },
+        {
+          "name": "askar9_9",
+          "value": 7046223,
+          "display": "70.5 км"
+        },
+        {
+          "name": "Mark_ovv",
+          "value": 3103687,
+          "display": "31.0 км"
+        },
+        {
+          "name": "ADAM",
+          "value": 2345930,
+          "display": "23.5 км"
+        }
+      ]
+    },
+    {
+      "id": "kills",
+      "title": "Охотник на мобов",
+      "icon": "⚔",
+      "rows": [
+        {
+          "name": "Mark_ovv",
+          "value": 149,
+          "display": "149"
+        },
+        {
+          "name": "ADAM",
+          "value": 27,
+          "display": "27"
+        },
+        {
+          "name": "kensund",
+          "value": 14,
+          "display": "14"
+        },
+        {
+          "name": "askar9_9",
+          "value": 6,
+          "display": "6"
+        }
+      ]
+    },
+    {
+      "id": "mined",
+      "title": "Шахтёр",
+      "icon": "⛏",
+      "rows": [
+        {
+          "name": "Mark_ovv",
+          "value": 1615,
+          "display": "1615 блоков"
+        },
+        {
+          "name": "ADAM",
+          "value": 1466,
+          "display": "1466 блоков"
+        },
+        {
+          "name": "askar9_9",
+          "value": 710,
+          "display": "710 блоков"
+        },
+        {
+          "name": "kensund",
+          "value": 370,
+          "display": "370 блоков"
+        }
+      ]
+    },
+    {
+      "id": "diamonds",
+      "title": "Алмазы",
+      "icon": "💎",
+      "rows": [
+        {
+          "name": "ADAM",
+          "value": 10,
+          "display": "10 руды"
+        }
+      ]
+    },
+    {
+      "id": "damage",
+      "title": "Урон",
+      "icon": "💥",
+      "rows": [
+        {
+          "name": "Mark_ovv",
+          "value": 36950,
+          "display": "1848 ❤"
+        },
+        {
+          "name": "ADAM",
+          "value": 6929,
+          "display": "346 ❤"
+        },
+        {
+          "name": "kensund",
+          "value": 3626,
+          "display": "181 ❤"
+        },
+        {
+          "name": "askar9_9",
+          "value": 899,
+          "display": "45 ❤"
+        }
+      ]
+    },
+    {
+      "id": "fish",
+      "title": "Рыбак",
+      "icon": "🎣",
+      "rows": [
+        {
+          "name": "Mark_ovv",
+          "value": 55,
+          "display": "55 рыб"
+        }
+      ]
+    },
+    {
+      "id": "deaths",
+      "title": "Чаще всех умирает",
+      "icon": "💀",
+      "rows": [
+        {
+          "name": "ADAM",
+          "value": 7,
+          "display": "7"
+        },
+        {
+          "name": "Mark_ovv",
+          "value": 5,
+          "display": "5"
+        },
+        {
+          "name": "askar9_9",
+          "value": 5,
+          "display": "5"
+        }
+      ]
+    },
+    {
+      "id": "jumps",
+      "title": "Попрыгунчик",
+      "icon": "🦘",
+      "rows": [
+        {
+          "name": "kensund",
+          "value": 6915,
+          "display": "6915"
+        },
+        {
+          "name": "Mark_ovv",
+          "value": 4332,
+          "display": "4332"
+        },
+        {
+          "name": "askar9_9",
+          "value": 4150,
+          "display": "4150"
+        },
+        {
+          "name": "ADAM",
+          "value": 4010,
+          "display": "4010"
+        }
+      ]
+    }
+  ]
+}
