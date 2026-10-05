@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-05T02:38:14.519Z",
+  "revision": "2026-10-05T02:51:24.840Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -503,6 +503,19 @@
       "size": 14420114
     },
     {
+      "name": "integrated-api",
+      "title": "Integrated API",
+      "description": "Library mod for the Integrated Structures series",
+      "page": "https://modrinth.com/mod/integrated-api",
+      "version": "1.8.2",
+      "dir": "mods",
+      "file": "integrated_api-forge-1.20.1-1.8.2.jar",
+      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
+      "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
+      "size": 712428,
+      "requiredBy": " Integrated Dungeons and Structures"
+    },
+    {
       "name": "supplementaries",
       "title": "Supplementaries",
       "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
@@ -527,19 +540,6 @@
       "sha1": "a7885d318f5a6810b0ef543cd1cce7d4308f10e6",
       "size": 1425229,
       "requiredBy": "Supplementaries"
-    },
-    {
-      "name": "integrated-api",
-      "title": "Integrated API",
-      "description": "Library mod for the Integrated Structures series",
-      "page": "https://modrinth.com/mod/integrated-api",
-      "version": "1.8.2",
-      "dir": "mods",
-      "file": "integrated_api-forge-1.20.1-1.8.2.jar",
-      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
-      "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
-      "size": 712428,
-      "requiredBy": " Integrated Dungeons and Structures"
     },
     {
       "name": "quark",
@@ -2231,8 +2231,8 @@
       "file": "bochkraft-night.zip",
       "local": "resourcepacks/bochkraft-night.zip",
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/resourcepacks/bochkraft-night.zip",
-      "sha1": "2b3b64cbd6d2d15263d326ebae5bf4b3a345e1d3",
-      "size": 7400452
+      "sha1": "07e18a8980453ccd623ee47e0ab2f2d900576df9",
+      "size": 8367888
     },
     {
       "name": "resourcepacks/bochkraft-title.zip",
@@ -2242,8 +2242,8 @@
       "file": "bochkraft-title.zip",
       "local": "resourcepacks/bochkraft-title.zip",
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/resourcepacks/bochkraft-title.zip",
-      "sha1": "6fa30fe6d039dcb2079d71673b52f0c5019fad09",
-      "size": 10706998
+      "sha1": "a8fc2129997c6d2660fe3e8a2a49a2b9606157a8",
+      "size": 10177336
     },
     {
       "name": "config/fallingtree.json",
@@ -2472,7 +2472,7 @@
       "once": true
     }
   ],
-  "launcher": "0.2.14",
+  "launcher": "0.2.15",
   "keybinds": {
     "_comment": "Раскладка клавиш сборки BochKraft. Лаунчер при синхронизации записывает эти бинды в options.txt игрока, пока игрок сам их не поменял в игре (ключи с меткой в options.txt не трогаются повторно). Формат ключей — как в options.txt.",
     "_revision": 4,
