@@ -1,0 +1,29 @@
+##[general]
+
+B:early_fade_out_elements = 'true';
+B:allow_universal_layouts = 'false';
+B:fade_out_loading_screen = 'true';
+B:wait_for_textures_in_loading = 'true';
+
+
+##[early_loading]
+
+S:early_loading_window_title = 'BochKraft';
+S:early_loading_background_texture_path = '/config/fancymenu/assets/bochkraft/bg.png';
+B:early_loading_background_preserve_aspect_ratio = 'true';
+S:early_loading_logo_texture_path = '/config/fancymenu/assets/bochkraft/logo.png';
+I:early_loading_logo_width = '600';
+I:early_loading_logo_height = '140';
+I:early_loading_logo_position_offset_x = '0';
+I:early_loading_logo_position_offset_y = '-60';
+B:early_loading_hide_logo = 'false';
+S:early_loading_bar_background_texture_path = '/config/fancymenu/assets/bochkraft/bar_bg.png';
+S:early_loading_bar_progress_texture_path = '/config/fancymenu/assets/bochkraft/bar.png';
+I:early_loading_bar_width = '440';
+I:early_loading_bar_height = '10';
+I:early_loading_bar_position_offset_x = '0';
+I:early_loading_bar_position_offset_y = '60';
+B:early_loading_hide_bar = 'false';
+B:early_loading_hide_logger = 'false';
+I:early_loading_window_width = '-1';
+I:early_loading_window_height = '-1';

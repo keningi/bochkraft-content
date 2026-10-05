@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-05T01:41:24.047Z",
+  "revision": "2026-10-05T02:19:03.579Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -170,19 +170,6 @@
       "size": 15765792
     },
     {
-      "name": "simply-tooltips",
-      "title": "Simply Tooltips",
-      "description": "Modern data driven tooltip rendering",
-      "page": "https://modrinth.com/mod/simply-tooltips",
-      "version": "0.1.5-1.20.1",
-      "dir": "mods",
-      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
-      "size": 5418741,
-      "requiredBy": "Simply Swords"
-    },
-    {
       "name": "fzzy-config",
       "title": "Fzzy Config",
       "description": "Config API with automatic GUIs, powerful validation options, server-client sync, and more!",
@@ -193,7 +180,7 @@
       "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/53kg5uoF/fzzy_config-0.7.7%2B1.20.1%2Bforge.jar",
       "sha1": "1a4f550dea4fb6316a96591dc46a463ee1f6602b",
       "size": 2397175,
-      "requiredBy": "Simply Tooltips"
+      "requiredBy": "Simply Swords"
     },
     {
       "name": "kotlin-for-forge",
@@ -219,7 +206,20 @@
       "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
       "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
       "size": 580602,
-      "requiredBy": "Simply Tooltips"
+      "requiredBy": "Simply Swords"
+    },
+    {
+      "name": "simply-tooltips",
+      "title": "Simply Tooltips",
+      "description": "Modern data driven tooltip rendering",
+      "page": "https://modrinth.com/mod/simply-tooltips",
+      "version": "0.1.5-1.20.1",
+      "dir": "mods",
+      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
+      "size": 5418741,
+      "requiredBy": "Simply Swords"
     },
     {
       "name": "artifacts",
@@ -503,19 +503,6 @@
       "size": 14420114
     },
     {
-      "name": "integrated-api",
-      "title": "Integrated API",
-      "description": "Library mod for the Integrated Structures series",
-      "page": "https://modrinth.com/mod/integrated-api",
-      "version": "1.8.2",
-      "dir": "mods",
-      "file": "integrated_api-forge-1.20.1-1.8.2.jar",
-      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
-      "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
-      "size": 712428,
-      "requiredBy": " Integrated Dungeons and Structures"
-    },
-    {
       "name": "supplementaries",
       "title": "Supplementaries",
       "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
@@ -540,6 +527,19 @@
       "sha1": "a7885d318f5a6810b0ef543cd1cce7d4308f10e6",
       "size": 1425229,
       "requiredBy": "Supplementaries"
+    },
+    {
+      "name": "integrated-api",
+      "title": "Integrated API",
+      "description": "Library mod for the Integrated Structures series",
+      "page": "https://modrinth.com/mod/integrated-api",
+      "version": "1.8.2",
+      "dir": "mods",
+      "file": "integrated_api-forge-1.20.1-1.8.2.jar",
+      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
+      "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
+      "size": 712428,
+      "requiredBy": " Integrated Dungeons and Structures"
     },
     {
       "name": "quark",
@@ -825,16 +825,16 @@
       "size": 11895585
     },
     {
-      "name": "supermartijn642s-config-lib",
-      "title": "SuperMartijn642's Config Lib",
-      "description": "Config Lib makes dealing with config files just a bit easier.",
-      "page": "https://modrinth.com/mod/supermartijn642s-config-lib",
-      "version": "1.1.8-forge-mc1.20",
+      "name": "fusion-connected-textures",
+      "title": "Fusion (Connected Textures)",
+      "description": "Fusion allows resource packs to use additional texture and model types such as connected textures!",
+      "page": "https://modrinth.com/mod/fusion-connected-textures",
+      "version": "1.3.15b-forge-mc1.20.1",
       "dir": "mods",
-      "file": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
-      "url": "https://cdn.modrinth.com/data/LN9BxssP/versions/ZKor79dR/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
-      "sha1": "f80f9eed728966adcfbcc848633e789645057281",
-      "size": 206584,
+      "file": "fusion-1.3.15b-forge-mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/p19vrgc2/versions/EQaOpkjt/fusion-1.3.15b-forge-mc1.20.1.jar",
+      "sha1": "9770ee0fdd377a5cd16bfab53341f62f656ff51a",
+      "size": 972917,
       "requiredBy": "Rechiseled"
     },
     {
@@ -851,16 +851,16 @@
       "requiredBy": "Rechiseled"
     },
     {
-      "name": "fusion-connected-textures",
-      "title": "Fusion (Connected Textures)",
-      "description": "Fusion allows resource packs to use additional texture and model types such as connected textures!",
-      "page": "https://modrinth.com/mod/fusion-connected-textures",
-      "version": "1.3.15b-forge-mc1.20.1",
+      "name": "supermartijn642s-config-lib",
+      "title": "SuperMartijn642's Config Lib",
+      "description": "Config Lib makes dealing with config files just a bit easier.",
+      "page": "https://modrinth.com/mod/supermartijn642s-config-lib",
+      "version": "1.1.8-forge-mc1.20",
       "dir": "mods",
-      "file": "fusion-1.3.15b-forge-mc1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/p19vrgc2/versions/EQaOpkjt/fusion-1.3.15b-forge-mc1.20.1.jar",
-      "sha1": "9770ee0fdd377a5cd16bfab53341f62f656ff51a",
-      "size": 972917,
+      "file": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+      "url": "https://cdn.modrinth.com/data/LN9BxssP/versions/ZKor79dR/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+      "sha1": "f80f9eed728966adcfbcc848633e789645057281",
+      "size": 206584,
       "requiredBy": "Rechiseled"
     },
     {
@@ -2039,6 +2039,56 @@
       "size": 2623590
     },
     {
+      "name": "fancymenu",
+      "title": "FancyMenu",
+      "description": "Customize Minecraft's menus with ease!",
+      "page": "https://modrinth.com/mod/fancymenu",
+      "version": "3.9.14-1.20.1-forge",
+      "dir": "mods",
+      "file": "fancymenu_forge_3.9.14_MC_1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/Wq5SjeWM/versions/2mNmkn9s/fancymenu_forge_3.9.14_MC_1.20.1.jar",
+      "sha1": "8916c8f2f12a986365148661fb59650950913b32",
+      "size": 26191988
+    },
+    {
+      "name": "konkrete",
+      "title": "Konkrete",
+      "description": "Just another boring library mod.",
+      "page": "https://modrinth.com/mod/konkrete",
+      "version": "1.8.0-1.20-1.20.1-forge",
+      "dir": "mods",
+      "file": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/skYziQQL/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "sha1": "2019d821bed9071daabed43979433a5473ceee49",
+      "size": 625185,
+      "requiredBy": "FancyMenu"
+    },
+    {
+      "name": "melody",
+      "title": "Melody",
+      "description": "OpenAL-based library mod for playing background music.",
+      "page": "https://modrinth.com/mod/melody",
+      "version": "1.0.3-1.20.1-1.20.4-forge",
+      "dir": "mods",
+      "file": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/lJlW5r8R/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+      "sha1": "e0942d396a70c09038e6c2e5e1da6505178249b8",
+      "size": 37178,
+      "requiredBy": "FancyMenu"
+    },
+    {
+      "name": "drippy-loading-screen",
+      "title": "Drippy Loading Screen",
+      "description": "Addon for FancyMenu to customize the loading screen.",
+      "page": "https://modrinth.com/mod/drippy-loading-screen",
+      "version": "3.1.5-1.20.1-forge",
+      "dir": "mods",
+      "file": "drippyloadingscreen_forge_3.1.5_MC_1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/v3CYg2V9/versions/Nof419YS/drippyloadingscreen_forge_3.1.5_MC_1.20.1.jar",
+      "sha1": "a33d48809db8a2f1eb3667fe140d7a4104d80dca",
+      "size": 281881
+    },
+    {
       "name": "blockui",
       "title": "UI Library Mod",
       "version": "1.20.1-1.0.194-snapshot",
@@ -2207,6 +2257,83 @@
       "size": 1274
     },
     {
+      "name": "config/fancymenu/assets/bochkraft/bar.png",
+      "title": "bar.png",
+      "version": "файл сборки",
+      "dir": "config/fancymenu/assets/bochkraft",
+      "file": "bar.png",
+      "local": "overrides/config/fancymenu/assets/bochkraft/bar.png",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/fancymenu/assets/bochkraft/bar.png",
+      "sha1": "acf5419160a4596e13bc29d6b40428703b8634d6",
+      "size": 108
+    },
+    {
+      "name": "config/fancymenu/assets/bochkraft/bar_bg.png",
+      "title": "bar_bg.png",
+      "version": "файл сборки",
+      "dir": "config/fancymenu/assets/bochkraft",
+      "file": "bar_bg.png",
+      "local": "overrides/config/fancymenu/assets/bochkraft/bar_bg.png",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/fancymenu/assets/bochkraft/bar_bg.png",
+      "sha1": "28363ad12d95f033ccfd92afa61950de4652f254",
+      "size": 107
+    },
+    {
+      "name": "config/fancymenu/assets/bochkraft/bg.png",
+      "title": "bg.png",
+      "version": "файл сборки",
+      "dir": "config/fancymenu/assets/bochkraft",
+      "file": "bg.png",
+      "local": "overrides/config/fancymenu/assets/bochkraft/bg.png",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/fancymenu/assets/bochkraft/bg.png",
+      "sha1": "9729eda13bb89dd7f264ff4040d4c7ec19b5eed5",
+      "size": 3225460
+    },
+    {
+      "name": "config/fancymenu/assets/bochkraft/icon16.png",
+      "title": "icon16.png",
+      "version": "файл сборки",
+      "dir": "config/fancymenu/assets/bochkraft",
+      "file": "icon16.png",
+      "local": "overrides/config/fancymenu/assets/bochkraft/icon16.png",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/fancymenu/assets/bochkraft/icon16.png",
+      "sha1": "7e41ee2f7036741de7687ef7fac7f0f9e66fdccb",
+      "size": 604
+    },
+    {
+      "name": "config/fancymenu/assets/bochkraft/icon32.png",
+      "title": "icon32.png",
+      "version": "файл сборки",
+      "dir": "config/fancymenu/assets/bochkraft",
+      "file": "icon32.png",
+      "local": "overrides/config/fancymenu/assets/bochkraft/icon32.png",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/fancymenu/assets/bochkraft/icon32.png",
+      "sha1": "38194650bcf911afd6b7be691158e5aa6d6293cd",
+      "size": 1545
+    },
+    {
+      "name": "config/fancymenu/assets/bochkraft/logo.png",
+      "title": "logo.png",
+      "version": "файл сборки",
+      "dir": "config/fancymenu/assets/bochkraft",
+      "file": "logo.png",
+      "local": "overrides/config/fancymenu/assets/bochkraft/logo.png",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/fancymenu/assets/bochkraft/logo.png",
+      "sha1": "6e72552998a42a2e0be2cf0212bd991e9de06f3b",
+      "size": 57687
+    },
+    {
+      "name": "config/fancymenu/customization/bochkraft_loading.txt",
+      "title": "bochkraft_loading.txt",
+      "version": "файл сборки",
+      "dir": "config/fancymenu/customization",
+      "file": "bochkraft_loading.txt",
+      "local": "overrides/config/fancymenu/customization/bochkraft_loading.txt",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/fancymenu/customization/bochkraft_loading.txt",
+      "sha1": "8aad3dd92b3bc69bc6546e0bbedfc24bf772ea55",
+      "size": 7708
+    },
+    {
       "name": "config/fml.toml",
       "title": "fml.toml",
       "version": "файл сборки",
@@ -2273,6 +2400,42 @@
       "size": 2398
     },
     {
+      "name": "config/drippyloadingscreen/options.txt",
+      "title": "options.txt",
+      "version": "по умолчанию",
+      "dir": "config/drippyloadingscreen",
+      "file": "options.txt",
+      "local": "defaults/config/drippyloadingscreen/options.txt",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/defaults/config/drippyloadingscreen/options.txt",
+      "sha1": "fd92561c31253f4bc6e016c4a38aab457054d695",
+      "size": 1157,
+      "once": true
+    },
+    {
+      "name": "config/fancymenu/customizablemenus.txt",
+      "title": "customizablemenus.txt",
+      "version": "по умолчанию",
+      "dir": "config/fancymenu",
+      "file": "customizablemenus.txt",
+      "local": "defaults/config/fancymenu/customizablemenus.txt",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/defaults/config/fancymenu/customizablemenus.txt",
+      "sha1": "632924ef1ae8d9cf29eb5bb82ab9220cebd63a1c",
+      "size": 98,
+      "once": true
+    },
+    {
+      "name": "config/fancymenu/options.txt",
+      "title": "options.txt",
+      "version": "по умолчанию",
+      "dir": "config/fancymenu",
+      "file": "options.txt",
+      "local": "defaults/config/fancymenu/options.txt",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/defaults/config/fancymenu/options.txt",
+      "sha1": "941f9edee8f1699d5b25fd973c68513a9337c7ee",
+      "size": 409,
+      "once": true
+    },
+    {
       "name": "config/snowrealmagic-common.yaml",
       "title": "snowrealmagic-common.yaml",
       "version": "по умолчанию",
@@ -2309,7 +2472,7 @@
       "once": true
     }
   ],
-  "launcher": "0.2.13",
+  "launcher": "0.2.14",
   "keybinds": {
     "_comment": "Раскладка клавиш сборки BochKraft. Лаунчер при синхронизации записывает эти бинды в options.txt игрока, пока игрок сам их не поменял в игре (ключи с меткой в options.txt не трогаются повторно). Формат ключей — как в options.txt.",
     "_revision": 4,
