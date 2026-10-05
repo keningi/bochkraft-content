@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-05T02:23:26.677Z",
+  "revision": "2026-10-05T02:26:46.943Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -2037,6 +2037,56 @@
       "url": "https://cdn.modrinth.com/data/RCRxC1tD/versions/sBbUjEhq/LittleTiles_BETA_v1.6.0-pre161_mc1.20.1.jar",
       "sha1": "858d2de167f660c491632ed9727292b418ca804a",
       "size": 2623590
+    },
+    {
+      "name": "fancymenu",
+      "title": "FancyMenu",
+      "description": "Customize Minecraft's menus with ease!",
+      "page": "https://modrinth.com/mod/fancymenu",
+      "version": "3.9.3-1.20.1-forge",
+      "dir": "mods",
+      "file": "fancymenu_forge_3.9.3_MC_1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/Wq5SjeWM/versions/NWQbGlsX/fancymenu_forge_3.9.3_MC_1.20.1.jar",
+      "sha1": "22b779ac73923b39a02625adb108e7ee17a5502b",
+      "size": 25625609
+    },
+    {
+      "name": "konkrete",
+      "title": "Konkrete",
+      "description": "Just another boring library mod.",
+      "page": "https://modrinth.com/mod/konkrete",
+      "version": "1.8.0-1.20-1.20.1-forge",
+      "dir": "mods",
+      "file": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/skYziQQL/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "sha1": "2019d821bed9071daabed43979433a5473ceee49",
+      "size": 625185,
+      "requiredBy": "FancyMenu"
+    },
+    {
+      "name": "melody",
+      "title": "Melody",
+      "description": "OpenAL-based library mod for playing background music.",
+      "page": "https://modrinth.com/mod/melody",
+      "version": "1.0.3-1.20.1-1.20.4-forge",
+      "dir": "mods",
+      "file": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/lJlW5r8R/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+      "sha1": "e0942d396a70c09038e6c2e5e1da6505178249b8",
+      "size": 37178,
+      "requiredBy": "FancyMenu"
+    },
+    {
+      "name": "drippy-loading-screen",
+      "title": "Drippy Loading Screen",
+      "description": "Addon for FancyMenu to customize the loading screen.",
+      "page": "https://modrinth.com/mod/drippy-loading-screen",
+      "version": "3.1.2-1.20.1-forge",
+      "dir": "mods",
+      "file": "drippyloadingscreen_forge_3.1.2_MC_1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/v3CYg2V9/versions/4wF1Mfez/drippyloadingscreen_forge_3.1.2_MC_1.20.1.jar",
+      "sha1": "0f4fe368d76572f2af563b90fafea7d75c007d22",
+      "size": 287611
     },
     {
       "name": "blockui",
