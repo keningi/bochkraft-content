@@ -85,8 +85,8 @@ element {
 }
 
 element {
-  bar_color = #7CC4FFFF
-  background_color = #060C26BF
+  bar_color = #E9B872E6
+  background_color = #0000007F
   direction = right
   progress_for_element_anchor = false
   progress_source = {"placeholder":"game_loading_progress"}
@@ -109,7 +109,7 @@ element {
   x = -90
   y = 12
   width = 180
-  height = 4
+  height = 3
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
