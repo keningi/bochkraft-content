@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T05:59:11.007Z",
+  "updated": "2026-10-05T13:34:50.402Z",
   "categories": [
     {
       "id": "time",
@@ -25,9 +25,9 @@
         },
         {
           "name": "askar9_9",
-          "value": 309298,
-          "display": "4 ч 17 мин",
-          "gap": "0 ч 10 мин"
+          "value": 319570,
+          "display": "4 ч 26 мин",
+          "gap": "0 ч 1 мин"
         }
       ]
     },
@@ -43,15 +43,15 @@
         },
         {
           "name": "askar9_9",
-          "value": 7046223,
-          "display": "70.5 км",
-          "gap": "28.0 км"
+          "value": 7082522,
+          "display": "70.8 км",
+          "gap": "27.6 км"
         },
         {
           "name": "Mark_ovv",
           "value": 3103687,
           "display": "31.0 км",
-          "gap": "39.4 км"
+          "gap": "39.8 км"
         },
         {
           "name": "ADAM",
@@ -186,16 +186,16 @@
           "display": "7"
         },
         {
+          "name": "askar9_9",
+          "value": 6,
+          "display": "6",
+          "gap": "2"
+        },
+        {
           "name": "Mark_ovv",
           "value": 5,
           "display": "5",
-          "gap": "3"
-        },
-        {
-          "name": "askar9_9",
-          "value": 5,
-          "display": "5",
-          "gap": "1"
+          "gap": "2"
         }
       ]
     },
@@ -217,15 +217,15 @@
         },
         {
           "name": "askar9_9",
-          "value": 4150,
-          "display": "4150",
-          "gap": "183"
+          "value": 4187,
+          "display": "4187",
+          "gap": "146"
         },
         {
           "name": "ADAM",
           "value": 4010,
           "display": "4010",
-          "gap": "141"
+          "gap": "178"
         }
       ]
     }
