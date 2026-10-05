@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-05T02:51:24.840Z",
+  "revision": "2026-10-05T02:56:59.558Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -70,19 +70,6 @@
       "size": 73916104
     },
     {
-      "name": "lionfish-api",
-      "title": "Lionfish-API",
-      "description": "Very Light Animation Api",
-      "page": "https://modrinth.com/mod/lionfish-api",
-      "version": "3.0",
-      "dir": "mods",
-      "file": "lionfishapi-3.0.jar",
-      "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
-      "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
-      "size": 101931,
-      "requiredBy": "L_Ender's Cataclysm"
-    },
-    {
       "name": "curios",
       "title": "Curios API",
       "description": "A flexible and expandable accessory/equipment API for users and developers.",
@@ -93,6 +80,19 @@
       "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
       "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
       "size": 398066,
+      "requiredBy": "L_Ender's Cataclysm"
+    },
+    {
+      "name": "lionfish-api",
+      "title": "Lionfish-API",
+      "description": "Very Light Animation Api",
+      "page": "https://modrinth.com/mod/lionfish-api",
+      "version": "3.0",
+      "dir": "mods",
+      "file": "lionfishapi-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
+      "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
+      "size": 101931,
       "requiredBy": "L_Ender's Cataclysm"
     },
     {
@@ -2051,19 +2051,6 @@
       "size": 25625609
     },
     {
-      "name": "konkrete",
-      "title": "Konkrete",
-      "description": "Just another boring library mod.",
-      "page": "https://modrinth.com/mod/konkrete",
-      "version": "1.8.0-1.20-1.20.1-forge",
-      "dir": "mods",
-      "file": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/skYziQQL/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
-      "sha1": "2019d821bed9071daabed43979433a5473ceee49",
-      "size": 625185,
-      "requiredBy": "FancyMenu"
-    },
-    {
       "name": "melody",
       "title": "Melody",
       "description": "OpenAL-based library mod for playing background music.",
@@ -2074,6 +2061,19 @@
       "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/lJlW5r8R/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
       "sha1": "e0942d396a70c09038e6c2e5e1da6505178249b8",
       "size": 37178,
+      "requiredBy": "FancyMenu"
+    },
+    {
+      "name": "konkrete",
+      "title": "Konkrete",
+      "description": "Just another boring library mod.",
+      "page": "https://modrinth.com/mod/konkrete",
+      "version": "1.8.0-1.20-1.20.1-forge",
+      "dir": "mods",
+      "file": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/skYziQQL/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "sha1": "2019d821bed9071daabed43979433a5473ceee49",
+      "size": 625185,
       "requiredBy": "FancyMenu"
     },
     {
@@ -2264,7 +2264,7 @@
       "file": "bar.png",
       "local": "overrides/config/fancymenu/assets/bochkraft/bar.png",
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/fancymenu/assets/bochkraft/bar.png",
-      "sha1": "34b792ec27f72c2172401680eb48d13cb53ef392",
+      "sha1": "4ea66fbbd682b18d4f5a96e95d58bbef0d1ec8fc",
       "size": 108
     },
     {
@@ -2275,7 +2275,7 @@
       "file": "bar_bg.png",
       "local": "overrides/config/fancymenu/assets/bochkraft/bar_bg.png",
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/fancymenu/assets/bochkraft/bar_bg.png",
-      "sha1": "04a141a8a5f300b9abf8b77b6fe57711415e640d",
+      "sha1": "7a83f1e523155c664f7e48af5a72d9b825bde26b",
       "size": 107
     },
     {
@@ -2330,7 +2330,7 @@
       "file": "bochkraft_loading.txt",
       "local": "overrides/config/fancymenu/customization/bochkraft_loading.txt",
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/fancymenu/customization/bochkraft_loading.txt",
-      "sha1": "cb9f4f0e2cf14393c7650133f0d3603555fb793f",
+      "sha1": "b000af700f7563666e99641b0f73026bc65e4722",
       "size": 7708
     },
     {
@@ -2407,8 +2407,8 @@
       "file": "options.txt",
       "local": "defaults/config/drippyloadingscreen/options.txt",
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/defaults/config/drippyloadingscreen/options.txt",
-      "sha1": "fd92561c31253f4bc6e016c4a38aab457054d695",
-      "size": 1157,
+      "sha1": "9cbe54ba42b91c717e7f4c70189318a710f44e3a",
+      "size": 1156,
       "once": true
     },
     {

@@ -85,8 +85,8 @@ element {
 }
 
 element {
-  bar_color = #E9B872E6
-  background_color = #0000007F
+  bar_color = #FFFFFF59
+  background_color = #00000033
   direction = right
   progress_for_element_anchor = false
   progress_source = {"placeholder":"game_loading_progress"}
