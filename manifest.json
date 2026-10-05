@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-04T23:31:23.137Z",
+  "revision": "2026-10-05T00:22:37.690Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -70,19 +70,6 @@
       "size": 73916104
     },
     {
-      "name": "curios",
-      "title": "Curios API",
-      "description": "A flexible and expandable accessory/equipment API for users and developers.",
-      "page": "https://modrinth.com/mod/curios",
-      "version": "5.14.1+1.20.1",
-      "dir": "mods",
-      "file": "curios-forge-5.14.1+1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
-      "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
-      "size": 398066,
-      "requiredBy": "L_Ender's Cataclysm"
-    },
-    {
       "name": "lionfish-api",
       "title": "Lionfish-API",
       "description": "Very Light Animation Api",
@@ -93,6 +80,19 @@
       "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
       "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
       "size": 101931,
+      "requiredBy": "L_Ender's Cataclysm"
+    },
+    {
+      "name": "curios",
+      "title": "Curios API",
+      "description": "A flexible and expandable accessory/equipment API for users and developers.",
+      "page": "https://modrinth.com/mod/curios",
+      "version": "5.14.1+1.20.1",
+      "dir": "mods",
+      "file": "curios-forge-5.14.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
+      "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
+      "size": 398066,
       "requiredBy": "L_Ender's Cataclysm"
     },
     {
@@ -170,19 +170,6 @@
       "size": 15765792
     },
     {
-      "name": "simply-tooltips",
-      "title": "Simply Tooltips",
-      "description": "Modern data driven tooltip rendering",
-      "page": "https://modrinth.com/mod/simply-tooltips",
-      "version": "0.1.5-1.20.1",
-      "dir": "mods",
-      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
-      "size": 5418741,
-      "requiredBy": "Simply Swords"
-    },
-    {
       "name": "fzzy-config",
       "title": "Fzzy Config",
       "description": "Config API with automatic GUIs, powerful validation options, server-client sync, and more!",
@@ -193,7 +180,7 @@
       "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/53kg5uoF/fzzy_config-0.7.7%2B1.20.1%2Bforge.jar",
       "sha1": "1a4f550dea4fb6316a96591dc46a463ee1f6602b",
       "size": 2397175,
-      "requiredBy": "Simply Tooltips"
+      "requiredBy": "Simply Swords"
     },
     {
       "name": "kotlin-for-forge",
@@ -219,7 +206,20 @@
       "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
       "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
       "size": 580602,
-      "requiredBy": "Simply Tooltips"
+      "requiredBy": "Simply Swords"
+    },
+    {
+      "name": "simply-tooltips",
+      "title": "Simply Tooltips",
+      "description": "Modern data driven tooltip rendering",
+      "page": "https://modrinth.com/mod/simply-tooltips",
+      "version": "0.1.5-1.20.1",
+      "dir": "mods",
+      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
+      "size": 5418741,
+      "requiredBy": "Simply Swords"
     },
     {
       "name": "artifacts",
@@ -825,19 +825,6 @@
       "size": 11895585
     },
     {
-      "name": "supermartijn642s-config-lib",
-      "title": "SuperMartijn642's Config Lib",
-      "description": "Config Lib makes dealing with config files just a bit easier.",
-      "page": "https://modrinth.com/mod/supermartijn642s-config-lib",
-      "version": "1.1.8-forge-mc1.20",
-      "dir": "mods",
-      "file": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
-      "url": "https://cdn.modrinth.com/data/LN9BxssP/versions/ZKor79dR/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
-      "sha1": "f80f9eed728966adcfbcc848633e789645057281",
-      "size": 206584,
-      "requiredBy": "Rechiseled"
-    },
-    {
       "name": "fusion-connected-textures",
       "title": "Fusion (Connected Textures)",
       "description": "Fusion allows resource packs to use additional texture and model types such as connected textures!",
@@ -861,6 +848,19 @@
       "url": "https://cdn.modrinth.com/data/rOUBggPv/versions/7fVdwsOt/supermartijn642corelib-1.1.24b-forge-mc1.20.1.jar",
       "sha1": "07bfad3e704a3ab9fe11df42a3acb6315206713c",
       "size": 559482,
+      "requiredBy": "Rechiseled"
+    },
+    {
+      "name": "supermartijn642s-config-lib",
+      "title": "SuperMartijn642's Config Lib",
+      "description": "Config Lib makes dealing with config files just a bit easier.",
+      "page": "https://modrinth.com/mod/supermartijn642s-config-lib",
+      "version": "1.1.8-forge-mc1.20",
+      "dir": "mods",
+      "file": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+      "url": "https://cdn.modrinth.com/data/LN9BxssP/versions/ZKor79dR/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+      "sha1": "f80f9eed728966adcfbcc848633e789645057281",
+      "size": 206584,
       "requiredBy": "Rechiseled"
     },
     {
@@ -2174,6 +2174,17 @@
       "size": 1128927
     },
     {
+      "name": "resourcepacks/bochkraft-title.zip",
+      "title": "bochkraft-title.zip",
+      "version": "файл сборки",
+      "dir": "resourcepacks",
+      "file": "bochkraft-title.zip",
+      "local": "resourcepacks/bochkraft-title.zip",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/resourcepacks/bochkraft-title.zip",
+      "sha1": "74312bbedfef79da9922b572ea3cb0615235482f",
+      "size": 69004
+    },
+    {
       "name": "config/fallingtree.json",
       "title": "fallingtree.json",
       "version": "файл сборки",
@@ -2287,7 +2298,7 @@
       "once": true
     }
   ],
-  "launcher": "0.2.4",
+  "launcher": "0.2.6",
   "keybinds": {
     "_comment": "Раскладка клавиш сборки BochKraft. Лаунчер при синхронизации записывает эти бинды в options.txt игрока, пока игрок сам их не поменял в игре (ключи с меткой в options.txt не трогаются повторно). Формат ключей — как в options.txt.",
     "_revision": 4,
@@ -2367,8 +2378,9 @@
   "options": {
     "resourcePacks": [
       "file/Icon Xaero's 1.22.zip",
-      "file/FreshAnimations_v1.10.4.zip"
+      "file/FreshAnimations_v1.10.4.zip",
+      "file/bochkraft-title.zip"
     ],
-    "_revision": "file/Icon Xaero's 1.22.zip|file/FreshAnimations_v1.10.4.zip"
+    "_revision": "file/Icon Xaero's 1.22.zip|file/FreshAnimations_v1.10.4.zip|file/bochkraft-title.zip"
   }
 }
