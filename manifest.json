@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-05T19:10:55.601Z",
+  "revision": "2026-10-06T07:08:55.819Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -8,6 +8,18 @@
   },
   "server": "107.161.154.240:25834",
   "mods": [
+    {
+      "name": "moonlight",
+      "title": "Moonlight Lib",
+      "description": "dynamic data pack and registration, villager activities, custom map marker and a lot more",
+      "page": "https://modrinth.com/mod/moonlight",
+      "version": "1.20-2.16.35-forge",
+      "dir": "mods",
+      "file": "moonlight-1.20-2.16.35-forge.jar",
+      "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/W0ZWjZib/moonlight-1.20-2.16.35-forge.jar",
+      "sha1": "a7885d318f5a6810b0ef543cd1cce7d4308f10e6",
+      "size": 1425229
+    },
     {
       "name": "create",
       "title": "Create",
@@ -503,19 +515,6 @@
       "size": 14420114
     },
     {
-      "name": "integrated-api",
-      "title": "Integrated API",
-      "description": "Library mod for the Integrated Structures series",
-      "page": "https://modrinth.com/mod/integrated-api",
-      "version": "1.8.2",
-      "dir": "mods",
-      "file": "integrated_api-forge-1.20.1-1.8.2.jar",
-      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
-      "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
-      "size": 712428,
-      "requiredBy": " Integrated Dungeons and Structures"
-    },
-    {
       "name": "supplementaries",
       "title": "Supplementaries",
       "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
@@ -529,17 +528,17 @@
       "requiredBy": " Integrated Dungeons and Structures"
     },
     {
-      "name": "moonlight",
-      "title": "Moonlight Lib",
-      "description": "dynamic data pack and registration, villager activities, custom map marker and a lot more",
-      "page": "https://modrinth.com/mod/moonlight",
-      "version": "1.20-2.16.35-forge",
+      "name": "integrated-api",
+      "title": "Integrated API",
+      "description": "Library mod for the Integrated Structures series",
+      "page": "https://modrinth.com/mod/integrated-api",
+      "version": "1.8.2",
       "dir": "mods",
-      "file": "moonlight-1.20-2.16.35-forge.jar",
-      "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/W0ZWjZib/moonlight-1.20-2.16.35-forge.jar",
-      "sha1": "a7885d318f5a6810b0ef543cd1cce7d4308f10e6",
-      "size": 1425229,
-      "requiredBy": "Supplementaries"
+      "file": "integrated_api-forge-1.20.1-1.8.2.jar",
+      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
+      "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
+      "size": 712428,
+      "requiredBy": " Integrated Dungeons and Structures"
     },
     {
       "name": "quark",
@@ -2088,6 +2087,18 @@
       "size": 287611
     },
     {
+      "name": "patchouli",
+      "title": "Patchouli",
+      "description": "Accessible, Data-Driven, Dependency-Free Documentation for Minecraft Modders and Pack Makers",
+      "page": "https://modrinth.com/mod/patchouli",
+      "version": "1.20.1-85-forge",
+      "dir": "mods",
+      "file": "Patchouli-1.20.1-85-FORGE.jar",
+      "url": "https://cdn.modrinth.com/data/nU0bVIaL/versions/94dtOLgZ/Patchouli-1.20.1-85-FORGE.jar",
+      "sha1": "d4614507d6e4c7cb464bba5eca891978272062ef",
+      "size": 642732
+    },
+    {
       "name": "blockui",
       "title": "UI Library Mod",
       "version": "1.20.1-1.0.194-snapshot",
@@ -2101,12 +2112,12 @@
     {
       "name": "bochkraft",
       "title": "BochKraft",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "dir": "mods",
-      "file": "bochkraft-1.0.2.jar",
-      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.2/bochkraft-1.0.2.jar",
-      "sha1": "43f89eb8a03a54308cd453cf20f6128f718d4e38",
-      "size": 56163
+      "file": "bochkraft-1.0.3.jar",
+      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.3/bochkraft-1.0.3.jar",
+      "sha1": "3664249257e22b80a6345c53299258a6d0bb8884",
+      "size": 553041
     },
     {
       "name": "configured",
