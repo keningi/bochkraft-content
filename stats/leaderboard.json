@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T20:26:41.625Z",
+  "updated": "2026-10-06T23:56:29.847Z",
   "categories": [
     {
       "id": "time",
@@ -19,15 +19,15 @@
         },
         {
           "name": "kensund",
-          "value": 993998,
-          "display": "13 ч 48 мин",
-          "gap": "1 ч 37 мин"
+          "value": 1033765,
+          "display": "14 ч 21 мин",
+          "gap": "1 ч 4 мин"
         },
         {
           "name": "Mark_ovv",
           "value": 992092,
           "display": "13 ч 46 мин",
-          "gap": "0 ч 1 мин"
+          "gap": "0 ч 34 мин"
         },
         {
           "name": "Garru99",
@@ -44,14 +44,14 @@
       "rows": [
         {
           "name": "kensund",
-          "value": 14986000,
-          "display": "149.9 км"
+          "value": 15217478,
+          "display": "152.2 км"
         },
         {
           "name": "askar9_9",
           "value": 14626042,
           "display": "146.3 км",
-          "gap": "3.6 км"
+          "gap": "5.9 км"
         },
         {
           "name": "Mark_ovv",
@@ -97,15 +97,15 @@
         },
         {
           "name": "kensund",
-          "value": 157,
-          "display": "157",
-          "gap": "22"
+          "value": 159,
+          "display": "159",
+          "gap": "20"
         },
         {
           "name": "Garru99",
           "value": 27,
           "display": "27",
-          "gap": "131"
+          "gap": "133"
         }
       ]
     },
@@ -235,15 +235,15 @@
         },
         {
           "name": "kensund",
-          "value": 4,
-          "display": "4",
-          "gap": "3"
+          "value": 5,
+          "display": "5",
+          "gap": "2"
         },
         {
           "name": "Garru99",
           "value": 1,
           "display": "1",
-          "gap": "4"
+          "gap": "5"
         }
       ]
     },
@@ -259,15 +259,15 @@
         },
         {
           "name": "kensund",
-          "value": 13585,
-          "display": "13585",
-          "gap": "4279"
+          "value": 13742,
+          "display": "13742",
+          "gap": "4122"
         },
         {
           "name": "ADAM",
           "value": 9897,
           "display": "9897",
-          "gap": "3689"
+          "gap": "3846"
         },
         {
           "name": "Mark_ovv",
