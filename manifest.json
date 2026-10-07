@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-07T21:09:32.933Z",
+  "revision": "2026-10-07T22:29:09.248Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -194,6 +194,19 @@
       "size": 15765792
     },
     {
+      "name": "simply-tooltips",
+      "title": "Simply Tooltips",
+      "description": "Modern data driven tooltip rendering",
+      "page": "https://modrinth.com/mod/simply-tooltips",
+      "version": "0.1.5-1.20.1",
+      "dir": "mods",
+      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
+      "size": 5418741,
+      "requiredBy": "Simply Swords"
+    },
+    {
       "name": "fzzy-config",
       "title": "Fzzy Config",
       "description": "Config API with automatic GUIs, powerful validation options, server-client sync, and more!",
@@ -204,7 +217,7 @@
       "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/53kg5uoF/fzzy_config-0.7.7%2B1.20.1%2Bforge.jar",
       "sha1": "1a4f550dea4fb6316a96591dc46a463ee1f6602b",
       "size": 2397175,
-      "requiredBy": "Simply Swords"
+      "requiredBy": "Simply Tooltips"
     },
     {
       "name": "kotlin-for-forge",
@@ -218,19 +231,6 @@
       "sha1": "962fdb760409d6d71cbf079235f1ca94e3863a22",
       "size": 7442998,
       "requiredBy": "Fzzy Config"
-    },
-    {
-      "name": "simply-tooltips",
-      "title": "Simply Tooltips",
-      "description": "Modern data driven tooltip rendering",
-      "page": "https://modrinth.com/mod/simply-tooltips",
-      "version": "0.1.5-1.20.1",
-      "dir": "mods",
-      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
-      "size": 5418741,
-      "requiredBy": "Simply Swords"
     },
     {
       "name": "architectury-api",
@@ -527,19 +527,6 @@
       "size": 14420114
     },
     {
-      "name": "supplementaries",
-      "title": "Supplementaries",
-      "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
-      "page": "https://modrinth.com/mod/supplementaries",
-      "version": "1.20-3.1.43-forge",
-      "dir": "mods",
-      "file": "supplementaries-1.20-3.1.43-forge.jar",
-      "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/S0TIJ1hU/supplementaries-1.20-3.1.43-forge.jar",
-      "sha1": "326d65a29981de28016e3828370d68a8f63e1798",
-      "size": 13667742,
-      "requiredBy": " Integrated Dungeons and Structures"
-    },
-    {
       "name": "integrated-api",
       "title": "Integrated API",
       "description": "Library mod for the Integrated Structures series",
@@ -550,6 +537,19 @@
       "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
       "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
       "size": 712428,
+      "requiredBy": " Integrated Dungeons and Structures"
+    },
+    {
+      "name": "supplementaries",
+      "title": "Supplementaries",
+      "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
+      "page": "https://modrinth.com/mod/supplementaries",
+      "version": "1.20-3.1.43-forge",
+      "dir": "mods",
+      "file": "supplementaries-1.20-3.1.43-forge.jar",
+      "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/S0TIJ1hU/supplementaries-1.20-3.1.43-forge.jar",
+      "sha1": "326d65a29981de28016e3828370d68a8f63e1798",
+      "size": 13667742,
       "requiredBy": " Integrated Dungeons and Structures"
     },
     {
@@ -2048,19 +2048,6 @@
       "size": 25625609
     },
     {
-      "name": "melody",
-      "title": "Melody",
-      "description": "OpenAL-based library mod for playing background music.",
-      "page": "https://modrinth.com/mod/melody",
-      "version": "1.0.3-1.20.1-1.20.4-forge",
-      "dir": "mods",
-      "file": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
-      "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/lJlW5r8R/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
-      "sha1": "e0942d396a70c09038e6c2e5e1da6505178249b8",
-      "size": 37178,
-      "requiredBy": "FancyMenu"
-    },
-    {
       "name": "konkrete",
       "title": "Konkrete",
       "description": "Just another boring library mod.",
@@ -2071,6 +2058,19 @@
       "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/skYziQQL/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
       "sha1": "2019d821bed9071daabed43979433a5473ceee49",
       "size": 625185,
+      "requiredBy": "FancyMenu"
+    },
+    {
+      "name": "melody",
+      "title": "Melody",
+      "description": "OpenAL-based library mod for playing background music.",
+      "page": "https://modrinth.com/mod/melody",
+      "version": "1.0.3-1.20.1-1.20.4-forge",
+      "dir": "mods",
+      "file": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/lJlW5r8R/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+      "sha1": "e0942d396a70c09038e6c2e5e1da6505178249b8",
+      "size": 37178,
       "requiredBy": "FancyMenu"
     },
     {
@@ -2132,6 +2132,30 @@
       "url": "https://cdn.modrinth.com/data/Rw1Ylmn4/versions/UgWzAtGu/stardew_fishing-3.7-1.20.1.jar",
       "sha1": "6c9d80bb6faeec33402a03ad02ce28e50fcf8253",
       "size": 1339256
+    },
+    {
+      "name": "entityculling",
+      "title": "Entity Culling",
+      "description": "Using async path-tracing to hide Block-/Entities that are not visible",
+      "page": "https://modrinth.com/mod/entityculling",
+      "version": "1.11.2",
+      "dir": "mods",
+      "file": "entityculling-forge-1.11.2-mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/HPDH6g5B/entityculling-forge-1.11.2-mc1.20.1.jar",
+      "sha1": "856ef2e3c5bbde87fa5f06515c42fbca8af24a74",
+      "size": 1515048
+    },
+    {
+      "name": "immediatelyfast",
+      "title": "ImmediatelyFast",
+      "description": "Speed up immediate mode rendering in Minecraft",
+      "page": "https://modrinth.com/mod/immediatelyfast",
+      "version": "1.5.5+1.20.4-forge",
+      "dir": "mods",
+      "file": "ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/rvsLEEZU/ImmediatelyFast-Forge-1.5.5%2B1.20.4.jar",
+      "sha1": "9eacd407b7dea636d375dc47335d92f616484ea2",
+      "size": 532063
     },
     {
       "name": "blockui",
@@ -2541,7 +2565,7 @@
   "launcher": "0.2.19",
   "keybinds": {
     "_comment": "Раскладка клавиш сборки BochKraft. Лаунчер при синхронизации записывает эти бинды в options.txt игрока, пока игрок сам их не поменял в игре (ключи с меткой в options.txt не трогаются повторно). Формат ключей — как в options.txt.",
-    "_revision": 6,
+    "_revision": 7,
     "binds": {
       "key_key.pointblack.reload": "key.keyboard.r",
       "key_key.pointblack.firemode": "key.keyboard.f6",
@@ -2613,7 +2637,9 @@
       "key_key.jei.showRecipe": "key.keyboard.y",
       "key_key.socialInteractions": "key.keyboard.unknown",
       "key_key.jade.narrate": "key.keyboard.unknown",
-      "key_key.dragonsofberk.keySpecialAbility": "key.keyboard.semicolon"
+      "key_key.dragonsofberk.keySpecialAbility": "key.keyboard.semicolon",
+      "key_key.bochkraft.techniques": "key.mouse.middle",
+      "key_key.pickItem": "key.mouse.5"
     }
   },
   "options": {
