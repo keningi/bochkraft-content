@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-07T22:29:09.248Z",
+  "revision": "2026-10-07T23:38:32.899Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -194,19 +194,6 @@
       "size": 15765792
     },
     {
-      "name": "simply-tooltips",
-      "title": "Simply Tooltips",
-      "description": "Modern data driven tooltip rendering",
-      "page": "https://modrinth.com/mod/simply-tooltips",
-      "version": "0.1.5-1.20.1",
-      "dir": "mods",
-      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
-      "size": 5418741,
-      "requiredBy": "Simply Swords"
-    },
-    {
       "name": "fzzy-config",
       "title": "Fzzy Config",
       "description": "Config API with automatic GUIs, powerful validation options, server-client sync, and more!",
@@ -217,7 +204,7 @@
       "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/53kg5uoF/fzzy_config-0.7.7%2B1.20.1%2Bforge.jar",
       "sha1": "1a4f550dea4fb6316a96591dc46a463ee1f6602b",
       "size": 2397175,
-      "requiredBy": "Simply Tooltips"
+      "requiredBy": "Simply Swords"
     },
     {
       "name": "kotlin-for-forge",
@@ -231,6 +218,19 @@
       "sha1": "962fdb760409d6d71cbf079235f1ca94e3863a22",
       "size": 7442998,
       "requiredBy": "Fzzy Config"
+    },
+    {
+      "name": "simply-tooltips",
+      "title": "Simply Tooltips",
+      "description": "Modern data driven tooltip rendering",
+      "page": "https://modrinth.com/mod/simply-tooltips",
+      "version": "0.1.5-1.20.1",
+      "dir": "mods",
+      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
+      "size": 5418741,
+      "requiredBy": "Simply Swords"
     },
     {
       "name": "architectury-api",
@@ -2171,12 +2171,12 @@
     {
       "name": "bochkraft",
       "title": "BochKraft",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "dir": "mods",
-      "file": "bochkraft-1.0.7.jar",
-      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.7/bochkraft-1.0.7.jar",
-      "sha1": "846a4b1b951d1b6d94062fb01bfad4fc3be6cc95",
-      "size": 744067
+      "file": "bochkraft-1.0.8.jar",
+      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.8/bochkraft-1.0.8.jar",
+      "sha1": "77ffd7de19ba37b0c37edcbb90918f53fb3d760f",
+      "size": 815257
     },
     {
       "name": "configured",
