@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-07T05:07:28.890Z",
+  "revision": "2026-10-07T18:25:07.447Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -144,19 +144,6 @@
       "size": 1054339
     },
     {
-      "name": "cloth-config",
-      "title": "Cloth Config API",
-      "description": "Configuration Library for Minecraft Mods",
-      "page": "https://modrinth.com/mod/cloth-config",
-      "version": "11.1.136+forge",
-      "dir": "mods",
-      "file": "cloth-config-11.1.136-forge.jar",
-      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
-      "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
-      "size": 1181413,
-      "requiredBy": "Better Combat"
-    },
-    {
       "name": "playeranimator",
       "title": "playerAnimator",
       "description": "animate the player",
@@ -167,6 +154,19 @@
       "url": "https://cdn.modrinth.com/data/gedNE4y2/versions/xe2EVE6q/player-animation-lib-forge-1.0.2-rc1%2B1.20.jar",
       "sha1": "16808f94a41d45d8e986b4e4ea6b02ba57fa058a",
       "size": 181437,
+      "requiredBy": "Better Combat"
+    },
+    {
+      "name": "cloth-config",
+      "title": "Cloth Config API",
+      "description": "Configuration Library for Minecraft Mods",
+      "page": "https://modrinth.com/mod/cloth-config",
+      "version": "11.1.136+forge",
+      "dir": "mods",
+      "file": "cloth-config-11.1.136-forge.jar",
+      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
+      "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
+      "size": 1181413,
       "requiredBy": "Better Combat"
     },
     {
@@ -194,19 +194,6 @@
       "size": 15765792
     },
     {
-      "name": "simply-tooltips",
-      "title": "Simply Tooltips",
-      "description": "Modern data driven tooltip rendering",
-      "page": "https://modrinth.com/mod/simply-tooltips",
-      "version": "0.1.5-1.20.1",
-      "dir": "mods",
-      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
-      "size": 5418741,
-      "requiredBy": "Simply Swords"
-    },
-    {
       "name": "fzzy-config",
       "title": "Fzzy Config",
       "description": "Config API with automatic GUIs, powerful validation options, server-client sync, and more!",
@@ -217,7 +204,7 @@
       "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/53kg5uoF/fzzy_config-0.7.7%2B1.20.1%2Bforge.jar",
       "sha1": "1a4f550dea4fb6316a96591dc46a463ee1f6602b",
       "size": 2397175,
-      "requiredBy": "Simply Tooltips"
+      "requiredBy": "Simply Swords"
     },
     {
       "name": "kotlin-for-forge",
@@ -243,7 +230,20 @@
       "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
       "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
       "size": 580602,
-      "requiredBy": "Simply Tooltips"
+      "requiredBy": "Simply Swords"
+    },
+    {
+      "name": "simply-tooltips",
+      "title": "Simply Tooltips",
+      "description": "Modern data driven tooltip rendering",
+      "page": "https://modrinth.com/mod/simply-tooltips",
+      "version": "0.1.5-1.20.1",
+      "dir": "mods",
+      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
+      "size": 5418741,
+      "requiredBy": "Simply Swords"
     },
     {
       "name": "artifacts",
@@ -2147,12 +2147,12 @@
     {
       "name": "bochkraft",
       "title": "BochKraft",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "dir": "mods",
-      "file": "bochkraft-1.0.5.jar",
-      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.5/bochkraft-1.0.5.jar",
-      "sha1": "1b82cf7336556b78068322b982af9a15c4e85ca5",
-      "size": 604725
+      "file": "bochkraft-1.0.6.jar",
+      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.6/bochkraft-1.0.6.jar",
+      "sha1": "74f1981b065aab1c7a594732b6c47195366b4294",
+      "size": 706880
     },
     {
       "name": "configured",
