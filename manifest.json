@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-07T23:38:32.899Z",
+  "revision": "2026-10-08T16:45:35.437Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -94,19 +94,6 @@
       "size": 73916104
     },
     {
-      "name": "lionfish-api",
-      "title": "Lionfish-API",
-      "description": "Very Light Animation Api",
-      "page": "https://modrinth.com/mod/lionfish-api",
-      "version": "3.0",
-      "dir": "mods",
-      "file": "lionfishapi-3.0.jar",
-      "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
-      "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
-      "size": 101931,
-      "requiredBy": "L_Ender's Cataclysm"
-    },
-    {
       "name": "curios",
       "title": "Curios API",
       "description": "A flexible and expandable accessory/equipment API for users and developers.",
@@ -117,6 +104,19 @@
       "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
       "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
       "size": 398066,
+      "requiredBy": "L_Ender's Cataclysm"
+    },
+    {
+      "name": "lionfish-api",
+      "title": "Lionfish-API",
+      "description": "Very Light Animation Api",
+      "page": "https://modrinth.com/mod/lionfish-api",
+      "version": "3.0",
+      "dir": "mods",
+      "file": "lionfishapi-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
+      "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
+      "size": 101931,
       "requiredBy": "L_Ender's Cataclysm"
     },
     {
@@ -220,6 +220,19 @@
       "requiredBy": "Fzzy Config"
     },
     {
+      "name": "architectury-api",
+      "title": "Architectury API",
+      "description": "An intermediary api aimed to ease developing multiplatform mods.",
+      "page": "https://modrinth.com/mod/architectury-api",
+      "version": "9.2.14+forge",
+      "dir": "mods",
+      "file": "architectury-9.2.14-forge.jar",
+      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
+      "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
+      "size": 580602,
+      "requiredBy": "Simply Swords"
+    },
+    {
       "name": "simply-tooltips",
       "title": "Simply Tooltips",
       "description": "Modern data driven tooltip rendering",
@@ -231,19 +244,6 @@
       "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
       "size": 5418741,
       "requiredBy": "Simply Swords"
-    },
-    {
-      "name": "architectury-api",
-      "title": "Architectury API",
-      "description": "An intermediary api aimed to ease developing multiplatform mods.",
-      "page": "https://modrinth.com/mod/architectury-api",
-      "version": "9.2.14+forge",
-      "dir": "mods",
-      "file": "architectury-9.2.14-forge.jar",
-      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
-      "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
-      "size": 580602,
-      "requiredBy": "Simply Tooltips"
     },
     {
       "name": "artifacts",
@@ -986,12 +986,12 @@
       "title": "AmbientSounds",
       "description": "#listentonature",
       "page": "https://modrinth.com/mod/ambientsounds",
-      "version": "6.3.9",
+      "version": "6.3.10",
       "dir": "mods",
-      "file": "AmbientSounds_FORGE_v6.3.9_mc1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/fM515JnW/versions/EPxVyOnf/AmbientSounds_FORGE_v6.3.9_mc1.20.1.jar",
-      "sha1": "28441539a998b5e0822176d8db7b8594042bacbf",
-      "size": 53431801
+      "file": "AmbientSounds_FORGE_v6.3.10_mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/fM515JnW/versions/ApGAJplZ/AmbientSounds_FORGE_v6.3.10_mc1.20.1.jar",
+      "sha1": "feb797f5303eb0b43002ad8ea366530249b4710b",
+      "size": 53432458
     },
     {
       "name": "creativecore",
@@ -2158,6 +2158,152 @@
       "size": 532063
     },
     {
+      "name": "canary",
+      "title": "Canary",
+      "description": "A performance mod designed to optimize Minecraft's general performance and unofficial fork of Lithium mod for Minecraft Forge.",
+      "page": "https://modrinth.com/mod/canary",
+      "version": "mc1.20.1-0.3.3",
+      "dir": "mods",
+      "file": "canary-mc1.20.1-0.3.3.jar",
+      "url": "https://cdn.modrinth.com/data/qa2H4BS9/versions/lauzXB0n/canary-mc1.20.1-0.3.3.jar",
+      "sha1": "898abd9e337ef1c677ce93f5589497a09c7e9850",
+      "size": 594191
+    },
+    {
+      "name": "memoryleakfix",
+      "title": "Memory Leak Fix",
+      "description": "A mod that fixes random memory leaks for both the client and server",
+      "page": "https://modrinth.com/mod/memoryleakfix",
+      "version": "v1.1.5",
+      "dir": "mods",
+      "file": "memoryleakfix-forge-1.17+-1.1.5.jar",
+      "url": "https://cdn.modrinth.com/data/NRjRiSSD/versions/3w0IxNtk/memoryleakfix-forge-1.17%2B-1.1.5.jar",
+      "sha1": "9f60142dd94631800386a16a4ad70ad9e84cd78a",
+      "size": 227925
+    },
+    {
+      "name": "clumps",
+      "title": "Clumps",
+      "description": "Clumps XP orbs together to reduce lag",
+      "page": "https://modrinth.com/mod/clumps",
+      "version": "12.0.0.4",
+      "dir": "mods",
+      "file": "Clumps-forge-1.20.1-12.0.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/Wnxd13zP/versions/nAHGB5ls/Clumps-forge-1.20.1-12.0.0.4.jar",
+      "sha1": "8809c7aa6c71389e9c59abfe5def52c1cb8d4f1c",
+      "size": 20300
+    },
+    {
+      "name": "saturn",
+      "title": "Saturn",
+      "description": "A performance mod designed to optimize Minecraft's memory usage.",
+      "page": "https://modrinth.com/mod/saturn",
+      "version": "mc1.20.1-0.1.3",
+      "dir": "mods",
+      "file": "saturn-mc1.20.1-0.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/2eT495vq/versions/Yx85DYaG/saturn-mc1.20.1-0.1.3.jar",
+      "sha1": "ad93f99d46714c46aaa6a4409aeca506e9fcac99",
+      "size": 92319
+    },
+    {
+      "name": "badoptimizations",
+      "title": "BadOptimizations",
+      "description": "Optimization mod that focuses on things other than rendering",
+      "page": "https://modrinth.com/mod/badoptimizations",
+      "version": "2.4.1",
+      "dir": "mods",
+      "file": "BadOptimizations-2.4.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/g96Z4WVZ/versions/DIugITgU/BadOptimizations-2.4.1-1.20.1.jar",
+      "sha1": "304007dcb0fb15ed1a1bc3771736470dafc5be0f",
+      "size": 460234
+    },
+    {
+      "name": "dynamic-fps",
+      "title": "Dynamic FPS",
+      "description": "Reduce resource usage while Minecraft is in the background, idle, or on battery.",
+      "page": "https://modrinth.com/mod/dynamic-fps",
+      "version": "3.11.4",
+      "dir": "mods",
+      "file": "dynamic-fps-3.11.4+minecraft-1.20.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/LQ3K71Q1/versions/EjdIWWqG/dynamic-fps-3.11.4%2Bminecraft-1.20.0-forge.jar",
+      "sha1": "43b3e0766a9e7a30651cc01756476657b865b7a2",
+      "size": 402345
+    },
+    {
+      "name": "particle-core",
+      "title": "Particle Core",
+      "description": "Particle optimizations: Culling, rendering optimizations, configurable particle-type-specific spawn reduction, and potion particle disabling. Compatible with Sodium, improves performance over Sodium alone.",
+      "page": "https://modrinth.com/mod/particle-core",
+      "version": "0.3.3+1.20.1+forge",
+      "dir": "mods",
+      "file": "particle_core-0.3.3+1.20.1+forge.jar",
+      "url": "https://cdn.modrinth.com/data/RSeLon5O/versions/cFafZfyr/particle_core-0.3.3%2B1.20.1%2Bforge.jar",
+      "sha1": "1da5744853d17979033d5ee3cd4251b8340ea7be",
+      "size": 773448
+    },
+    {
+      "name": "cull-leaves",
+      "title": "Cull Leaves",
+      "description": "Adds culling to leaf blocks, providing a huge performance boost over vanilla.",
+      "page": "https://modrinth.com/mod/cull-leaves",
+      "version": "4.1.1+1.20.1-forge",
+      "dir": "mods",
+      "file": "cullleaves-forge-4.1.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/yFZM1Bsc/cullleaves-forge-4.1.1%2B1.20.1.jar",
+      "sha1": "610b92837c4233c5c1f22ed495728c5ad0c78050",
+      "size": 97480
+    },
+    {
+      "name": "midnightlib",
+      "title": "MidnightLib",
+      "description": "Common library providing a lightweight configuration system",
+      "page": "https://modrinth.com/mod/midnightlib",
+      "version": "1.9.2+1.20.1-forge",
+      "dir": "mods",
+      "file": "midnightlib-forge-1.9.2+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/codAaoxh/versions/EVVb5nP3/midnightlib-forge-1.9.2%2B1.20.1.jar",
+      "sha1": "ff01aa718b71249012c41d9926d3fd2982809fdb",
+      "size": 61987,
+      "requiredBy": "Cull Leaves"
+    },
+    {
+      "name": "lmd",
+      "title": "Let Me Despawn",
+      "description": "Improves performance by tweaking mob despawn rules. Say bye to pesky unintentional persistent mobs.",
+      "page": "https://modrinth.com/mod/lmd",
+      "version": "1.5.0",
+      "dir": "mods",
+      "file": "letmedespawn-1.20.x-forge-1.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/vE2FN5qn/versions/1VmupN41/letmedespawn-1.20.x-forge-1.5.0.jar",
+      "sha1": "878dd35df02e1e17b7eb16113147f964eda8847f",
+      "size": 14789
+    },
+    {
+      "name": "almanac",
+      "title": "Almanac",
+      "description": "Almanac is a library used by my mods with mostly loader independent shared code between multiple mods to avoid duplication of code.",
+      "page": "https://modrinth.com/mod/almanac",
+      "version": "1.0.2",
+      "dir": "mods",
+      "file": "almanac-1.20.x-forge-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/Gi02250Z/versions/DnzrwvfD/almanac-1.20.x-forge-1.0.2.jar",
+      "sha1": "f0b711df59cd589b088e536ca4134c5e6e73fd58",
+      "size": 15906,
+      "requiredBy": "Let Me Despawn"
+    },
+    {
+      "name": "async-locator",
+      "title": "Async Locator",
+      "description": "Changes the searching of features to be asynchronous to mitigate associated lag",
+      "page": "https://modrinth.com/mod/async-locator",
+      "version": "1.20-1.3.0",
+      "dir": "mods",
+      "file": "async-locator-forge-1.20-1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/rkN8aqci/versions/Eip0qUwF/async-locator-forge-1.20-1.3.0.jar",
+      "sha1": "fa8e3d65644e5bf1ea62f1ba3c94b0982dfb7357",
+      "size": 264951
+    },
+    {
       "name": "blockui",
       "title": "UI Library Mod",
       "version": "1.20.1-1.0.194-snapshot",
@@ -2446,6 +2592,17 @@
       "size": 694
     },
     {
+      "name": "config/particlerain/config.json",
+      "title": "config.json",
+      "version": "файл сборки",
+      "dir": "config/particlerain",
+      "file": "config.json",
+      "local": "overrides/config/particlerain/config.json",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/particlerain/config.json",
+      "sha1": "74e2effabbfd5822a4cc48727b1936e4017adab6",
+      "size": 1153
+    },
+    {
       "name": "config/physicsmod/physics_client_config.json",
       "title": "physics_client_config.json",
       "version": "файл сборки",
@@ -2453,8 +2610,8 @@
       "file": "physics_client_config.json",
       "local": "overrides/config/physicsmod/physics_client_config.json",
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/physicsmod/physics_client_config.json",
-      "sha1": "235fde973a180f5b697afe971f9ec79a36b1c851",
-      "size": 4175
+      "sha1": "cb457957fd254d0c3bbb81d9c0362f2df6d13848",
+      "size": 4174
     },
     {
       "name": "config/physicsmod/physics_server_config.json",
@@ -2477,6 +2634,39 @@
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/quark-common.toml",
       "sha1": "db8e076c744d8d2ead7a1735452386a4d8b672a3",
       "size": 82279
+    },
+    {
+      "name": "config/ragdollified-client.toml",
+      "title": "ragdollified-client.toml",
+      "version": "файл сборки",
+      "dir": "config",
+      "file": "ragdollified-client.toml",
+      "local": "overrides/config/ragdollified-client.toml",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/ragdollified-client.toml",
+      "sha1": "ce8a453304adeef313ee5a742589e1fbb35290bd",
+      "size": 458
+    },
+    {
+      "name": "config/sodiumdynamiclights-client.toml",
+      "title": "sodiumdynamiclights-client.toml",
+      "version": "файл сборки",
+      "dir": "config",
+      "file": "sodiumdynamiclights-client.toml",
+      "local": "overrides/config/sodiumdynamiclights-client.toml",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/sodiumdynamiclights-client.toml",
+      "sha1": "d81a112ae3b59ab7fc4684e06332d94a72f390a3",
+      "size": 791
+    },
+    {
+      "name": "config/sound_physics_remastered/soundphysics.properties",
+      "title": "soundphysics.properties",
+      "version": "файл сборки",
+      "dir": "config/sound_physics_remastered",
+      "file": "soundphysics.properties",
+      "local": "overrides/config/sound_physics_remastered/soundphysics.properties",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/sound_physics_remastered/soundphysics.properties",
+      "sha1": "e30dfd97d3e58acfc005ded637098305e608b73a",
+      "size": 5005
     },
     {
       "name": "CustomSkinLoader/CustomSkinLoader.json",
@@ -2640,6 +2830,31 @@
       "key_key.dragonsofberk.keySpecialAbility": "key.keyboard.semicolon",
       "key_key.bochkraft.techniques": "key.mouse.middle",
       "key_key.pickItem": "key.mouse.5"
+    }
+  },
+  "patches": {
+    "_comment": "Правки настроек игрока ради производительности. Лаунчер применяет их один раз на ревизию (метка .bochkraft-patches в папке игры), потом игрок волен менять всё под себя. Ключи ищутся построчно в файлах ниже; значение пишется как есть (строки toml — в кавычках). Чтобы применить заново у всех — подними _revision.",
+    "_revision": 1,
+    "files": {
+      "options.txt": {
+        "renderDistance": "8",
+        "simulationDistance": "6",
+        "enableVsync": "false",
+        "entityShadows": "false",
+        "particles": "1",
+        "renderClouds": "\"fast\""
+      },
+      "config/DistantHorizons.toml": {
+        "numberOfThreads": "3",
+        "lodChunkRenderDistanceRadius": "160",
+        "horizontalQuality": "\"MEDIUM\"",
+        "verticalQuality": "\"MEDIUM\"",
+        "transparency": "\"FANCY\"",
+        "enableSsao": "false"
+      },
+      "config/entity_texture_features.json": {
+        "textureUpdateFrequency_V2": "\"Average\""
+      }
     }
   },
   "options": {
