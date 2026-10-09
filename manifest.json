@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-09T15:01:31.771Z",
+  "revision": "2026-10-09T16:31:24.274Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -552,6 +552,19 @@
       "requiredBy": " Integrated Dungeons and Structures"
     },
     {
+      "name": "integrated-api",
+      "title": "Integrated API",
+      "description": "Library mod for the Integrated Structures series",
+      "page": "https://modrinth.com/mod/integrated-api",
+      "version": "1.8.2",
+      "dir": "mods",
+      "file": "integrated_api-forge-1.20.1-1.8.2.jar",
+      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
+      "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
+      "size": 712428,
+      "requiredBy": " Integrated Dungeons and Structures"
+    },
+    {
       "name": "quark",
       "title": "Quark",
       "description": "A Quark is a very small thing. This mod is a collection of small things...",
@@ -576,19 +589,6 @@
       "sha1": "8c4a8ef0444b53ff408d5b89126285031081d92f",
       "size": 1006518,
       "requiredBy": "Quark"
-    },
-    {
-      "name": "integrated-api",
-      "title": "Integrated API",
-      "description": "Library mod for the Integrated Structures series",
-      "page": "https://modrinth.com/mod/integrated-api",
-      "version": "1.8.2",
-      "dir": "mods",
-      "file": "integrated_api-forge-1.20.1-1.8.2.jar",
-      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
-      "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
-      "size": 712428,
-      "requiredBy": " Integrated Dungeons and Structures"
     },
     {
       "name": "the-lost-cities",
@@ -2832,7 +2832,7 @@
   },
   "patches": {
     "_comment": "Правки настроек игрока ради производительности. Лаунчер применяет их один раз на ревизию (метка .bochkraft-patches в папке игры), потом игрок волен менять всё под себя. Ключи ищутся построчно в файлах ниже; значение пишется как есть (строки toml — в кавычках). Чтобы применить заново у всех — подними _revision.",
-    "_revision": 1,
+    "_revision": 2,
     "files": {
       "options.txt": {
         "renderDistance": "8",
@@ -2844,7 +2844,7 @@
       },
       "config/DistantHorizons.toml": {
         "numberOfThreads": "3",
-        "lodChunkRenderDistanceRadius": "160",
+        "lodChunkRenderDistanceRadius": "64",
         "horizontalQuality": "\"MEDIUM\"",
         "verticalQuality": "\"MEDIUM\"",
         "transparency": "\"FANCY\"",
