@@ -1,6 +1,6 @@
 {
   "_comment": "Контент лаунчера BochKraft. Меняешь здесь → npm run publish:content → у всех обновится при следующем запуске лаунчера.",
-  "revision": "2026-10-08T17:00:30.787Z",
+  "revision": "2026-10-09T08:01:39.938Z",
   "news": [
     {
       "title": "Сборка BochKraft",
@@ -62,10 +62,10 @@
   },
   "server": null,
   "launcher": {
-    "version": "0.2.20",
-    "windows": "https://github.com/keningi/bochkraft-content/releases/download/v0.2.20/BochKraft-Setup-0.2.20.exe",
-    "macArm": "https://github.com/keningi/bochkraft-content/releases/download/v0.2.20/BochKraft-0.2.20-arm64.dmg",
-    "macX64": "https://github.com/keningi/bochkraft-content/releases/download/v0.2.20/BochKraft-0.2.20-x64.dmg"
+    "version": "0.2.21",
+    "windows": "https://github.com/keningi/bochkraft-content/releases/download/v0.2.21/BochKraft-Setup-0.2.21.exe",
+    "macArm": "https://github.com/keningi/bochkraft-content/releases/download/v0.2.21/BochKraft-0.2.21-arm64.dmg",
+    "macX64": "https://github.com/keningi/bochkraft-content/releases/download/v0.2.21/BochKraft-0.2.21-x64.dmg"
   },
   "map": "http://107.161.154.240:25848"
 }
