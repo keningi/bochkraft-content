@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-08T16:45:35.437Z",
+  "revision": "2026-10-09T09:30:29.043Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -19,6 +19,18 @@
       "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/W0ZWjZib/moonlight-1.20-2.16.35-forge.jar",
       "sha1": "a7885d318f5a6810b0ef543cd1cce7d4308f10e6",
       "size": 1425229
+    },
+    {
+      "name": "puzzles-lib",
+      "title": "Puzzles Lib",
+      "description": "Why is it called Puzzles? That's the puzzle.",
+      "page": "https://modrinth.com/mod/puzzles-lib",
+      "version": "v8.1.33-1.20.1-Forge",
+      "dir": "mods",
+      "file": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+      "url": "https://cdn.modrinth.com/data/QAGBst4M/versions/mIyVGf3d/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+      "sha1": "285b7c7616971338ccbe0022c9ea0f8ad3036aaf",
+      "size": 1342987
     },
     {
       "name": "supermartijn642s-core-lib",
@@ -94,19 +106,6 @@
       "size": 73916104
     },
     {
-      "name": "curios",
-      "title": "Curios API",
-      "description": "A flexible and expandable accessory/equipment API for users and developers.",
-      "page": "https://modrinth.com/mod/curios",
-      "version": "5.14.1+1.20.1",
-      "dir": "mods",
-      "file": "curios-forge-5.14.1+1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
-      "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
-      "size": 398066,
-      "requiredBy": "L_Ender's Cataclysm"
-    },
-    {
       "name": "lionfish-api",
       "title": "Lionfish-API",
       "description": "Very Light Animation Api",
@@ -117,6 +116,19 @@
       "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
       "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
       "size": 101931,
+      "requiredBy": "L_Ender's Cataclysm"
+    },
+    {
+      "name": "curios",
+      "title": "Curios API",
+      "description": "A flexible and expandable accessory/equipment API for users and developers.",
+      "page": "https://modrinth.com/mod/curios",
+      "version": "5.14.1+1.20.1",
+      "dir": "mods",
+      "file": "curios-forge-5.14.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
+      "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
+      "size": 398066,
       "requiredBy": "L_Ender's Cataclysm"
     },
     {
@@ -527,19 +539,6 @@
       "size": 14420114
     },
     {
-      "name": "integrated-api",
-      "title": "Integrated API",
-      "description": "Library mod for the Integrated Structures series",
-      "page": "https://modrinth.com/mod/integrated-api",
-      "version": "1.8.2",
-      "dir": "mods",
-      "file": "integrated_api-forge-1.20.1-1.8.2.jar",
-      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
-      "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
-      "size": 712428,
-      "requiredBy": " Integrated Dungeons and Structures"
-    },
-    {
       "name": "supplementaries",
       "title": "Supplementaries",
       "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
@@ -577,6 +576,19 @@
       "sha1": "8c4a8ef0444b53ff408d5b89126285031081d92f",
       "size": 1006518,
       "requiredBy": "Quark"
+    },
+    {
+      "name": "integrated-api",
+      "title": "Integrated API",
+      "description": "Library mod for the Integrated Structures series",
+      "page": "https://modrinth.com/mod/integrated-api",
+      "version": "1.8.2",
+      "dir": "mods",
+      "file": "integrated_api-forge-1.20.1-1.8.2.jar",
+      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
+      "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
+      "size": 712428,
+      "requiredBy": " Integrated Dungeons and Structures"
     },
     {
       "name": "the-lost-cities",
@@ -809,19 +821,6 @@
       "url": "https://cdn.modrinth.com/data/IKARgflD/versions/6eK8RyWM/DiagonalFences-v8.1.5-1.20.1-Forge.jar",
       "sha1": "3c3266729f531939a9aba47e28fe910875a78755",
       "size": 182476
-    },
-    {
-      "name": "puzzles-lib",
-      "title": "Puzzles Lib",
-      "description": "Why is it called Puzzles? That's the puzzle.",
-      "page": "https://modrinth.com/mod/puzzles-lib",
-      "version": "v8.1.33-1.20.1-Forge",
-      "dir": "mods",
-      "file": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
-      "url": "https://cdn.modrinth.com/data/QAGBst4M/versions/mIyVGf3d/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
-      "sha1": "285b7c7616971338ccbe0022c9ea0f8ad3036aaf",
-      "size": 1342987,
-      "requiredBy": "Diagonal Fences"
     },
     {
       "name": "fusion-connected-textures",
@@ -1879,18 +1878,6 @@
       "requiredBy": "Improved Mobs"
     },
     {
-      "name": "pehkui",
-      "title": "Pehkui",
-      "description": "Lets you change the size of most entities, shrinking their scale smaller or growing them larger",
-      "page": "https://modrinth.com/mod/pehkui",
-      "version": "3.8.2+1.20.1-forge",
-      "dir": "mods",
-      "file": "Pehkui-3.8.2+1.20.1-forge.jar",
-      "url": "https://cdn.modrinth.com/data/t5W7Jfwy/versions/SQpqSgAE/Pehkui-3.8.2%2B1.20.1-forge.jar",
-      "sha1": "4bc816efdd8e5e2a97423313674401351710e403",
-      "size": 671605
-    },
-    {
       "name": "create-new-age",
       "title": "Create: New Age",
       "description": "Create: New Age is an addon for the Create mod that adds integration with electricity.",
@@ -2482,6 +2469,17 @@
       "size": 1868
     },
     {
+      "name": "config/canary.properties",
+      "title": "canary.properties",
+      "version": "файл сборки",
+      "dir": "config",
+      "file": "canary.properties",
+      "local": "overrides/config/canary.properties",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/canary.properties",
+      "sha1": "30d5b2969b54b423f4371bed7e6dd3a42089a7c1",
+      "size": 403
+    },
+    {
       "name": "config/fallingtree.json",
       "title": "fallingtree.json",
       "version": "файл сборки",
@@ -2752,7 +2750,7 @@
       "once": true
     }
   ],
-  "launcher": "0.2.19",
+  "launcher": "0.2.21",
   "keybinds": {
     "_comment": "Раскладка клавиш сборки BochKraft. Лаунчер при синхронизации записывает эти бинды в options.txt игрока, пока игрок сам их не поменял в игре (ключи с меткой в options.txt не трогаются повторно). Формат ключей — как в options.txt.",
     "_revision": 7,
