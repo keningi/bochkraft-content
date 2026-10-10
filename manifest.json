@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-09T16:31:24.274Z",
+  "revision": "2026-10-10T04:25:47.237Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -206,19 +206,6 @@
       "size": 15765792
     },
     {
-      "name": "simply-tooltips",
-      "title": "Simply Tooltips",
-      "description": "Modern data driven tooltip rendering",
-      "page": "https://modrinth.com/mod/simply-tooltips",
-      "version": "0.1.5-1.20.1",
-      "dir": "mods",
-      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
-      "size": 5418741,
-      "requiredBy": "Simply Swords"
-    },
-    {
       "name": "fzzy-config",
       "title": "Fzzy Config",
       "description": "Config API with automatic GUIs, powerful validation options, server-client sync, and more!",
@@ -229,7 +216,7 @@
       "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/53kg5uoF/fzzy_config-0.7.7%2B1.20.1%2Bforge.jar",
       "sha1": "1a4f550dea4fb6316a96591dc46a463ee1f6602b",
       "size": 2397175,
-      "requiredBy": "Simply Tooltips"
+      "requiredBy": "Simply Swords"
     },
     {
       "name": "kotlin-for-forge",
@@ -255,7 +242,20 @@
       "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
       "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
       "size": 580602,
-      "requiredBy": "Simply Tooltips"
+      "requiredBy": "Simply Swords"
+    },
+    {
+      "name": "simply-tooltips",
+      "title": "Simply Tooltips",
+      "description": "Modern data driven tooltip rendering",
+      "page": "https://modrinth.com/mod/simply-tooltips",
+      "version": "0.1.5-1.20.1",
+      "dir": "mods",
+      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
+      "size": 5418741,
+      "requiredBy": "Simply Swords"
     },
     {
       "name": "artifacts",
@@ -552,19 +552,6 @@
       "requiredBy": " Integrated Dungeons and Structures"
     },
     {
-      "name": "integrated-api",
-      "title": "Integrated API",
-      "description": "Library mod for the Integrated Structures series",
-      "page": "https://modrinth.com/mod/integrated-api",
-      "version": "1.8.2",
-      "dir": "mods",
-      "file": "integrated_api-forge-1.20.1-1.8.2.jar",
-      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
-      "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
-      "size": 712428,
-      "requiredBy": " Integrated Dungeons and Structures"
-    },
-    {
       "name": "quark",
       "title": "Quark",
       "description": "A Quark is a very small thing. This mod is a collection of small things...",
@@ -589,6 +576,19 @@
       "sha1": "8c4a8ef0444b53ff408d5b89126285031081d92f",
       "size": 1006518,
       "requiredBy": "Quark"
+    },
+    {
+      "name": "integrated-api",
+      "title": "Integrated API",
+      "description": "Library mod for the Integrated Structures series",
+      "page": "https://modrinth.com/mod/integrated-api",
+      "version": "1.8.2",
+      "dir": "mods",
+      "file": "integrated_api-forge-1.20.1-1.8.2.jar",
+      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
+      "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
+      "size": 712428,
+      "requiredBy": " Integrated Dungeons and Structures"
     },
     {
       "name": "the-lost-cities",
@@ -1820,12 +1820,12 @@
       "title": "CorgiLib",
       "description": "A library mod containing code used across Corgi Taco's mods.",
       "page": "https://modrinth.com/mod/corgilib",
-      "version": "1.20.1-4.0.3.5-forge",
+      "version": "1.20.1-4.0.3.6-forge",
       "dir": "mods",
-      "file": "Corgilib-Forge-1.20.1-4.0.3.5.jar",
-      "url": "https://cdn.modrinth.com/data/ziOp6EO8/versions/HXTB2EAy/Corgilib-Forge-1.20.1-4.0.3.5.jar",
-      "sha1": "ef71df3c9a3d22432d63957a8db00645353bfe36",
-      "size": 318765,
+      "file": "Corgilib-Forge-1.20.1-4.0.3.6.jar",
+      "url": "https://cdn.modrinth.com/data/ziOp6EO8/versions/OtJzHtsl/Corgilib-Forge-1.20.1-4.0.3.6.jar",
+      "sha1": "dc26327631fa34c25139e2d3c95b3274e8978336",
+      "size": 318788,
       "requiredBy": "Oh The Biomes We've Gone"
     },
     {
@@ -2304,12 +2304,12 @@
     {
       "name": "bochkraft",
       "title": "BochKraft",
-      "version": "1.0.16",
+      "version": "1.0.17",
       "dir": "mods",
-      "file": "bochkraft-1.0.16.jar",
-      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.16/bochkraft-1.0.16.jar",
-      "sha1": "d9524bb4ae76215803069c2a345d9bf3f921b9bd",
-      "size": 3185109
+      "file": "bochkraft-1.0.17.jar",
+      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.17/bochkraft-1.0.17.jar",
+      "sha1": "469eb188b915afdbfd47c1987880b23b1f8cfddd",
+      "size": 3185182
     },
     {
       "name": "configured",
