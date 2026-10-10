@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-10T04:25:47.237Z",
+  "revision": "2026-10-10T04:41:32.526Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -2750,7 +2750,7 @@
       "once": true
     }
   ],
-  "launcher": "0.2.24",
+  "launcher": "0.2.25",
   "keybinds": {
     "_comment": "Раскладка клавиш сборки BochKraft. Лаунчер при синхронизации записывает эти бинды в options.txt игрока, пока игрок сам их не поменял в игре (ключи с меткой в options.txt не трогаются повторно). Формат ключей — как в options.txt.",
     "_revision": 7,
@@ -2852,6 +2852,19 @@
       },
       "config/entity_texture_features.json": {
         "textureUpdateFrequency_V2": "\"Average\""
+      }
+    },
+    "platforms": {
+      "darwin": {
+        "_comment": "Только macOS: Distant Horizons слишком тяжёлый для Mac (OpenGL 4.1, общая память) — рендер выключен, дальность и потоки урезаны. Включить обратно игрок может в настройках DH.",
+        "_revision": 1,
+        "files": {
+          "config/DistantHorizons.toml": {
+            "rendererMode": "\"DISABLED\"",
+            "lodChunkRenderDistanceRadius": "32",
+            "numberOfThreads": "1"
+          }
+        }
       }
     }
   },
