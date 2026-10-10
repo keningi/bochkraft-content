@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-10T12:26:59.021Z",
+  "revision": "2026-10-10T14:22:49.446Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -106,19 +106,6 @@
       "size": 73916104
     },
     {
-      "name": "curios",
-      "title": "Curios API",
-      "description": "A flexible and expandable accessory/equipment API for users and developers.",
-      "page": "https://modrinth.com/mod/curios",
-      "version": "5.14.1+1.20.1",
-      "dir": "mods",
-      "file": "curios-forge-5.14.1+1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
-      "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
-      "size": 398066,
-      "requiredBy": "L_Ender's Cataclysm"
-    },
-    {
       "name": "lionfish-api",
       "title": "Lionfish-API",
       "description": "Very Light Animation Api",
@@ -129,6 +116,19 @@
       "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
       "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
       "size": 101931,
+      "requiredBy": "L_Ender's Cataclysm"
+    },
+    {
+      "name": "curios",
+      "title": "Curios API",
+      "description": "A flexible and expandable accessory/equipment API for users and developers.",
+      "page": "https://modrinth.com/mod/curios",
+      "version": "5.14.1+1.20.1",
+      "dir": "mods",
+      "file": "curios-forge-5.14.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
+      "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
+      "size": 398066,
       "requiredBy": "L_Ender's Cataclysm"
     },
     {
@@ -156,19 +156,6 @@
       "size": 1054339
     },
     {
-      "name": "cloth-config",
-      "title": "Cloth Config API",
-      "description": "Configuration Library for Minecraft Mods",
-      "page": "https://modrinth.com/mod/cloth-config",
-      "version": "11.1.136+forge",
-      "dir": "mods",
-      "file": "cloth-config-11.1.136-forge.jar",
-      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
-      "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
-      "size": 1181413,
-      "requiredBy": "Better Combat"
-    },
-    {
       "name": "playeranimator",
       "title": "playerAnimator",
       "description": "animate the player",
@@ -179,6 +166,19 @@
       "url": "https://cdn.modrinth.com/data/gedNE4y2/versions/xe2EVE6q/player-animation-lib-forge-1.0.2-rc1%2B1.20.jar",
       "sha1": "16808f94a41d45d8e986b4e4ea6b02ba57fa058a",
       "size": 181437,
+      "requiredBy": "Better Combat"
+    },
+    {
+      "name": "cloth-config",
+      "title": "Cloth Config API",
+      "description": "Configuration Library for Minecraft Mods",
+      "page": "https://modrinth.com/mod/cloth-config",
+      "version": "11.1.136+forge",
+      "dir": "mods",
+      "file": "cloth-config-11.1.136-forge.jar",
+      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
+      "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
+      "size": 1181413,
       "requiredBy": "Better Combat"
     },
     {
@@ -539,19 +539,6 @@
       "size": 14420114
     },
     {
-      "name": "supplementaries",
-      "title": "Supplementaries",
-      "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
-      "page": "https://modrinth.com/mod/supplementaries",
-      "version": "1.20-3.1.43-forge",
-      "dir": "mods",
-      "file": "supplementaries-1.20-3.1.43-forge.jar",
-      "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/S0TIJ1hU/supplementaries-1.20-3.1.43-forge.jar",
-      "sha1": "326d65a29981de28016e3828370d68a8f63e1798",
-      "size": 13667742,
-      "requiredBy": " Integrated Dungeons and Structures"
-    },
-    {
       "name": "integrated-api",
       "title": "Integrated API",
       "description": "Library mod for the Integrated Structures series",
@@ -562,6 +549,19 @@
       "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
       "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
       "size": 712428,
+      "requiredBy": " Integrated Dungeons and Structures"
+    },
+    {
+      "name": "supplementaries",
+      "title": "Supplementaries",
+      "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
+      "page": "https://modrinth.com/mod/supplementaries",
+      "version": "1.20-3.1.43-forge",
+      "dir": "mods",
+      "file": "supplementaries-1.20-3.1.43-forge.jar",
+      "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/S0TIJ1hU/supplementaries-1.20-3.1.43-forge.jar",
+      "sha1": "326d65a29981de28016e3828370d68a8f63e1798",
+      "size": 13667742,
       "requiredBy": " Integrated Dungeons and Structures"
     },
     {
@@ -2292,12 +2292,12 @@
     {
       "name": "bochkraft",
       "title": "BochKraft",
-      "version": "1.0.27",
+      "version": "1.0.28",
       "dir": "mods",
-      "file": "bochkraft-1.0.27.jar",
-      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.27/bochkraft-1.0.27.jar",
-      "sha1": "03c4d977831374bc179384f4429844eed0a9d271",
-      "size": 3831513
+      "file": "bochkraft-1.0.28.jar",
+      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.28/bochkraft-1.0.28.jar",
+      "sha1": "4a384b4f691041beb709a16315d307f693bbd379",
+      "size": 3831919
     },
     {
       "name": "configured",
