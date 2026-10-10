@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-10T08:42:39.602Z",
+  "revision": "2026-10-10T09:21:16.922Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -232,6 +232,19 @@
       "requiredBy": "Fzzy Config"
     },
     {
+      "name": "architectury-api",
+      "title": "Architectury API",
+      "description": "An intermediary api aimed to ease developing multiplatform mods.",
+      "page": "https://modrinth.com/mod/architectury-api",
+      "version": "9.2.14+forge",
+      "dir": "mods",
+      "file": "architectury-9.2.14-forge.jar",
+      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
+      "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
+      "size": 580602,
+      "requiredBy": "Simply Swords"
+    },
+    {
       "name": "simply-tooltips",
       "title": "Simply Tooltips",
       "description": "Modern data driven tooltip rendering",
@@ -243,19 +256,6 @@
       "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
       "size": 5418741,
       "requiredBy": "Simply Swords"
-    },
-    {
-      "name": "architectury-api",
-      "title": "Architectury API",
-      "description": "An intermediary api aimed to ease developing multiplatform mods.",
-      "page": "https://modrinth.com/mod/architectury-api",
-      "version": "9.2.14+forge",
-      "dir": "mods",
-      "file": "architectury-9.2.14-forge.jar",
-      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
-      "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
-      "size": 580602,
-      "requiredBy": "Simply Tooltips"
     },
     {
       "name": "artifacts",
@@ -2035,19 +2035,6 @@
       "size": 25625609
     },
     {
-      "name": "konkrete",
-      "title": "Konkrete",
-      "description": "Just another boring library mod.",
-      "page": "https://modrinth.com/mod/konkrete",
-      "version": "1.8.0-1.20-1.20.1-forge",
-      "dir": "mods",
-      "file": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/skYziQQL/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
-      "sha1": "2019d821bed9071daabed43979433a5473ceee49",
-      "size": 625185,
-      "requiredBy": "FancyMenu"
-    },
-    {
       "name": "melody",
       "title": "Melody",
       "description": "OpenAL-based library mod for playing background music.",
@@ -2058,6 +2045,19 @@
       "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/lJlW5r8R/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
       "sha1": "e0942d396a70c09038e6c2e5e1da6505178249b8",
       "size": 37178,
+      "requiredBy": "FancyMenu"
+    },
+    {
+      "name": "konkrete",
+      "title": "Konkrete",
+      "description": "Just another boring library mod.",
+      "page": "https://modrinth.com/mod/konkrete",
+      "version": "1.8.0-1.20-1.20.1-forge",
+      "dir": "mods",
+      "file": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/skYziQQL/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "sha1": "2019d821bed9071daabed43979433a5473ceee49",
+      "size": 625185,
       "requiredBy": "FancyMenu"
     },
     {
@@ -2292,12 +2292,12 @@
     {
       "name": "bochkraft",
       "title": "BochKraft",
-      "version": "1.0.21",
+      "version": "1.0.22",
       "dir": "mods",
-      "file": "bochkraft-1.0.21.jar",
-      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.21/bochkraft-1.0.21.jar",
-      "sha1": "c1daadcdf8418d5f1e788cadc62d28f9f6510b24",
-      "size": 3286387
+      "file": "bochkraft-1.0.22.jar",
+      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.22/bochkraft-1.0.22.jar",
+      "sha1": "d27447e58bfdd103f4cb2749f29a40f52651135b",
+      "size": 3504340
     },
     {
       "name": "configured",
@@ -2738,7 +2738,7 @@
       "once": true
     }
   ],
-  "launcher": "0.2.25",
+  "launcher": "0.2.26",
   "keybinds": {
     "_comment": "Раскладка клавиш сборки BochKraft. Лаунчер при синхронизации записывает эти бинды в options.txt игрока, пока игрок сам их не поменял в игре (ключи с меткой в options.txt не трогаются повторно). Формат ключей — как в options.txt.",
     "_revision": 7,
