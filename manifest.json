@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-10T07:33:40.646Z",
+  "revision": "2026-10-10T07:35:28.460Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -2297,7 +2297,7 @@
       "requiredBy": "MineColonies",
       "dir": "mods",
       "file": "blockui-1.20.1-1.0.194-snapshot.jar",
-      "local": "extra/blockui-1.20.1-1.0.194-snapshot.jar",
+      "url": "https://ldtteam.jfrog.io/ldtteam/modding/com/ldtteam/blockui/1.20.1-1.0.194-snapshot/blockui-1.20.1-1.0.194-snapshot.jar",
       "sha1": "7081dc1fa98a0d5a86f7f2e125a367f923a5ee52",
       "size": 391051
     },
