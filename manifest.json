@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-10T04:41:32.526Z",
+  "revision": "2026-10-10T07:10:41.467Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -232,19 +232,6 @@
       "requiredBy": "Fzzy Config"
     },
     {
-      "name": "architectury-api",
-      "title": "Architectury API",
-      "description": "An intermediary api aimed to ease developing multiplatform mods.",
-      "page": "https://modrinth.com/mod/architectury-api",
-      "version": "9.2.14+forge",
-      "dir": "mods",
-      "file": "architectury-9.2.14-forge.jar",
-      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
-      "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
-      "size": 580602,
-      "requiredBy": "Simply Swords"
-    },
-    {
       "name": "simply-tooltips",
       "title": "Simply Tooltips",
       "description": "Modern data driven tooltip rendering",
@@ -256,6 +243,19 @@
       "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
       "size": 5418741,
       "requiredBy": "Simply Swords"
+    },
+    {
+      "name": "architectury-api",
+      "title": "Architectury API",
+      "description": "An intermediary api aimed to ease developing multiplatform mods.",
+      "page": "https://modrinth.com/mod/architectury-api",
+      "version": "9.2.14+forge",
+      "dir": "mods",
+      "file": "architectury-9.2.14-forge.jar",
+      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
+      "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
+      "size": 580602,
+      "requiredBy": "Simply Tooltips"
     },
     {
       "name": "artifacts",
@@ -539,6 +539,19 @@
       "size": 14420114
     },
     {
+      "name": "integrated-api",
+      "title": "Integrated API",
+      "description": "Library mod for the Integrated Structures series",
+      "page": "https://modrinth.com/mod/integrated-api",
+      "version": "1.8.2",
+      "dir": "mods",
+      "file": "integrated_api-forge-1.20.1-1.8.2.jar",
+      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
+      "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
+      "size": 712428,
+      "requiredBy": " Integrated Dungeons and Structures"
+    },
+    {
       "name": "supplementaries",
       "title": "Supplementaries",
       "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
@@ -576,19 +589,6 @@
       "sha1": "8c4a8ef0444b53ff408d5b89126285031081d92f",
       "size": 1006518,
       "requiredBy": "Quark"
-    },
-    {
-      "name": "integrated-api",
-      "title": "Integrated API",
-      "description": "Library mod for the Integrated Structures series",
-      "page": "https://modrinth.com/mod/integrated-api",
-      "version": "1.8.2",
-      "dir": "mods",
-      "file": "integrated_api-forge-1.20.1-1.8.2.jar",
-      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
-      "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
-      "size": 712428,
-      "requiredBy": " Integrated Dungeons and Structures"
     },
     {
       "name": "the-lost-cities",
@@ -2035,19 +2035,6 @@
       "size": 25625609
     },
     {
-      "name": "konkrete",
-      "title": "Konkrete",
-      "description": "Just another boring library mod.",
-      "page": "https://modrinth.com/mod/konkrete",
-      "version": "1.8.0-1.20-1.20.1-forge",
-      "dir": "mods",
-      "file": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/skYziQQL/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
-      "sha1": "2019d821bed9071daabed43979433a5473ceee49",
-      "size": 625185,
-      "requiredBy": "FancyMenu"
-    },
-    {
       "name": "melody",
       "title": "Melody",
       "description": "OpenAL-based library mod for playing background music.",
@@ -2058,6 +2045,19 @@
       "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/lJlW5r8R/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
       "sha1": "e0942d396a70c09038e6c2e5e1da6505178249b8",
       "size": 37178,
+      "requiredBy": "FancyMenu"
+    },
+    {
+      "name": "konkrete",
+      "title": "Konkrete",
+      "description": "Just another boring library mod.",
+      "page": "https://modrinth.com/mod/konkrete",
+      "version": "1.8.0-1.20-1.20.1-forge",
+      "dir": "mods",
+      "file": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/skYziQQL/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "sha1": "2019d821bed9071daabed43979433a5473ceee49",
+      "size": 625185,
       "requiredBy": "FancyMenu"
     },
     {
@@ -2304,12 +2304,12 @@
     {
       "name": "bochkraft",
       "title": "BochKraft",
-      "version": "1.0.17",
+      "version": "1.0.18",
       "dir": "mods",
-      "file": "bochkraft-1.0.17.jar",
-      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.17/bochkraft-1.0.17.jar",
-      "sha1": "469eb188b915afdbfd47c1987880b23b1f8cfddd",
-      "size": 3185182
+      "file": "bochkraft-1.0.18.jar",
+      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.18/bochkraft-1.0.18.jar",
+      "sha1": "15a0c7b6e664ae6b3f4d7a65a7e5c2eccaa67e5c",
+      "size": 3188629
     },
     {
       "name": "configured",
