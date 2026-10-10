@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-10T14:49:36.305Z",
+  "revision": "2026-10-10T15:25:19.107Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -539,19 +539,6 @@
       "size": 14420114
     },
     {
-      "name": "integrated-api",
-      "title": "Integrated API",
-      "description": "Library mod for the Integrated Structures series",
-      "page": "https://modrinth.com/mod/integrated-api",
-      "version": "1.8.2",
-      "dir": "mods",
-      "file": "integrated_api-forge-1.20.1-1.8.2.jar",
-      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
-      "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
-      "size": 712428,
-      "requiredBy": " Integrated Dungeons and Structures"
-    },
-    {
       "name": "supplementaries",
       "title": "Supplementaries",
       "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
@@ -562,6 +549,19 @@
       "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/S0TIJ1hU/supplementaries-1.20-3.1.43-forge.jar",
       "sha1": "326d65a29981de28016e3828370d68a8f63e1798",
       "size": 13667742,
+      "requiredBy": " Integrated Dungeons and Structures"
+    },
+    {
+      "name": "integrated-api",
+      "title": "Integrated API",
+      "description": "Library mod for the Integrated Structures series",
+      "page": "https://modrinth.com/mod/integrated-api",
+      "version": "1.8.2",
+      "dir": "mods",
+      "file": "integrated_api-forge-1.20.1-1.8.2.jar",
+      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
+      "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
+      "size": 712428,
       "requiredBy": " Integrated Dungeons and Structures"
     },
     {
@@ -2292,12 +2292,12 @@
     {
       "name": "bochkraft",
       "title": "BochKraft",
-      "version": "1.0.31",
+      "version": "1.0.32",
       "dir": "mods",
-      "file": "bochkraft-1.0.31.jar",
-      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.31/bochkraft-1.0.31.jar",
-      "sha1": "dda314c62e9bdb311204fbeec5e65349e601f7b5",
-      "size": 3908117
+      "file": "bochkraft-1.0.32.jar",
+      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.32/bochkraft-1.0.32.jar",
+      "sha1": "9f17fc87aef095a575056ff1b516a909d300810c",
+      "size": 4267977
     },
     {
       "name": "configured",
