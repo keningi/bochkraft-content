@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-10T09:30:50.559Z",
+  "revision": "2026-10-10T09:34:33.167Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -2292,12 +2292,12 @@
     {
       "name": "bochkraft",
       "title": "BochKraft",
-      "version": "1.0.23",
+      "version": "1.0.24",
       "dir": "mods",
-      "file": "bochkraft-1.0.23.jar",
-      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.23/bochkraft-1.0.23.jar",
-      "sha1": "cb9abad47fa59a4abca1a5ace6e08f9cb8776f58",
-      "size": 3505698
+      "file": "bochkraft-1.0.24.jar",
+      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.24/bochkraft-1.0.24.jar",
+      "sha1": "3ccea677021c8676e9827b84237bf89364bae0db",
+      "size": 3505723
     },
     {
       "name": "configured",
