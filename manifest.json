@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-10T18:36:17.032Z",
+  "revision": "2026-10-13T12:25:18.022Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -106,19 +106,6 @@
       "size": 73916104
     },
     {
-      "name": "curios",
-      "title": "Curios API",
-      "description": "A flexible and expandable accessory/equipment API for users and developers.",
-      "page": "https://modrinth.com/mod/curios",
-      "version": "5.14.1+1.20.1",
-      "dir": "mods",
-      "file": "curios-forge-5.14.1+1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
-      "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
-      "size": 398066,
-      "requiredBy": "L_Ender's Cataclysm"
-    },
-    {
       "name": "lionfish-api",
       "title": "Lionfish-API",
       "description": "Very Light Animation Api",
@@ -129,6 +116,19 @@
       "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
       "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
       "size": 101931,
+      "requiredBy": "L_Ender's Cataclysm"
+    },
+    {
+      "name": "curios",
+      "title": "Curios API",
+      "description": "A flexible and expandable accessory/equipment API for users and developers.",
+      "page": "https://modrinth.com/mod/curios",
+      "version": "5.14.1+1.20.1",
+      "dir": "mods",
+      "file": "curios-forge-5.14.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
+      "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
+      "size": 398066,
       "requiredBy": "L_Ender's Cataclysm"
     },
     {
@@ -206,6 +206,19 @@
       "size": 15765792
     },
     {
+      "name": "simply-tooltips",
+      "title": "Simply Tooltips",
+      "description": "Modern data driven tooltip rendering",
+      "page": "https://modrinth.com/mod/simply-tooltips",
+      "version": "0.1.5-1.20.1",
+      "dir": "mods",
+      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
+      "size": 5418741,
+      "requiredBy": "Simply Swords"
+    },
+    {
       "name": "fzzy-config",
       "title": "Fzzy Config",
       "description": "Config API with automatic GUIs, powerful validation options, server-client sync, and more!",
@@ -216,7 +229,7 @@
       "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/53kg5uoF/fzzy_config-0.7.7%2B1.20.1%2Bforge.jar",
       "sha1": "1a4f550dea4fb6316a96591dc46a463ee1f6602b",
       "size": 2397175,
-      "requiredBy": "Simply Swords"
+      "requiredBy": "Simply Tooltips"
     },
     {
       "name": "kotlin-for-forge",
@@ -242,20 +255,7 @@
       "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
       "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
       "size": 580602,
-      "requiredBy": "Simply Swords"
-    },
-    {
-      "name": "simply-tooltips",
-      "title": "Simply Tooltips",
-      "description": "Modern data driven tooltip rendering",
-      "page": "https://modrinth.com/mod/simply-tooltips",
-      "version": "0.1.5-1.20.1",
-      "dir": "mods",
-      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
-      "size": 5418741,
-      "requiredBy": "Simply Swords"
+      "requiredBy": "Simply Tooltips"
     },
     {
       "name": "artifacts",
@@ -543,12 +543,12 @@
       "title": "Supplementaries",
       "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
       "page": "https://modrinth.com/mod/supplementaries",
-      "version": "1.20-3.1.43-forge",
+      "version": "1.20-3.1.44-forge",
       "dir": "mods",
-      "file": "supplementaries-1.20-3.1.43-forge.jar",
-      "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/S0TIJ1hU/supplementaries-1.20-3.1.43-forge.jar",
-      "sha1": "326d65a29981de28016e3828370d68a8f63e1798",
-      "size": 13667742,
+      "file": "supplementaries-1.20-3.1.44-forge.jar",
+      "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/foXRPXFH/supplementaries-1.20-3.1.44-forge.jar",
+      "sha1": "01e9bd4c264c6e04c7613095438bf0eee657b16f",
+      "size": 13686603,
       "requiredBy": " Integrated Dungeons and Structures"
     },
     {
@@ -556,12 +556,12 @@
       "title": "Integrated API",
       "description": "Library mod for the Integrated Structures series",
       "page": "https://modrinth.com/mod/integrated-api",
-      "version": "1.8.2",
+      "version": "1.9.1",
       "dir": "mods",
-      "file": "integrated_api-forge-1.20.1-1.8.2.jar",
-      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
-      "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
-      "size": 712428,
+      "file": "integrated_api-forge-1.20.1-1.9.1.jar",
+      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/Pt3ikLE2/integrated_api-forge-1.20.1-1.9.1.jar",
+      "sha1": "25411c60a6e6fc93c323bf355b103397e8d02ae5",
+      "size": 713270,
       "requiredBy": " Integrated Dungeons and Structures"
     },
     {
@@ -1348,12 +1348,12 @@
       "title": "CustomSkinLoader",
       "description": "Custom Skin Loader mod for Minecraft.",
       "page": "https://modrinth.com/mod/customskinloader",
-      "version": "15.0.1-Universal",
+      "version": "15.1-Universal",
       "dir": "mods",
-      "file": "CustomSkinLoader_Universal-15.0.1.jar",
-      "url": "https://cdn.modrinth.com/data/idMHQ4n2/versions/OLaesh5y/CustomSkinLoader_Universal-15.0.1.jar",
-      "sha1": "ab8dd841cafc3b4ecbf0250d3f5aee8a1fdb506a",
-      "size": 218215
+      "file": "CustomSkinLoader_Universal-15.1.jar",
+      "url": "https://cdn.modrinth.com/data/idMHQ4n2/versions/yyYvYfZI/CustomSkinLoader_Universal-15.1.jar",
+      "sha1": "324e6921ecd576e44875981466e7f22170b6541a",
+      "size": 222917
     },
     {
       "name": "3dskinlayers",
@@ -2304,12 +2304,12 @@
     {
       "name": "bochkraft",
       "title": "BochKraft",
-      "version": "1.0.38",
+      "version": "1.0.39",
       "dir": "mods",
-      "file": "bochkraft-1.0.38.jar",
-      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.38/bochkraft-1.0.38.jar",
-      "sha1": "f607c230ee50a6354c115bd1767628172bf32b03",
-      "size": 4324104
+      "file": "bochkraft-1.0.39.jar",
+      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.39/bochkraft-1.0.39.jar",
+      "sha1": "56de18f7e99532bead44047f65ed28eff97aeed7",
+      "size": 4444282
     },
     {
       "name": "configured",
