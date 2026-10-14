@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-14T10:58:52.101Z",
+  "revision": "2026-10-14T11:16:33.576Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -1296,6 +1296,42 @@
       "size": 403666
     },
     {
+      "name": "hysteria-shaders",
+      "title": "Hysteria Shaders",
+      "description": "Atmospheric, highly customizable horror shaderpack, successor of Insanity Shader.",
+      "page": "https://modrinth.com/shader/hysteria-shaders",
+      "version": "1.2.1",
+      "dir": "shaderpacks",
+      "file": "Hysteria-Shaders-Universal-v1.2.1.zip",
+      "url": "https://cdn.modrinth.com/data/iHC8BZn4/versions/u7oNAXa5/Hysteria-Shaders-Universal-v1.2.1.zip",
+      "sha1": "9831e55480e806139b316701abfbecab517fdc95",
+      "size": 1578052
+    },
+    {
+      "name": "eclipseshaders",
+      "title": "Eclipse",
+      "description": "A Revamped Version of EclipseLite, In Cooperation with Gamer Ben",
+      "page": "https://modrinth.com/shader/eclipseshaders",
+      "version": "1.0",
+      "dir": "shaderpacks",
+      "file": "EclipseShaders.zip",
+      "url": "https://cdn.modrinth.com/data/s8ZCVd1a/versions/3lt2DwGh/EclipseShaders.zip",
+      "sha1": "9341d391e4eb6e5baea23d42593a395523374133",
+      "size": 153587
+    },
+    {
+      "name": "amethyst-shaders",
+      "title": "Amethyst Shaders",
+      "description": "[WIP] A Semi-Realistic Minecraft Shaderpack, with a Vibrant Visuals Style. \nBased on Complementary Reimagined.",
+      "page": "https://modrinth.com/shader/amethyst-shaders",
+      "version": "2.4",
+      "dir": "shaderpacks",
+      "file": "AmethystShaders_2.4.zip",
+      "url": "https://cdn.modrinth.com/data/LypdYQ63/versions/mULXIH2t/AmethystShaders_2.4.zip",
+      "sha1": "31e4f1555bf17fb341c82c48a034c8d4ec10e3e7",
+      "size": 472309
+    },
+    {
       "name": "simple-voice-chat",
       "title": "Simple Voice Chat",
       "description": "A working voice chat in Minecraft!",
@@ -2035,19 +2071,6 @@
       "size": 25625609
     },
     {
-      "name": "melody",
-      "title": "Melody",
-      "description": "OpenAL-based library mod for playing background music.",
-      "page": "https://modrinth.com/mod/melody",
-      "version": "1.0.3-1.20.1-1.20.4-forge",
-      "dir": "mods",
-      "file": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
-      "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/lJlW5r8R/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
-      "sha1": "e0942d396a70c09038e6c2e5e1da6505178249b8",
-      "size": 37178,
-      "requiredBy": "FancyMenu"
-    },
-    {
       "name": "konkrete",
       "title": "Konkrete",
       "description": "Just another boring library mod.",
@@ -2058,6 +2081,19 @@
       "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/skYziQQL/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
       "sha1": "2019d821bed9071daabed43979433a5473ceee49",
       "size": 625185,
+      "requiredBy": "FancyMenu"
+    },
+    {
+      "name": "melody",
+      "title": "Melody",
+      "description": "OpenAL-based library mod for playing background music.",
+      "page": "https://modrinth.com/mod/melody",
+      "version": "1.0.3-1.20.1-1.20.4-forge",
+      "dir": "mods",
+      "file": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/lJlW5r8R/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+      "sha1": "e0942d396a70c09038e6c2e5e1da6505178249b8",
+      "size": 37178,
       "requiredBy": "FancyMenu"
     },
     {
@@ -2738,6 +2774,18 @@
       "once": true
     },
     {
+      "name": "shaderpacks/AmethystShaders_2.4.zip.txt",
+      "title": "AmethystShaders_2.4.zip.txt",
+      "version": "по умолчанию",
+      "dir": "shaderpacks",
+      "file": "AmethystShaders_2.4.zip.txt",
+      "local": "defaults/shaderpacks/AmethystShaders_2.4.zip.txt",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/defaults/shaderpacks/AmethystShaders_2.4.zip.txt",
+      "sha1": "f145fc75bcf365b302cb8f066d4f8873483231c0",
+      "size": 154,
+      "once": true
+    },
+    {
       "name": "shaderpacks/ComplementaryReimagined_r5.9.3.zip.txt",
       "title": "ComplementaryReimagined_r5.9.3.zip.txt",
       "version": "по умолчанию",
@@ -2747,6 +2795,18 @@
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/defaults/shaderpacks/ComplementaryReimagined_r5.9.3.zip.txt",
       "sha1": "8e44d84ff7cd648a10c2c197ba99c896289dba74",
       "size": 21,
+      "once": true
+    },
+    {
+      "name": "shaderpacks/Hysteria-Shaders-Universal-v1.2.1.zip.txt",
+      "title": "Hysteria-Shaders-Universal-v1.2.1.zip.txt",
+      "version": "по умолчанию",
+      "dir": "shaderpacks",
+      "file": "Hysteria-Shaders-Universal-v1.2.1.zip.txt",
+      "local": "defaults/shaderpacks/Hysteria-Shaders-Universal-v1.2.1.zip.txt",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/defaults/shaderpacks/Hysteria-Shaders-Universal-v1.2.1.zip.txt",
+      "sha1": "6728a2349a4f73ac1039fb87219fc23dd43c938e",
+      "size": 157,
       "once": true
     }
   ],
