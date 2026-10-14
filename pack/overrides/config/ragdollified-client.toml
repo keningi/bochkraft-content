@@ -1,10 +1,10 @@
 #Файл сборки BochKraft: отладочная отрисовка физики выключена (она съедала FPS у всех), дальность кукол ниже
 
 [render]
-	renderDistance = 64.0
+	renderDistance = 32.0
 	enableDeathCamera = true
-	geckolibArmorRenderDistance = 48.0
-	armorRenderDistance = 64.0
+	geckolibArmorRenderDistance = 24.0
+	armorRenderDistance = 32.0
 	missingArmorFallback = ""
 
 [physics]

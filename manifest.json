@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-14T04:52:44.803Z",
+  "revision": "2026-10-14T09:55:21.154Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -206,6 +206,19 @@
       "size": 15765792
     },
     {
+      "name": "simply-tooltips",
+      "title": "Simply Tooltips",
+      "description": "Modern data driven tooltip rendering",
+      "page": "https://modrinth.com/mod/simply-tooltips",
+      "version": "0.1.5-1.20.1",
+      "dir": "mods",
+      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
+      "size": 5418741,
+      "requiredBy": "Simply Swords"
+    },
+    {
       "name": "fzzy-config",
       "title": "Fzzy Config",
       "description": "Config API with automatic GUIs, powerful validation options, server-client sync, and more!",
@@ -216,7 +229,7 @@
       "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/53kg5uoF/fzzy_config-0.7.7%2B1.20.1%2Bforge.jar",
       "sha1": "1a4f550dea4fb6316a96591dc46a463ee1f6602b",
       "size": 2397175,
-      "requiredBy": "Simply Swords"
+      "requiredBy": "Simply Tooltips"
     },
     {
       "name": "kotlin-for-forge",
@@ -242,20 +255,7 @@
       "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
       "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
       "size": 580602,
-      "requiredBy": "Simply Swords"
-    },
-    {
-      "name": "simply-tooltips",
-      "title": "Simply Tooltips",
-      "description": "Modern data driven tooltip rendering",
-      "page": "https://modrinth.com/mod/simply-tooltips",
-      "version": "0.1.5-1.20.1",
-      "dir": "mods",
-      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
-      "size": 5418741,
-      "requiredBy": "Simply Swords"
+      "requiredBy": "Simply Tooltips"
     },
     {
       "name": "artifacts",
@@ -539,19 +539,6 @@
       "size": 14420114
     },
     {
-      "name": "supplementaries",
-      "title": "Supplementaries",
-      "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
-      "page": "https://modrinth.com/mod/supplementaries",
-      "version": "1.20-3.1.44-forge",
-      "dir": "mods",
-      "file": "supplementaries-1.20-3.1.44-forge.jar",
-      "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/foXRPXFH/supplementaries-1.20-3.1.44-forge.jar",
-      "sha1": "01e9bd4c264c6e04c7613095438bf0eee657b16f",
-      "size": 13686603,
-      "requiredBy": " Integrated Dungeons and Structures"
-    },
-    {
       "name": "integrated-api",
       "title": "Integrated API",
       "description": "Library mod for the Integrated Structures series",
@@ -562,6 +549,19 @@
       "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/Pt3ikLE2/integrated_api-forge-1.20.1-1.9.1.jar",
       "sha1": "25411c60a6e6fc93c323bf355b103397e8d02ae5",
       "size": 713270,
+      "requiredBy": " Integrated Dungeons and Structures"
+    },
+    {
+      "name": "supplementaries",
+      "title": "Supplementaries",
+      "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
+      "page": "https://modrinth.com/mod/supplementaries",
+      "version": "1.20-3.1.44-forge",
+      "dir": "mods",
+      "file": "supplementaries-1.20-3.1.44-forge.jar",
+      "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/foXRPXFH/supplementaries-1.20-3.1.44-forge.jar",
+      "sha1": "01e9bd4c264c6e04c7613095438bf0eee657b16f",
+      "size": 13686603,
       "requiredBy": " Integrated Dungeons and Structures"
     },
     {
@@ -2035,19 +2035,6 @@
       "size": 25625609
     },
     {
-      "name": "konkrete",
-      "title": "Konkrete",
-      "description": "Just another boring library mod.",
-      "page": "https://modrinth.com/mod/konkrete",
-      "version": "1.8.0-1.20-1.20.1-forge",
-      "dir": "mods",
-      "file": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/skYziQQL/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
-      "sha1": "2019d821bed9071daabed43979433a5473ceee49",
-      "size": 625185,
-      "requiredBy": "FancyMenu"
-    },
-    {
       "name": "melody",
       "title": "Melody",
       "description": "OpenAL-based library mod for playing background music.",
@@ -2058,6 +2045,19 @@
       "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/lJlW5r8R/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
       "sha1": "e0942d396a70c09038e6c2e5e1da6505178249b8",
       "size": 37178,
+      "requiredBy": "FancyMenu"
+    },
+    {
+      "name": "konkrete",
+      "title": "Konkrete",
+      "description": "Just another boring library mod.",
+      "page": "https://modrinth.com/mod/konkrete",
+      "version": "1.8.0-1.20-1.20.1-forge",
+      "dir": "mods",
+      "file": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/skYziQQL/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "sha1": "2019d821bed9071daabed43979433a5473ceee49",
+      "size": 625185,
       "requiredBy": "FancyMenu"
     },
     {
@@ -2608,8 +2608,8 @@
       "file": "physics_client_config.json",
       "local": "overrides/config/physicsmod/physics_client_config.json",
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/physicsmod/physics_client_config.json",
-      "sha1": "cb457957fd254d0c3bbb81d9c0362f2df6d13848",
-      "size": 4174
+      "sha1": "2d8555c372fbf5cabea358e800e07c3a077e5227",
+      "size": 4039
     },
     {
       "name": "config/physicsmod/physics_server_config.json",
@@ -2641,7 +2641,7 @@
       "file": "ragdollified-client.toml",
       "local": "overrides/config/ragdollified-client.toml",
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/config/ragdollified-client.toml",
-      "sha1": "ce8a453304adeef313ee5a742589e1fbb35290bd",
+      "sha1": "e0c54827ec013ef2448f29e95fc635782d34a790",
       "size": 458
     },
     {
@@ -2832,7 +2832,7 @@
   },
   "patches": {
     "_comment": "Правки настроек игрока ради производительности. Лаунчер применяет их один раз на ревизию (метка .bochkraft-patches в папке игры), потом игрок волен менять всё под себя. Ключи ищутся построчно в файлах ниже; значение пишется как есть (строки toml — в кавычках). Чтобы применить заново у всех — подними _revision.",
-    "_revision": 3,
+    "_revision": 4,
     "files": {
       "options.txt": {
         "renderDistance": "6",
@@ -2841,7 +2841,8 @@
         "entityShadows": "false",
         "particles": "1",
         "renderClouds": "\"fast\"",
-        "maxFps": "144"
+        "maxFps": "144",
+        "mipmapLevels": "2"
       },
       "config/DistantHorizons.toml": {
         "numberOfThreads": "3",
@@ -2849,21 +2850,73 @@
         "horizontalQuality": "\"MEDIUM\"",
         "verticalQuality": "\"MEDIUM\"",
         "transparency": "\"FANCY\"",
-        "enableSsao": "false"
+        "enableSsao": "false",
+        "enableAntiAliasing": "false",
+        "enableMultiLayerClouds": "false",
+        "lodBiomeBlending": "1",
+        "vanillaFadeMode": "\"SINGLE_PASS\""
       },
       "config/entity_texture_features.json": {
-        "textureUpdateFrequency_V2": "\"Average\""
+        "textureUpdateFrequency_V2": "\"Average\"",
+        "enableBlinking": "false"
+      },
+      "config/entity_model_features.json": {
+        "animationLODDistance": "12",
+        "retainDetailOnLowFps": "false"
+      },
+      "config/bettercombat/client.json5": {
+        "isDebugOBBEnabled": "false"
+      },
+      "config/xaero/minimap/default_radar_categories_client.json": {
+        "entityNumber": "200.0"
+      },
+      "config/xaero/world-map/profiles/default.cfg": {
+        "map_writing_distance": "8"
+      },
+      "config/xaero/world-map/client.cfg": {
+        "max_loaded_regions": "150"
+      },
+      "config/particle_core_config.toml": {
+        "maxParticlesPerSheet": "8192"
+      },
+      "config/presencefootsteps/userconfig.json": {
+        "maxSteppingEntities": "16"
+      },
+      "config/irons_spellbooks-client.toml": {
+        "shieldParticleCollisions": "false"
+      },
+      "config/create-client.toml": {
+        "fanParticleDensity": "0.25"
+      },
+      "config/sound_physics_remastered/soundphysics.properties": {
+        "max_sound_processing_distance": "96.0"
       }
     },
     "platforms": {
       "darwin": {
-        "_comment": "Только macOS: Distant Horizons слишком тяжёлый для Mac (OpenGL 4.1, общая память) — рендер выключен, дальность и потоки урезаны. Включить обратно игрок может в настройках DH.",
-        "_revision": 1,
+        "_comment": "Только macOS: Distant Horizons слишком тяжёлый для Mac (OpenGL 4.1, общая память) — рендер выключен, дальность и потоки урезаны. Плюс медленнее обновление текстур/моделей мобов, короче тени шейдеров, 60 FPS. Включить обратно игрок может в настройках.",
+        "_revision": 2,
         "files": {
           "config/DistantHorizons.toml": {
             "rendererMode": "\"DISABLED\"",
             "lodChunkRenderDistanceRadius": "32",
             "numberOfThreads": "1"
+          },
+          "options.txt": {
+            "maxFps": "60"
+          },
+          "config/entity_texture_features.json": {
+            "textureUpdateFrequency_V2": "\"Slow\""
+          },
+          "config/entity_model_features.json": {
+            "modelUpdateFrequency": "\"Slow\""
+          },
+          "config/oculus.properties": {
+            "maxShadowRenderDistance": "16"
+          },
+          "config/physicsmod/physics_client_config.json": {
+            "cpuThreads": "1",
+            "liquidThreads": "1"
           }
         }
       }
