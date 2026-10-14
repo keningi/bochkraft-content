@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T21:54:47.467Z",
+  "updated": "2026-10-14T00:43:59.062Z",
   "categories": [
     {
       "id": "time",
@@ -19,15 +19,15 @@
         },
         {
           "name": "askar9_9",
-          "value": 2688333,
-          "display": "37 ч 20 мин",
-          "gap": "2 ч 3 мин"
+          "value": 2732043,
+          "display": "37 ч 56 мин",
+          "gap": "1 ч 26 мин"
         },
         {
           "name": "ADAM",
           "value": 1814966,
           "display": "25 ч 12 мин",
-          "gap": "12 ч 7 мин"
+          "gap": "12 ч 44 мин"
         },
         {
           "name": "S1lince19",
@@ -55,21 +55,21 @@
       "icon": "🧭",
       "rows": [
         {
-          "name": "kensund",
-          "value": 29806410,
-          "display": "298.1 км"
+          "name": "askar9_9",
+          "value": 30007127,
+          "display": "300.1 км"
         },
         {
-          "name": "askar9_9",
-          "value": 29520388,
-          "display": "295.2 км",
-          "gap": "2.9 км"
+          "name": "kensund",
+          "value": 29806410,
+          "display": "298.1 км",
+          "gap": "2.0 км"
         },
         {
           "name": "Mark_ovv",
           "value": 24620279,
           "display": "246.2 км",
-          "gap": "49.0 км"
+          "gap": "51.9 км"
         },
         {
           "name": "ADAM",
@@ -121,15 +121,15 @@
         },
         {
           "name": "askar9_9",
-          "value": 441,
-          "display": "441",
-          "gap": "278"
+          "value": 481,
+          "display": "481",
+          "gap": "238"
         },
         {
           "name": "ADAM",
           "value": 410,
           "display": "410",
-          "gap": "32"
+          "gap": "72"
         },
         {
           "name": "Garru99",
@@ -169,15 +169,15 @@
         },
         {
           "name": "askar9_9",
-          "value": 3991,
-          "display": "3991 блоков",
-          "gap": "1650 блоков"
+          "value": 4020,
+          "display": "4020 блоков",
+          "gap": "1621 блоков"
         },
         {
           "name": "S1lince19",
           "value": 3863,
           "display": "3863 блоков",
-          "gap": "129 блоков"
+          "gap": "158 блоков"
         },
         {
           "name": "Garru99",
@@ -229,15 +229,15 @@
         },
         {
           "name": "askar9_9",
-          "value": 206915,
-          "display": "10346 ❤",
-          "gap": "8847 ❤"
+          "value": 221982,
+          "display": "11099 ❤",
+          "gap": "8094 ❤"
         },
         {
           "name": "ADAM",
           "value": 135742,
           "display": "6787 ❤",
-          "gap": "3559 ❤"
+          "gap": "4312 ❤"
         },
         {
           "name": "kensund",
@@ -320,14 +320,14 @@
       "rows": [
         {
           "name": "askar9_9",
-          "value": 29073,
-          "display": "29073"
+          "value": 29478,
+          "display": "29478"
         },
         {
           "name": "kensund",
           "value": 26052,
           "display": "26052",
-          "gap": "3022"
+          "gap": "3427"
         },
         {
           "name": "Mark_ovv",
