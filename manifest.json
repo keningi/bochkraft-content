@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-14T11:16:33.576Z",
+  "revision": "2026-10-14T11:29:45.157Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -206,19 +206,6 @@
       "size": 15765792
     },
     {
-      "name": "simply-tooltips",
-      "title": "Simply Tooltips",
-      "description": "Modern data driven tooltip rendering",
-      "page": "https://modrinth.com/mod/simply-tooltips",
-      "version": "0.1.5-1.20.1",
-      "dir": "mods",
-      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
-      "size": 5418741,
-      "requiredBy": "Simply Swords"
-    },
-    {
       "name": "fzzy-config",
       "title": "Fzzy Config",
       "description": "Config API with automatic GUIs, powerful validation options, server-client sync, and more!",
@@ -229,7 +216,7 @@
       "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/53kg5uoF/fzzy_config-0.7.7%2B1.20.1%2Bforge.jar",
       "sha1": "1a4f550dea4fb6316a96591dc46a463ee1f6602b",
       "size": 2397175,
-      "requiredBy": "Simply Tooltips"
+      "requiredBy": "Simply Swords"
     },
     {
       "name": "kotlin-for-forge",
@@ -255,7 +242,20 @@
       "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
       "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
       "size": 580602,
-      "requiredBy": "Simply Tooltips"
+      "requiredBy": "Simply Swords"
+    },
+    {
+      "name": "simply-tooltips",
+      "title": "Simply Tooltips",
+      "description": "Modern data driven tooltip rendering",
+      "page": "https://modrinth.com/mod/simply-tooltips",
+      "version": "0.1.5-1.20.1",
+      "dir": "mods",
+      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
+      "size": 5418741,
+      "requiredBy": "Simply Swords"
     },
     {
       "name": "artifacts",
@@ -539,19 +539,6 @@
       "size": 14420114
     },
     {
-      "name": "integrated-api",
-      "title": "Integrated API",
-      "description": "Library mod for the Integrated Structures series",
-      "page": "https://modrinth.com/mod/integrated-api",
-      "version": "1.9.1",
-      "dir": "mods",
-      "file": "integrated_api-forge-1.20.1-1.9.1.jar",
-      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/Pt3ikLE2/integrated_api-forge-1.20.1-1.9.1.jar",
-      "sha1": "25411c60a6e6fc93c323bf355b103397e8d02ae5",
-      "size": 713270,
-      "requiredBy": " Integrated Dungeons and Structures"
-    },
-    {
       "name": "supplementaries",
       "title": "Supplementaries",
       "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
@@ -562,6 +549,19 @@
       "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/foXRPXFH/supplementaries-1.20-3.1.44-forge.jar",
       "sha1": "01e9bd4c264c6e04c7613095438bf0eee657b16f",
       "size": 13686603,
+      "requiredBy": " Integrated Dungeons and Structures"
+    },
+    {
+      "name": "integrated-api",
+      "title": "Integrated API",
+      "description": "Library mod for the Integrated Structures series",
+      "page": "https://modrinth.com/mod/integrated-api",
+      "version": "1.9.1",
+      "dir": "mods",
+      "file": "integrated_api-forge-1.20.1-1.9.1.jar",
+      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/Pt3ikLE2/integrated_api-forge-1.20.1-1.9.1.jar",
+      "sha1": "25411c60a6e6fc93c323bf355b103397e8d02ae5",
+      "size": 713270,
       "requiredBy": " Integrated Dungeons and Structures"
     },
     {
@@ -1306,18 +1306,6 @@
       "url": "https://cdn.modrinth.com/data/iHC8BZn4/versions/u7oNAXa5/Hysteria-Shaders-Universal-v1.2.1.zip",
       "sha1": "9831e55480e806139b316701abfbecab517fdc95",
       "size": 1578052
-    },
-    {
-      "name": "eclipseshaders",
-      "title": "Eclipse",
-      "description": "A Revamped Version of EclipseLite, In Cooperation with Gamer Ben",
-      "page": "https://modrinth.com/shader/eclipseshaders",
-      "version": "1.0",
-      "dir": "shaderpacks",
-      "file": "EclipseShaders.zip",
-      "url": "https://cdn.modrinth.com/data/s8ZCVd1a/versions/3lt2DwGh/EclipseShaders.zip",
-      "sha1": "9341d391e4eb6e5baea23d42593a395523374133",
-      "size": 153587
     },
     {
       "name": "amethyst-shaders",
@@ -2712,6 +2700,17 @@
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/CustomSkinLoader/CustomSkinLoader.json",
       "sha1": "fd9cc843252b46aee0f965eb9ec1d2b1c6b78d9e",
       "size": 2398
+    },
+    {
+      "name": "shaderpacks/EclipseShaders.zip",
+      "title": "EclipseShaders.zip",
+      "version": "файл сборки",
+      "dir": "shaderpacks",
+      "file": "EclipseShaders.zip",
+      "local": "overrides/shaderpacks/EclipseShaders.zip",
+      "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/shaderpacks/EclipseShaders.zip",
+      "sha1": "90fc5c6193d8c8cdde4501949545158b166f3d3c",
+      "size": 148766
     },
     {
       "name": "config/drippyloadingscreen/options.txt",
