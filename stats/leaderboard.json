@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T01:04:04.697Z",
+  "updated": "2026-10-15T06:01:49.615Z",
   "categories": [
     {
       "id": "time",
@@ -19,15 +19,15 @@
         },
         {
           "name": "kensund",
-          "value": 3019666,
-          "display": "41 ч 56 мин",
-          "gap": "3 ч 39 мин"
+          "value": 3039659,
+          "display": "42 ч 13 мин",
+          "gap": "3 ч 22 мин"
         },
         {
           "name": "ADAM",
           "value": 1814966,
           "display": "25 ч 12 мин",
-          "gap": "16 ч 43 мин"
+          "gap": "17 ч 0 мин"
         },
         {
           "name": "S1lince19",
@@ -61,15 +61,15 @@
         },
         {
           "name": "kensund",
-          "value": 30954657,
-          "display": "309.5 км",
-          "gap": "32.5 км"
+          "value": 31094582,
+          "display": "310.9 км",
+          "gap": "31.1 км"
         },
         {
           "name": "Mark_ovv",
           "value": 24620279,
           "display": "246.2 км",
-          "gap": "63.3 км"
+          "gap": "64.7 км"
         },
         {
           "name": "ADAM",
@@ -163,15 +163,15 @@
         },
         {
           "name": "kensund",
-          "value": 6077,
-          "display": "6077 блоков",
-          "gap": "6388 блоков"
+          "value": 6197,
+          "display": "6197 блоков",
+          "gap": "6268 блоков"
         },
         {
           "name": "askar9_9",
           "value": 6012,
           "display": "6012 блоков",
-          "gap": "66 блоков"
+          "gap": "186 блоков"
         },
         {
           "name": "S1lince19",
@@ -337,15 +337,15 @@
         },
         {
           "name": "kensund",
-          "value": 26569,
-          "display": "26569",
-          "gap": "8247"
+          "value": 26649,
+          "display": "26649",
+          "gap": "8167"
         },
         {
           "name": "Mark_ovv",
           "value": 22396,
           "display": "22396",
-          "gap": "4174"
+          "gap": "4254"
         },
         {
           "name": "ADAM",
