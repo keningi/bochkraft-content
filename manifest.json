@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-15T18:04:28.434Z",
+  "revision": "2026-10-16T06:23:12.328Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -206,19 +206,6 @@
       "size": 15765792
     },
     {
-      "name": "simply-tooltips",
-      "title": "Simply Tooltips",
-      "description": "Modern data driven tooltip rendering",
-      "page": "https://modrinth.com/mod/simply-tooltips",
-      "version": "0.1.5-1.20.1",
-      "dir": "mods",
-      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
-      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
-      "size": 5418741,
-      "requiredBy": "Simply Swords"
-    },
-    {
       "name": "fzzy-config",
       "title": "Fzzy Config",
       "description": "Config API with automatic GUIs, powerful validation options, server-client sync, and more!",
@@ -229,7 +216,7 @@
       "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/53kg5uoF/fzzy_config-0.7.7%2B1.20.1%2Bforge.jar",
       "sha1": "1a4f550dea4fb6316a96591dc46a463ee1f6602b",
       "size": 2397175,
-      "requiredBy": "Simply Tooltips"
+      "requiredBy": "Simply Swords"
     },
     {
       "name": "kotlin-for-forge",
@@ -255,7 +242,20 @@
       "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
       "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
       "size": 580602,
-      "requiredBy": "Simply Tooltips"
+      "requiredBy": "Simply Swords"
+    },
+    {
+      "name": "simply-tooltips",
+      "title": "Simply Tooltips",
+      "description": "Modern data driven tooltip rendering",
+      "page": "https://modrinth.com/mod/simply-tooltips",
+      "version": "0.1.5-1.20.1",
+      "dir": "mods",
+      "file": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
+      "size": 5418741,
+      "requiredBy": "Simply Swords"
     },
     {
       "name": "artifacts",
@@ -2270,24 +2270,24 @@
       "title": "Let Me Despawn",
       "description": "Improves performance by tweaking mob despawn rules. Say bye to pesky unintentional persistent mobs.",
       "page": "https://modrinth.com/mod/lmd",
-      "version": "1.5.0",
+      "version": "1.26.10.1",
       "dir": "mods",
-      "file": "letmedespawn-1.20.x-forge-1.5.0.jar",
-      "url": "https://cdn.modrinth.com/data/vE2FN5qn/versions/1VmupN41/letmedespawn-1.20.x-forge-1.5.0.jar",
-      "sha1": "878dd35df02e1e17b7eb16113147f964eda8847f",
-      "size": 14789
+      "file": "letmedespawn-forge-1.20.1-1.26.10.1.jar",
+      "url": "https://cdn.modrinth.com/data/vE2FN5qn/versions/Ys9NaV4D/letmedespawn-forge-1.20.1-1.26.10.1.jar",
+      "sha1": "38804d5499fd69a19cc4d223e75c235f3d06045c",
+      "size": 27729
     },
     {
       "name": "almanac",
       "title": "Almanac",
       "description": "Almanac is a library used by my mods with mostly loader independent shared code between multiple mods to avoid duplication of code.",
       "page": "https://modrinth.com/mod/almanac",
-      "version": "1.0.2",
+      "version": "1.26.10.2",
       "dir": "mods",
-      "file": "almanac-1.20.x-forge-1.0.2.jar",
-      "url": "https://cdn.modrinth.com/data/Gi02250Z/versions/DnzrwvfD/almanac-1.20.x-forge-1.0.2.jar",
-      "sha1": "f0b711df59cd589b088e536ca4134c5e6e73fd58",
-      "size": 15906,
+      "file": "almanac-forge-1.20.1-1.26.10.2.jar",
+      "url": "https://cdn.modrinth.com/data/Gi02250Z/versions/Rx1ATFcV/almanac-forge-1.20.1-1.26.10.2.jar",
+      "sha1": "0fc5a611b3e7a777b2b5e0820fcbd73c789da109",
+      "size": 405387,
       "requiredBy": "Let Me Despawn"
     },
     {
@@ -2328,12 +2328,12 @@
     {
       "name": "bochkraft",
       "title": "BochKraft",
-      "version": "1.0.49",
+      "version": "1.0.50",
       "dir": "mods",
-      "file": "bochkraft-1.0.49.jar",
-      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.49/bochkraft-1.0.49.jar",
-      "sha1": "237c87fed761a0692079dc3a4a8a5401326d1180",
-      "size": 5828464
+      "file": "bochkraft-1.0.50.jar",
+      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.50/bochkraft-1.0.50.jar",
+      "sha1": "4635416ab3579ae348caf357bf45e5348a7a9f3b",
+      "size": 5829163
     },
     {
       "name": "configured",
