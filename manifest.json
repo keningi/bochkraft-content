@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-20T13:30:53.867Z",
+  "revision": "2026-10-20T14:25:05.143Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -106,19 +106,6 @@
       "size": 73916104
     },
     {
-      "name": "lionfish-api",
-      "title": "Lionfish-API",
-      "description": "Very Light Animation Api",
-      "page": "https://modrinth.com/mod/lionfish-api",
-      "version": "3.0",
-      "dir": "mods",
-      "file": "lionfishapi-3.0.jar",
-      "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
-      "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
-      "size": 101931,
-      "requiredBy": "L_Ender's Cataclysm"
-    },
-    {
       "name": "curios",
       "title": "Curios API",
       "description": "A flexible and expandable accessory/equipment API for users and developers.",
@@ -129,6 +116,19 @@
       "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
       "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
       "size": 398066,
+      "requiredBy": "L_Ender's Cataclysm"
+    },
+    {
+      "name": "lionfish-api",
+      "title": "Lionfish-API",
+      "description": "Very Light Animation Api",
+      "page": "https://modrinth.com/mod/lionfish-api",
+      "version": "3.0",
+      "dir": "mods",
+      "file": "lionfishapi-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
+      "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
+      "size": 101931,
       "requiredBy": "L_Ender's Cataclysm"
     },
     {
@@ -539,19 +539,6 @@
       "size": 14420114
     },
     {
-      "name": "integrated-api",
-      "title": "Integrated API",
-      "description": "Library mod for the Integrated Structures series",
-      "page": "https://modrinth.com/mod/integrated-api",
-      "version": "1.9.1",
-      "dir": "mods",
-      "file": "integrated_api-forge-1.20.1-1.9.1.jar",
-      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/Pt3ikLE2/integrated_api-forge-1.20.1-1.9.1.jar",
-      "sha1": "25411c60a6e6fc93c323bf355b103397e8d02ae5",
-      "size": 713270,
-      "requiredBy": " Integrated Dungeons and Structures"
-    },
-    {
       "name": "supplementaries",
       "title": "Supplementaries",
       "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
@@ -562,6 +549,19 @@
       "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/foXRPXFH/supplementaries-1.20-3.1.44-forge.jar",
       "sha1": "01e9bd4c264c6e04c7613095438bf0eee657b16f",
       "size": 13686603,
+      "requiredBy": " Integrated Dungeons and Structures"
+    },
+    {
+      "name": "integrated-api",
+      "title": "Integrated API",
+      "description": "Library mod for the Integrated Structures series",
+      "page": "https://modrinth.com/mod/integrated-api",
+      "version": "1.9.1",
+      "dir": "mods",
+      "file": "integrated_api-forge-1.20.1-1.9.1.jar",
+      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/Pt3ikLE2/integrated_api-forge-1.20.1-1.9.1.jar",
+      "sha1": "25411c60a6e6fc93c323bf355b103397e8d02ae5",
+      "size": 713270,
       "requiredBy": " Integrated Dungeons and Structures"
     },
     {
@@ -2059,19 +2059,6 @@
       "size": 25625609
     },
     {
-      "name": "melody",
-      "title": "Melody",
-      "description": "OpenAL-based library mod for playing background music.",
-      "page": "https://modrinth.com/mod/melody",
-      "version": "1.0.3-1.20.1-1.20.4-forge",
-      "dir": "mods",
-      "file": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
-      "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/lJlW5r8R/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
-      "sha1": "e0942d396a70c09038e6c2e5e1da6505178249b8",
-      "size": 37178,
-      "requiredBy": "FancyMenu"
-    },
-    {
       "name": "konkrete",
       "title": "Konkrete",
       "description": "Just another boring library mod.",
@@ -2082,6 +2069,19 @@
       "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/skYziQQL/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
       "sha1": "2019d821bed9071daabed43979433a5473ceee49",
       "size": 625185,
+      "requiredBy": "FancyMenu"
+    },
+    {
+      "name": "melody",
+      "title": "Melody",
+      "description": "OpenAL-based library mod for playing background music.",
+      "page": "https://modrinth.com/mod/melody",
+      "version": "1.0.3-1.20.1-1.20.4-forge",
+      "dir": "mods",
+      "file": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/lJlW5r8R/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+      "sha1": "e0942d396a70c09038e6c2e5e1da6505178249b8",
+      "size": 37178,
       "requiredBy": "FancyMenu"
     },
     {
@@ -2328,12 +2328,12 @@
     {
       "name": "bochkraft",
       "title": "BochKraft",
-      "version": "1.0.60",
+      "version": "1.0.61",
       "dir": "mods",
-      "file": "bochkraft-1.0.60.jar",
-      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.60/bochkraft-1.0.60.jar",
-      "sha1": "3c3c07c3d65b9fb1565a5beeaad120d4c817370f",
-      "size": 8146531
+      "file": "bochkraft-1.0.61.jar",
+      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.61/bochkraft-1.0.61.jar",
+      "sha1": "e1e9ccbf670cf57a9fb102406a45bc343b4d2c42",
+      "size": 8146900
     },
     {
       "name": "configured",
