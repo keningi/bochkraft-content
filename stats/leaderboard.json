@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T05:30:08.161Z",
+  "updated": "2026-10-20T10:18:46.839Z",
   "categories": [
     {
       "id": "time",
@@ -13,15 +13,15 @@
         },
         {
           "name": "kensund",
-          "value": 3450192,
-          "display": "47 ч 55 мин",
-          "gap": "37 ч 1 мин"
+          "value": 3490321,
+          "display": "48 ч 28 мин",
+          "gap": "36 ч 27 мин"
         },
         {
           "name": "Mark_ovv",
           "value": 3342646,
           "display": "46 ч 25 мин",
-          "gap": "1 ч 29 мин"
+          "gap": "2 ч 3 мин"
         },
         {
           "name": "ADAM",
@@ -61,15 +61,15 @@
         },
         {
           "name": "kensund",
-          "value": 35036573,
-          "display": "350.4 км",
-          "gap": "240.5 км"
+          "value": 35593250,
+          "display": "355.9 км",
+          "gap": "235.0 км"
         },
         {
           "name": "Mark_ovv",
           "value": 25251251,
           "display": "252.5 км",
-          "gap": "97.9 км"
+          "gap": "103.4 км"
         },
         {
           "name": "ADAM",
@@ -115,15 +115,15 @@
         },
         {
           "name": "kensund",
-          "value": 1142,
-          "display": "1142",
-          "gap": "302"
+          "value": 1150,
+          "display": "1150",
+          "gap": "294"
         },
         {
           "name": "S1lince19",
           "value": 792,
           "display": "792",
-          "gap": "351"
+          "gap": "359"
         },
         {
           "name": "ADAM",
@@ -253,15 +253,15 @@
         },
         {
           "name": "kensund",
-          "value": 118533,
-          "display": "5927 ❤",
-          "gap": "861 ❤"
+          "value": 118580,
+          "display": "5929 ❤",
+          "gap": "858 ❤"
         },
         {
           "name": "Garru99",
           "value": 11857,
           "display": "593 ❤",
-          "gap": "5334 ❤"
+          "gap": "5336 ❤"
         },
         {
           "name": "MadBadDev",
@@ -337,15 +337,15 @@
         },
         {
           "name": "kensund",
-          "value": 28741,
-          "display": "28741",
-          "gap": "23020"
+          "value": 28995,
+          "display": "28995",
+          "gap": "22766"
         },
         {
           "name": "Mark_ovv",
           "value": 22762,
           "display": "22762",
-          "gap": "5980"
+          "gap": "6234"
         },
         {
           "name": "ADAM",
