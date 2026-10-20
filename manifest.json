@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-18T12:08:30.445Z",
+  "revision": "2026-10-20T08:56:46.878Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -106,19 +106,6 @@
       "size": 73916104
     },
     {
-      "name": "curios",
-      "title": "Curios API",
-      "description": "A flexible and expandable accessory/equipment API for users and developers.",
-      "page": "https://modrinth.com/mod/curios",
-      "version": "5.14.1+1.20.1",
-      "dir": "mods",
-      "file": "curios-forge-5.14.1+1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
-      "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
-      "size": 398066,
-      "requiredBy": "L_Ender's Cataclysm"
-    },
-    {
       "name": "lionfish-api",
       "title": "Lionfish-API",
       "description": "Very Light Animation Api",
@@ -129,6 +116,19 @@
       "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
       "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
       "size": 101931,
+      "requiredBy": "L_Ender's Cataclysm"
+    },
+    {
+      "name": "curios",
+      "title": "Curios API",
+      "description": "A flexible and expandable accessory/equipment API for users and developers.",
+      "page": "https://modrinth.com/mod/curios",
+      "version": "5.14.1+1.20.1",
+      "dir": "mods",
+      "file": "curios-forge-5.14.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
+      "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
+      "size": 398066,
       "requiredBy": "L_Ender's Cataclysm"
     },
     {
@@ -156,19 +156,6 @@
       "size": 1054339
     },
     {
-      "name": "cloth-config",
-      "title": "Cloth Config API",
-      "description": "Configuration Library for Minecraft Mods",
-      "page": "https://modrinth.com/mod/cloth-config",
-      "version": "11.1.136+forge",
-      "dir": "mods",
-      "file": "cloth-config-11.1.136-forge.jar",
-      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
-      "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
-      "size": 1181413,
-      "requiredBy": "Better Combat"
-    },
-    {
       "name": "playeranimator",
       "title": "playerAnimator",
       "description": "animate the player",
@@ -179,6 +166,19 @@
       "url": "https://cdn.modrinth.com/data/gedNE4y2/versions/xe2EVE6q/player-animation-lib-forge-1.0.2-rc1%2B1.20.jar",
       "sha1": "16808f94a41d45d8e986b4e4ea6b02ba57fa058a",
       "size": 181437,
+      "requiredBy": "Better Combat"
+    },
+    {
+      "name": "cloth-config",
+      "title": "Cloth Config API",
+      "description": "Configuration Library for Minecraft Mods",
+      "page": "https://modrinth.com/mod/cloth-config",
+      "version": "11.1.136+forge",
+      "dir": "mods",
+      "file": "cloth-config-11.1.136-forge.jar",
+      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
+      "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
+      "size": 1181413,
       "requiredBy": "Better Combat"
     },
     {
@@ -985,12 +985,12 @@
       "title": "AmbientSounds",
       "description": "#listentonature",
       "page": "https://modrinth.com/mod/ambientsounds",
-      "version": "6.3.10",
+      "version": "6.3.11",
       "dir": "mods",
-      "file": "AmbientSounds_FORGE_v6.3.10_mc1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/fM515JnW/versions/ApGAJplZ/AmbientSounds_FORGE_v6.3.10_mc1.20.1.jar",
-      "sha1": "feb797f5303eb0b43002ad8ea366530249b4710b",
-      "size": 53432458
+      "file": "AmbientSounds_FORGE_v6.3.11_mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/fM515JnW/versions/YOYpWGZg/AmbientSounds_FORGE_v6.3.11_mc1.20.1.jar",
+      "sha1": "61f0bcbfd404de4aeb0627b5b83a72d069fb1825",
+      "size": 53432741
     },
     {
       "name": "creativecore",
@@ -1264,12 +1264,12 @@
       "title": "Photon Shaders",
       "description": "A gameplay-focused shader pack with a semi-realistic style",
       "page": "https://modrinth.com/shader/photon-shader",
-      "version": "v1.3b",
+      "version": "v1.4",
       "dir": "shaderpacks",
-      "file": "photon_v1.3b.zip",
-      "url": "https://cdn.modrinth.com/data/lLqFfGNs/versions/gUv7fBPN/photon_v1.3b.zip",
-      "sha1": "d975d25c9686de5f10e8b86c8518613cdf3f040a",
-      "size": 3800987
+      "file": "photon_v1.4.zip",
+      "url": "https://cdn.modrinth.com/data/lLqFfGNs/versions/BnGklH5y/photon_v1.4.zip",
+      "sha1": "96c7730f5891a42e39bbf1f0f5a98fa99628a7fe",
+      "size": 3857333
     },
     {
       "name": "solas-shader",
@@ -1384,12 +1384,12 @@
       "title": "3D Skin Layers",
       "description": "Render the player skin layer in 3d!",
       "page": "https://modrinth.com/mod/3dskinlayers",
-      "version": "1.11.3",
+      "version": "1.11.4",
       "dir": "mods",
-      "file": "skinlayers3d-forge-1.11.3-mc1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/zV5r3pPn/versions/WLmoJVE7/skinlayers3d-forge-1.11.3-mc1.20.1.jar",
-      "sha1": "066d8ce36155f0018e30e905240fc12e422972e9",
-      "size": 2093560
+      "file": "skinlayers3d-forge-1.11.4-mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/zV5r3pPn/versions/6NG8MGVh/skinlayers3d-forge-1.11.4-mc1.20.1.jar",
+      "sha1": "7091528b7228e12602e097afa14f34629067afaf",
+      "size": 2096322
     },
     {
       "name": "sols-authlogin",
@@ -1492,12 +1492,12 @@
       "title": "Fresh Animations",
       "description": "Make your game like the trailers! Dynamic animated entities to freshen your Minecraft experience.",
       "page": "https://modrinth.com/resourcepack/fresh-animations",
-      "version": "1.10.4",
+      "version": "1.11.1",
       "dir": "resourcepacks",
-      "file": "FreshAnimations_v1.10.4.zip",
-      "url": "https://cdn.modrinth.com/data/50dA9Sha/versions/xN57JJts/FreshAnimations_v1.10.4.zip",
-      "sha1": "73db740a6868e043c5e615c036fca2c912615b6e",
-      "size": 850941
+      "file": "FreshAnimations_v1.11.1_1.20+.zip",
+      "url": "https://cdn.modrinth.com/data/50dA9Sha/versions/aQjwvDfY/FreshAnimations_v1.11.1_1.20%2B.zip",
+      "sha1": "eaf28f57dee43c469534953517501a021d28cf21",
+      "size": 743793
     },
     {
       "name": "zume",
@@ -2059,19 +2059,6 @@
       "size": 25625609
     },
     {
-      "name": "konkrete",
-      "title": "Konkrete",
-      "description": "Just another boring library mod.",
-      "page": "https://modrinth.com/mod/konkrete",
-      "version": "1.8.0-1.20-1.20.1-forge",
-      "dir": "mods",
-      "file": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/skYziQQL/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
-      "sha1": "2019d821bed9071daabed43979433a5473ceee49",
-      "size": 625185,
-      "requiredBy": "FancyMenu"
-    },
-    {
       "name": "melody",
       "title": "Melody",
       "description": "OpenAL-based library mod for playing background music.",
@@ -2082,6 +2069,19 @@
       "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/lJlW5r8R/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
       "sha1": "e0942d396a70c09038e6c2e5e1da6505178249b8",
       "size": 37178,
+      "requiredBy": "FancyMenu"
+    },
+    {
+      "name": "konkrete",
+      "title": "Konkrete",
+      "description": "Just another boring library mod.",
+      "page": "https://modrinth.com/mod/konkrete",
+      "version": "1.8.0-1.20-1.20.1-forge",
+      "dir": "mods",
+      "file": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/skYziQQL/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "sha1": "2019d821bed9071daabed43979433a5473ceee49",
+      "size": 625185,
       "requiredBy": "FancyMenu"
     },
     {
@@ -2282,12 +2282,12 @@
       "title": "Almanac",
       "description": "Almanac is a library used by my mods with mostly loader independent shared code between multiple mods to avoid duplication of code.",
       "page": "https://modrinth.com/mod/almanac",
-      "version": "1.26.10.2",
+      "version": "1.26.10.3",
       "dir": "mods",
-      "file": "almanac-forge-1.20.1-1.26.10.2.jar",
-      "url": "https://cdn.modrinth.com/data/Gi02250Z/versions/Rx1ATFcV/almanac-forge-1.20.1-1.26.10.2.jar",
-      "sha1": "0fc5a611b3e7a777b2b5e0820fcbd73c789da109",
-      "size": 405387,
+      "file": "almanac-forge-1.20.1-1.26.10.3.jar",
+      "url": "https://cdn.modrinth.com/data/Gi02250Z/versions/JCG9t4Ek/almanac-forge-1.20.1-1.26.10.3.jar",
+      "sha1": "e4a781928080728fc936842514afc51da4820ada",
+      "size": 406251,
       "requiredBy": "Let Me Despawn"
     },
     {
@@ -2328,12 +2328,12 @@
     {
       "name": "bochkraft",
       "title": "BochKraft",
-      "version": "1.0.55",
+      "version": "1.0.56",
       "dir": "mods",
-      "file": "bochkraft-1.0.55.jar",
-      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.55/bochkraft-1.0.55.jar",
-      "sha1": "c197dbacaf7647c379d7c7c14ff954bb1ce66c02",
-      "size": 7541813
+      "file": "bochkraft-1.0.56.jar",
+      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.56/bochkraft-1.0.56.jar",
+      "sha1": "d614d037d168a053e23a12f290a42feb766a3921",
+      "size": 7885411
     },
     {
       "name": "configured",
@@ -2988,9 +2988,9 @@
   "options": {
     "resourcePacks": [
       "file/Icon Xaero's 1.22.zip",
-      "file/FreshAnimations_v1.10.4.zip",
+      "file/FreshAnimations_v1.11.1_1.20+.zip",
       "file/bochkraft-title.zip"
     ],
-    "_revision": "file/Icon Xaero's 1.22.zip|file/FreshAnimations_v1.10.4.zip|file/bochkraft-title.zip"
+    "_revision": "file/Icon Xaero's 1.22.zip|file/FreshAnimations_v1.11.1_1.20+.zip|file/bochkraft-title.zip"
   }
 }
