@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T10:18:46.839Z",
+  "updated": "2026-10-20T15:14:16.327Z",
   "categories": [
     {
       "id": "time",
@@ -13,15 +13,15 @@
         },
         {
           "name": "kensund",
-          "value": 3490321,
-          "display": "48 ч 28 мин",
-          "gap": "36 ч 27 мин"
+          "value": 3610975,
+          "display": "50 ч 9 мин",
+          "gap": "34 ч 47 мин"
         },
         {
           "name": "Mark_ovv",
           "value": 3342646,
           "display": "46 ч 25 мин",
-          "gap": "2 ч 3 мин"
+          "gap": "3 ч 43 мин"
         },
         {
           "name": "ADAM",
@@ -61,15 +61,15 @@
         },
         {
           "name": "kensund",
-          "value": 35593250,
-          "display": "355.9 км",
-          "gap": "235.0 км"
+          "value": 36427622,
+          "display": "364.3 км",
+          "gap": "226.6 км"
         },
         {
           "name": "Mark_ovv",
           "value": 25251251,
           "display": "252.5 км",
-          "gap": "103.4 км"
+          "gap": "111.8 км"
         },
         {
           "name": "ADAM",
@@ -115,15 +115,15 @@
         },
         {
           "name": "kensund",
-          "value": 1150,
-          "display": "1150",
-          "gap": "294"
+          "value": 1260,
+          "display": "1260",
+          "gap": "184"
         },
         {
           "name": "S1lince19",
           "value": 792,
           "display": "792",
-          "gap": "359"
+          "gap": "469"
         },
         {
           "name": "ADAM",
@@ -169,15 +169,15 @@
         },
         {
           "name": "kensund",
-          "value": 6309,
-          "display": "6309 блоков",
-          "gap": "5965 блоков"
+          "value": 6313,
+          "display": "6313 блоков",
+          "gap": "5961 блоков"
         },
         {
           "name": "S1lince19",
           "value": 3863,
           "display": "3863 блоков",
-          "gap": "2447 блоков"
+          "gap": "2451 блоков"
         },
         {
           "name": "Garru99",
@@ -253,15 +253,15 @@
         },
         {
           "name": "kensund",
-          "value": 118580,
-          "display": "5929 ❤",
-          "gap": "858 ❤"
+          "value": 118658,
+          "display": "5933 ❤",
+          "gap": "854 ❤"
         },
         {
           "name": "Garru99",
           "value": 11857,
           "display": "593 ❤",
-          "gap": "5336 ❤"
+          "gap": "5340 ❤"
         },
         {
           "name": "MadBadDev",
@@ -337,15 +337,15 @@
         },
         {
           "name": "kensund",
-          "value": 28995,
-          "display": "28995",
-          "gap": "22766"
+          "value": 29447,
+          "display": "29447",
+          "gap": "22314"
         },
         {
           "name": "Mark_ovv",
           "value": 22762,
           "display": "22762",
-          "gap": "6234"
+          "gap": "6686"
         },
         {
           "name": "ADAM",
