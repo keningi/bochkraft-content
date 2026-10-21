@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T05:31:17.555Z",
+  "updated": "2026-10-21T10:46:56.643Z",
   "categories": [
     {
       "id": "time",
@@ -13,15 +13,15 @@
         },
         {
           "name": "kensund",
-          "value": 3744388,
-          "display": "52 ч 0 мин",
-          "gap": "34 ч 16 мин"
+          "value": 3756166,
+          "display": "52 ч 10 мин",
+          "gap": "34 ч 6 мин"
         },
         {
           "name": "Mark_ovv",
           "value": 3342646,
           "display": "46 ч 25 мин",
-          "gap": "5 ч 34 мин"
+          "gap": "5 ч 44 мин"
         },
         {
           "name": "ADAM",
@@ -61,15 +61,15 @@
         },
         {
           "name": "kensund",
-          "value": 38555380,
-          "display": "385.6 км",
-          "gap": "228.7 км"
+          "value": 38609904,
+          "display": "386.1 км",
+          "gap": "228.1 км"
         },
         {
           "name": "Mark_ovv",
           "value": 25251251,
           "display": "252.5 км",
-          "gap": "133.0 км"
+          "gap": "133.6 км"
         },
         {
           "name": "ADAM",
@@ -169,15 +169,15 @@
         },
         {
           "name": "kensund",
-          "value": 6317,
-          "display": "6317 блоков",
-          "gap": "5971 блоков"
+          "value": 6318,
+          "display": "6318 блоков",
+          "gap": "5970 блоков"
         },
         {
           "name": "S1lince19",
           "value": 3863,
           "display": "3863 блоков",
-          "gap": "2455 блоков"
+          "gap": "2456 блоков"
         },
         {
           "name": "Garru99",
@@ -337,15 +337,15 @@
         },
         {
           "name": "kensund",
-          "value": 30549,
-          "display": "30549",
-          "gap": "22330"
+          "value": 30600,
+          "display": "30600",
+          "gap": "22279"
         },
         {
           "name": "Mark_ovv",
           "value": 22762,
           "display": "22762",
-          "gap": "7788"
+          "gap": "7839"
         },
         {
           "name": "ADAM",
