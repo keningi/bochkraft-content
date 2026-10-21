@@ -1,10 +1,10 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-21T22:01:47.150Z",
+  "revision": "2026-10-21T22:04:04.463Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
-    "version": "47.4.28"
+    "version": "47.4.10"
   },
   "server": "107.161.154.240:25834",
   "mods": [
