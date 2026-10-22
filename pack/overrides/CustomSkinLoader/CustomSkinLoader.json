@@ -76,7 +76,7 @@
     }
   ],
   "enableTransparentSkin": true,
-  "forceLoadAllTextures": false,
+  "forceLoadAllTextures": true,
   "enableCape": true,
   "threadPoolSize": 8,
   "enableLogStdOut": false,
