@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-22T09:54:46.749Z",
+  "revision": "2026-10-22T11:06:48.060Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -2059,19 +2059,6 @@
       "size": 25625609
     },
     {
-      "name": "melody",
-      "title": "Melody",
-      "description": "OpenAL-based library mod for playing background music.",
-      "page": "https://modrinth.com/mod/melody",
-      "version": "1.0.3-1.20.1-1.20.4-forge",
-      "dir": "mods",
-      "file": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
-      "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/lJlW5r8R/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
-      "sha1": "e0942d396a70c09038e6c2e5e1da6505178249b8",
-      "size": 37178,
-      "requiredBy": "FancyMenu"
-    },
-    {
       "name": "konkrete",
       "title": "Konkrete",
       "description": "Just another boring library mod.",
@@ -2082,6 +2069,19 @@
       "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/skYziQQL/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
       "sha1": "2019d821bed9071daabed43979433a5473ceee49",
       "size": 625185,
+      "requiredBy": "FancyMenu"
+    },
+    {
+      "name": "melody",
+      "title": "Melody",
+      "description": "OpenAL-based library mod for playing background music.",
+      "page": "https://modrinth.com/mod/melody",
+      "version": "1.0.3-1.20.1-1.20.4-forge",
+      "dir": "mods",
+      "file": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/lJlW5r8R/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+      "sha1": "e0942d396a70c09038e6c2e5e1da6505178249b8",
+      "size": 37178,
       "requiredBy": "FancyMenu"
     },
     {
@@ -2698,8 +2698,8 @@
       "file": "CustomSkinLoader.json",
       "local": "overrides/CustomSkinLoader/CustomSkinLoader.json",
       "url": "https://raw.githubusercontent.com/keningi/bochkraft-content/main/pack/overrides/CustomSkinLoader/CustomSkinLoader.json",
-      "sha1": "fd9cc843252b46aee0f965eb9ec1d2b1c6b78d9e",
-      "size": 2398
+      "sha1": "c807db870d96c259bcd9f632514df6da4fed66cb",
+      "size": 2399
     },
     {
       "name": "shaderpacks/EclipseShaders.zip",
