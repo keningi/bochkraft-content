@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T12:56:52.808Z",
+  "updated": "2026-10-23T17:38:05.655Z",
   "categories": [
     {
       "id": "time",
@@ -13,15 +13,15 @@
         },
         {
           "name": "kensund",
-          "value": 4264130,
-          "display": "59 ч 13 мин",
-          "gap": "32 ч 4 мин"
+          "value": 4418804,
+          "display": "61 ч 22 мин",
+          "gap": "29 ч 56 мин"
         },
         {
           "name": "Mark_ovv",
           "value": 3342646,
           "display": "46 ч 25 мин",
-          "gap": "12 ч 47 мин"
+          "gap": "14 ч 56 мин"
         },
         {
           "name": "ADAM",
@@ -61,15 +61,15 @@
         },
         {
           "name": "kensund",
-          "value": 45764631,
-          "display": "457.6 км",
-          "gap": "215.2 км"
+          "value": 47010424,
+          "display": "470.1 км",
+          "gap": "202.7 км"
         },
         {
           "name": "Mark_ovv",
           "value": 25251251,
           "display": "252.5 км",
-          "gap": "205.1 км"
+          "gap": "217.6 км"
         },
         {
           "name": "ADAM",
@@ -253,15 +253,15 @@
         },
         {
           "name": "kensund",
-          "value": 125529,
-          "display": "6276 ❤",
-          "gap": "511 ❤"
+          "value": 125593,
+          "display": "6280 ❤",
+          "gap": "508 ❤"
         },
         {
           "name": "Garru99",
           "value": 11857,
           "display": "593 ❤",
-          "gap": "5684 ❤"
+          "gap": "5687 ❤"
         },
         {
           "name": "MadBadDev",
@@ -337,15 +337,15 @@
         },
         {
           "name": "kensund",
-          "value": 32216,
-          "display": "32216",
-          "gap": "24093"
+          "value": 32489,
+          "display": "32489",
+          "gap": "23820"
         },
         {
           "name": "Mark_ovv",
           "value": 22762,
           "display": "22762",
-          "gap": "9455"
+          "gap": "9728"
         },
         {
           "name": "ADAM",
