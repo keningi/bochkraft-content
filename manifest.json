@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-23T08:56:35.408Z",
+  "revision": "2026-10-23T17:11:02.850Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -156,19 +156,6 @@
       "size": 1054339
     },
     {
-      "name": "cloth-config",
-      "title": "Cloth Config API",
-      "description": "Configuration Library for Minecraft Mods",
-      "page": "https://modrinth.com/mod/cloth-config",
-      "version": "11.1.136+forge",
-      "dir": "mods",
-      "file": "cloth-config-11.1.136-forge.jar",
-      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
-      "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
-      "size": 1181413,
-      "requiredBy": "Better Combat"
-    },
-    {
       "name": "playeranimator",
       "title": "playerAnimator",
       "description": "animate the player",
@@ -179,6 +166,19 @@
       "url": "https://cdn.modrinth.com/data/gedNE4y2/versions/xe2EVE6q/player-animation-lib-forge-1.0.2-rc1%2B1.20.jar",
       "sha1": "16808f94a41d45d8e986b4e4ea6b02ba57fa058a",
       "size": 181437,
+      "requiredBy": "Better Combat"
+    },
+    {
+      "name": "cloth-config",
+      "title": "Cloth Config API",
+      "description": "Configuration Library for Minecraft Mods",
+      "page": "https://modrinth.com/mod/cloth-config",
+      "version": "11.1.136+forge",
+      "dir": "mods",
+      "file": "cloth-config-11.1.136-forge.jar",
+      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
+      "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
+      "size": 1181413,
       "requiredBy": "Better Combat"
     },
     {
@@ -2328,12 +2328,12 @@
     {
       "name": "bochkraft",
       "title": "BochKraft",
-      "version": "1.0.75",
+      "version": "1.0.76",
       "dir": "mods",
-      "file": "bochkraft-1.0.75.jar",
-      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.75/bochkraft-1.0.75.jar",
-      "sha1": "919efb12a603207c8efa74442c31364219c0cf5b",
-      "size": 15056067
+      "file": "bochkraft-1.0.76.jar",
+      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.76/bochkraft-1.0.76.jar",
+      "sha1": "ae29a588ec3673c4ef0831b8de60304128d4b097",
+      "size": 16424876
     },
     {
       "name": "configured",
