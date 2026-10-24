@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-24T00:50:52.300Z",
+  "revision": "2026-10-24T13:32:38.537Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -106,19 +106,6 @@
       "size": 73916104
     },
     {
-      "name": "lionfish-api",
-      "title": "Lionfish-API",
-      "description": "Very Light Animation Api",
-      "page": "https://modrinth.com/mod/lionfish-api",
-      "version": "3.0",
-      "dir": "mods",
-      "file": "lionfishapi-3.0.jar",
-      "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
-      "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
-      "size": 101931,
-      "requiredBy": "L_Ender's Cataclysm"
-    },
-    {
       "name": "curios",
       "title": "Curios API",
       "description": "A flexible and expandable accessory/equipment API for users and developers.",
@@ -129,6 +116,19 @@
       "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
       "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
       "size": 398066,
+      "requiredBy": "L_Ender's Cataclysm"
+    },
+    {
+      "name": "lionfish-api",
+      "title": "Lionfish-API",
+      "description": "Very Light Animation Api",
+      "page": "https://modrinth.com/mod/lionfish-api",
+      "version": "3.0",
+      "dir": "mods",
+      "file": "lionfishapi-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
+      "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
+      "size": 101931,
       "requiredBy": "L_Ender's Cataclysm"
     },
     {
@@ -2059,19 +2059,6 @@
       "size": 25625609
     },
     {
-      "name": "konkrete",
-      "title": "Konkrete",
-      "description": "Just another boring library mod.",
-      "page": "https://modrinth.com/mod/konkrete",
-      "version": "1.8.0-1.20-1.20.1-forge",
-      "dir": "mods",
-      "file": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/skYziQQL/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
-      "sha1": "2019d821bed9071daabed43979433a5473ceee49",
-      "size": 625185,
-      "requiredBy": "FancyMenu"
-    },
-    {
       "name": "melody",
       "title": "Melody",
       "description": "OpenAL-based library mod for playing background music.",
@@ -2082,6 +2069,19 @@
       "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/lJlW5r8R/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
       "sha1": "e0942d396a70c09038e6c2e5e1da6505178249b8",
       "size": 37178,
+      "requiredBy": "FancyMenu"
+    },
+    {
+      "name": "konkrete",
+      "title": "Konkrete",
+      "description": "Just another boring library mod.",
+      "page": "https://modrinth.com/mod/konkrete",
+      "version": "1.8.0-1.20-1.20.1-forge",
+      "dir": "mods",
+      "file": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/skYziQQL/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "sha1": "2019d821bed9071daabed43979433a5473ceee49",
+      "size": 625185,
       "requiredBy": "FancyMenu"
     },
     {
@@ -2328,12 +2328,12 @@
     {
       "name": "bochkraft",
       "title": "BochKraft",
-      "version": "1.0.79",
+      "version": "1.0.80",
       "dir": "mods",
-      "file": "bochkraft-1.0.79.jar",
-      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.79/bochkraft-1.0.79.jar",
-      "sha1": "3c985917b1b3c62bc164da7267c86cf2dffbacfe",
-      "size": 16570333
+      "file": "bochkraft-1.0.80.jar",
+      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.80/bochkraft-1.0.80.jar",
+      "sha1": "263c89a61d82382dce8e5cf0abde2681e344147c",
+      "size": 16593540
     },
     {
       "name": "configured",
