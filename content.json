@@ -1,6 +1,6 @@
 {
   "_comment": "Контент лаунчера BochKraft. Меняешь здесь → npm run publish:content → у всех обновится при следующем запуске лаунчера.",
-  "revision": "2026-10-25T08:47:56.921Z",
+  "revision": "2026-10-25T10:33:33.585Z",
   "news": [
     {
       "title": "Сборка BochKraft",
