@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-25T10:33:23.024Z",
+  "revision": "2026-10-26T21:00:56.578Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -106,19 +106,6 @@
       "size": 73916104
     },
     {
-      "name": "lionfish-api",
-      "title": "Lionfish-API",
-      "description": "Very Light Animation Api",
-      "page": "https://modrinth.com/mod/lionfish-api",
-      "version": "3.0",
-      "dir": "mods",
-      "file": "lionfishapi-3.0.jar",
-      "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
-      "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
-      "size": 101931,
-      "requiredBy": "L_Ender's Cataclysm"
-    },
-    {
       "name": "curios",
       "title": "Curios API",
       "description": "A flexible and expandable accessory/equipment API for users and developers.",
@@ -129,6 +116,19 @@
       "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
       "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
       "size": 398066,
+      "requiredBy": "L_Ender's Cataclysm"
+    },
+    {
+      "name": "lionfish-api",
+      "title": "Lionfish-API",
+      "description": "Very Light Animation Api",
+      "page": "https://modrinth.com/mod/lionfish-api",
+      "version": "3.0",
+      "dir": "mods",
+      "file": "lionfishapi-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
+      "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
+      "size": 101931,
       "requiredBy": "L_Ender's Cataclysm"
     },
     {
@@ -274,12 +274,12 @@
       "title": "Iron's Lib",
       "description": "Provides common functionality and content for Iron's mods",
       "page": "https://modrinth.com/mod/irons-lib",
-      "version": "1.20.1-2.2.0",
+      "version": "1.20.1-2.3.0",
       "dir": "mods",
-      "file": "irons_lib-1.20.1-2.2.0.jar",
-      "url": "https://cdn.modrinth.com/data/9nfaJPtX/versions/6HqXQkgC/irons_lib-1.20.1-2.2.0.jar",
-      "sha1": "8cad65f57a4bdcbbf3ea8a5eda9240810e3a55aa",
-      "size": 490088
+      "file": "irons_lib-1.20.1-2.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/9nfaJPtX/versions/IptroA3L/irons_lib-1.20.1-2.3.0.jar",
+      "sha1": "3a6fecda42c8469580ee82d80c0bedcec775a150",
+      "size": 1144018
     },
     {
       "name": "geckolib",
@@ -2328,12 +2328,12 @@
     {
       "name": "bochkraft",
       "title": "BochKraft",
-      "version": "1.0.82",
+      "version": "1.0.83",
       "dir": "mods",
-      "file": "bochkraft-1.0.82.jar",
-      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.82/bochkraft-1.0.82.jar",
-      "sha1": "dcede7f509e693ec168d5e01c869a6ac8bfb22ae",
-      "size": 16661788
+      "file": "bochkraft-1.0.83.jar",
+      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.83/bochkraft-1.0.83.jar",
+      "sha1": "fdb3b664eaea2a79026ff61b40ea06edce7ab487",
+      "size": 16770297
     },
     {
       "name": "configured",
