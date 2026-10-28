@@ -1,6 +1,6 @@
 {
   "name": "BochKraft",
-  "revision": "2026-10-27T19:27:27.550Z",
+  "revision": "2026-10-28T21:57:22.094Z",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -106,19 +106,6 @@
       "size": 73916104
     },
     {
-      "name": "lionfish-api",
-      "title": "Lionfish-API",
-      "description": "Very Light Animation Api",
-      "page": "https://modrinth.com/mod/lionfish-api",
-      "version": "3.0",
-      "dir": "mods",
-      "file": "lionfishapi-3.0.jar",
-      "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
-      "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
-      "size": 101931,
-      "requiredBy": "L_Ender's Cataclysm"
-    },
-    {
       "name": "curios",
       "title": "Curios API",
       "description": "A flexible and expandable accessory/equipment API for users and developers.",
@@ -129,6 +116,19 @@
       "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
       "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
       "size": 398066,
+      "requiredBy": "L_Ender's Cataclysm"
+    },
+    {
+      "name": "lionfish-api",
+      "title": "Lionfish-API",
+      "description": "Very Light Animation Api",
+      "page": "https://modrinth.com/mod/lionfish-api",
+      "version": "3.0",
+      "dir": "mods",
+      "file": "lionfishapi-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
+      "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
+      "size": 101931,
       "requiredBy": "L_Ender's Cataclysm"
     },
     {
@@ -232,19 +232,6 @@
       "requiredBy": "Fzzy Config"
     },
     {
-      "name": "architectury-api",
-      "title": "Architectury API",
-      "description": "An intermediary api aimed to ease developing multiplatform mods.",
-      "page": "https://modrinth.com/mod/architectury-api",
-      "version": "9.2.14+forge",
-      "dir": "mods",
-      "file": "architectury-9.2.14-forge.jar",
-      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
-      "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
-      "size": 580602,
-      "requiredBy": "Simply Swords"
-    },
-    {
       "name": "simply-tooltips",
       "title": "Simply Tooltips",
       "description": "Modern data driven tooltip rendering",
@@ -256,6 +243,19 @@
       "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
       "size": 5418741,
       "requiredBy": "Simply Swords"
+    },
+    {
+      "name": "architectury-api",
+      "title": "Architectury API",
+      "description": "An intermediary api aimed to ease developing multiplatform mods.",
+      "page": "https://modrinth.com/mod/architectury-api",
+      "version": "9.2.14+forge",
+      "dir": "mods",
+      "file": "architectury-9.2.14-forge.jar",
+      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
+      "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
+      "size": 580602,
+      "requiredBy": "Simply Tooltips"
     },
     {
       "name": "artifacts",
@@ -539,19 +539,6 @@
       "size": 14420114
     },
     {
-      "name": "supplementaries",
-      "title": "Supplementaries",
-      "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
-      "page": "https://modrinth.com/mod/supplementaries",
-      "version": "1.20-3.1.44-forge",
-      "dir": "mods",
-      "file": "supplementaries-1.20-3.1.44-forge.jar",
-      "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/foXRPXFH/supplementaries-1.20-3.1.44-forge.jar",
-      "sha1": "01e9bd4c264c6e04c7613095438bf0eee657b16f",
-      "size": 13686603,
-      "requiredBy": " Integrated Dungeons and Structures"
-    },
-    {
       "name": "integrated-api",
       "title": "Integrated API",
       "description": "Library mod for the Integrated Structures series",
@@ -562,6 +549,19 @@
       "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/Pt3ikLE2/integrated_api-forge-1.20.1-1.9.1.jar",
       "sha1": "25411c60a6e6fc93c323bf355b103397e8d02ae5",
       "size": 713270,
+      "requiredBy": " Integrated Dungeons and Structures"
+    },
+    {
+      "name": "supplementaries",
+      "title": "Supplementaries",
+      "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
+      "page": "https://modrinth.com/mod/supplementaries",
+      "version": "1.20-3.1.44-forge",
+      "dir": "mods",
+      "file": "supplementaries-1.20-3.1.44-forge.jar",
+      "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/foXRPXFH/supplementaries-1.20-3.1.44-forge.jar",
+      "sha1": "01e9bd4c264c6e04c7613095438bf0eee657b16f",
+      "size": 13686603,
       "requiredBy": " Integrated Dungeons and Structures"
     },
     {
@@ -2328,12 +2328,12 @@
     {
       "name": "bochkraft",
       "title": "BochKraft",
-      "version": "1.0.87",
+      "version": "1.0.88",
       "dir": "mods",
-      "file": "bochkraft-1.0.87.jar",
-      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.87/bochkraft-1.0.87.jar",
-      "sha1": "2762eaecb919721716c8295fd1701d17eb08f5b2",
-      "size": 17167427
+      "file": "bochkraft-1.0.88.jar",
+      "url": "https://github.com/keningi/bochkraft-content/releases/download/mod-bochkraft-1.0.88/bochkraft-1.0.88.jar",
+      "sha1": "874d6ebf45bafc8fd488e63b13594665ea3ab1e9",
+      "size": 17222638
     },
     {
       "name": "configured",
