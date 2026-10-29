@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T20:40:47.689Z",
+  "updated": "2026-10-29T00:31:17.325Z",
   "categories": [
     {
       "id": "time",
@@ -13,15 +13,15 @@
         },
         {
           "name": "kensund",
-          "value": 5079344,
-          "display": "70 ч 32 мин",
-          "gap": "29 ч 28 мин"
+          "value": 5093466,
+          "display": "70 ч 44 мин",
+          "gap": "29 ч 17 мин"
         },
         {
           "name": "Mark_ovv",
           "value": 3350956,
           "display": "46 ч 32 мин",
-          "gap": "24 ч 0 мин"
+          "gap": "24 ч 12 мин"
         },
         {
           "name": "ADAM",
@@ -61,15 +61,15 @@
         },
         {
           "name": "kensund",
-          "value": 57213258,
-          "display": "572.1 км",
-          "gap": "186.9 км"
+          "value": 57297097,
+          "display": "573.0 км",
+          "gap": "186.0 км"
         },
         {
           "name": "Mark_ovv",
           "value": 25298477,
           "display": "253.0 км",
-          "gap": "319.1 км"
+          "gap": "320.0 км"
         },
         {
           "name": "S1lince19",
@@ -343,15 +343,15 @@
         },
         {
           "name": "kensund",
-          "value": 34618,
-          "display": "34618",
-          "gap": "30102"
+          "value": 34654,
+          "display": "34654",
+          "gap": "30066"
         },
         {
           "name": "Mark_ovv",
           "value": 22797,
           "display": "22797",
-          "gap": "11822"
+          "gap": "11858"
         },
         {
           "name": "ADAM",
