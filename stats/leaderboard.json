@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T02:46:00.501Z",
+  "updated": "2026-10-30T09:14:25.156Z",
   "categories": [
     {
       "id": "time",
@@ -8,14 +8,14 @@
       "rows": [
         {
           "name": "askar9_9",
-          "value": 7849178,
-          "display": "109 ч 0 мин"
+          "value": 7915549,
+          "display": "109 ч 56 мин"
         },
         {
           "name": "kensund",
           "value": 5093466,
           "display": "70 ч 44 мин",
-          "gap": "38 ч 16 мин"
+          "gap": "39 ч 11 мин"
         },
         {
           "name": "Mark_ovv",
@@ -56,14 +56,14 @@
       "rows": [
         {
           "name": "askar9_9",
-          "value": 80458785,
-          "display": "804.6 км"
+          "value": 80483739,
+          "display": "804.8 км"
         },
         {
           "name": "kensund",
           "value": 57297097,
           "display": "573.0 км",
-          "gap": "231.6 км"
+          "gap": "231.9 км"
         },
         {
           "name": "Mark_ovv",
@@ -338,14 +338,14 @@
       "rows": [
         {
           "name": "askar9_9",
-          "value": 66258,
-          "display": "66258"
+          "value": 66264,
+          "display": "66264"
         },
         {
           "name": "kensund",
           "value": 34654,
           "display": "34654",
-          "gap": "31605"
+          "gap": "31611"
         },
         {
           "name": "Mark_ovv",
