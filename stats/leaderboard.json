@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T06:00:59.478Z",
+  "updated": "2026-10-31T11:51:58.061Z",
   "categories": [
     {
       "id": "time",
@@ -31,15 +31,15 @@
         },
         {
           "name": "S1lince19",
-          "value": 1648451,
-          "display": "22 ч 53 мин",
-          "gap": "2 ч 18 мин"
+          "value": 1769097,
+          "display": "24 ч 34 мин",
+          "gap": "0 ч 38 мин"
         },
         {
           "name": "Garru99",
           "value": 547454,
           "display": "7 ч 36 мин",
-          "gap": "15 ч 17 мин"
+          "gap": "16 ч 58 мин"
         },
         {
           "name": "MadBadDev",
@@ -73,15 +73,15 @@
         },
         {
           "name": "S1lince19",
-          "value": 12696921,
-          "display": "127.0 км",
-          "gap": "126.0 км"
+          "value": 13392784,
+          "display": "133.9 км",
+          "gap": "119.1 км"
         },
         {
           "name": "ADAM",
           "value": 8702063,
           "display": "87.0 км",
-          "gap": "39.9 км"
+          "gap": "46.9 км"
         },
         {
           "name": "Garru99",
@@ -121,15 +121,15 @@
         },
         {
           "name": "S1lince19",
-          "value": 1065,
-          "display": "1065",
-          "gap": "372"
+          "value": 1093,
+          "display": "1093",
+          "gap": "344"
         },
         {
           "name": "ADAM",
           "value": 410,
           "display": "410",
-          "gap": "656"
+          "gap": "684"
         },
         {
           "name": "Garru99",
@@ -162,22 +162,22 @@
           "gap": "4878 блоков"
         },
         {
+          "name": "S1lince19",
+          "value": 13664,
+          "display": "13664 блоков",
+          "gap": "1625 блоков"
+        },
+        {
           "name": "ADAM",
           "value": 12464,
           "display": "12464 блоков",
-          "gap": "2825 блоков"
-        },
-        {
-          "name": "S1lince19",
-          "value": 11104,
-          "display": "11104 блоков",
-          "gap": "1361 блоков"
+          "gap": "1201 блоков"
         },
         {
           "name": "kensund",
           "value": 6395,
           "display": "6395 блоков",
-          "gap": "4710 блоков"
+          "gap": "6070 блоков"
         },
         {
           "name": "Garru99",
@@ -217,15 +217,15 @@
         },
         {
           "name": "S1lince19",
-          "value": 9,
-          "display": "9 руды",
-          "gap": "22 руды"
+          "value": 17,
+          "display": "17 руды",
+          "gap": "14 руды"
         },
         {
           "name": "kensund",
           "value": 4,
           "display": "4 руды",
-          "gap": "6 руды"
+          "gap": "14 руды"
         }
       ]
     },
@@ -247,15 +247,15 @@
         },
         {
           "name": "S1lince19",
-          "value": 497004,
-          "display": "24850 ❤",
-          "gap": "33992 ❤"
+          "value": 509860,
+          "display": "25493 ❤",
+          "gap": "33349 ❤"
         },
         {
           "name": "ADAM",
           "value": 135742,
           "display": "6787 ❤",
-          "gap": "18063 ❤"
+          "gap": "18706 ❤"
         },
         {
           "name": "kensund",
@@ -354,22 +354,22 @@
           "gap": "11858"
         },
         {
+          "name": "S1lince19",
+          "value": 12464,
+          "display": "12464",
+          "gap": "10334"
+        },
+        {
           "name": "ADAM",
           "value": 11841,
           "display": "11841",
-          "gap": "10957"
-        },
-        {
-          "name": "S1lince19",
-          "value": 11799,
-          "display": "11799",
-          "gap": "43"
+          "gap": "624"
         },
         {
           "name": "Garru99",
           "value": 7034,
           "display": "7034",
-          "gap": "4766"
+          "gap": "4808"
         },
         {
           "name": "MadBadDev",
